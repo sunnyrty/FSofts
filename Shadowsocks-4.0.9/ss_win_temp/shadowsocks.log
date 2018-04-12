@@ -1,0 +1,1667 @@
+[2018-04-11 15:25:47] Shadowsocks started
+[2018-04-11 15:25:47] 
+=========================
+Registered Encryptor Info
+aes-128-cfb=>StreamOpenSSLEncryptor
+aes-192-cfb=>StreamOpenSSLEncryptor
+aes-256-cfb=>StreamOpenSSLEncryptor
+aes-128-ctr=>StreamOpenSSLEncryptor
+aes-192-ctr=>StreamOpenSSLEncryptor
+aes-256-ctr=>StreamOpenSSLEncryptor
+bf-cfb=>StreamOpenSSLEncryptor
+camellia-128-cfb=>StreamOpenSSLEncryptor
+camellia-192-cfb=>StreamOpenSSLEncryptor
+camellia-256-cfb=>StreamOpenSSLEncryptor
+rc4-md5=>StreamOpenSSLEncryptor
+salsa20=>StreamSodiumEncryptor
+chacha20=>StreamSodiumEncryptor
+chacha20-ietf=>StreamSodiumEncryptor
+aes-128-gcm=>AEADOpenSSLEncryptor
+aes-192-gcm=>AEADOpenSSLEncryptor
+aes-256-gcm=>AEADOpenSSLEncryptor
+chacha20-ietf-poly1305=>AEADOpenSSLEncryptor
+xchacha20-ietf-poly1305=>AEADSodiumEncryptor
+=========================
+
+[2018-04-11 15:26:06] Shadowsocks started
+[2018-04-11 15:26:06] 
+=========================
+Registered Encryptor Info
+aes-128-cfb=>StreamOpenSSLEncryptor
+aes-192-cfb=>StreamOpenSSLEncryptor
+aes-256-cfb=>StreamOpenSSLEncryptor
+aes-128-ctr=>StreamOpenSSLEncryptor
+aes-192-ctr=>StreamOpenSSLEncryptor
+aes-256-ctr=>StreamOpenSSLEncryptor
+bf-cfb=>StreamOpenSSLEncryptor
+camellia-128-cfb=>StreamOpenSSLEncryptor
+camellia-192-cfb=>StreamOpenSSLEncryptor
+camellia-256-cfb=>StreamOpenSSLEncryptor
+rc4-md5=>StreamOpenSSLEncryptor
+salsa20=>StreamSodiumEncryptor
+chacha20=>StreamSodiumEncryptor
+chacha20-ietf=>StreamSodiumEncryptor
+aes-128-gcm=>AEADOpenSSLEncryptor
+aes-192-gcm=>AEADOpenSSLEncryptor
+aes-256-gcm=>AEADOpenSSLEncryptor
+chacha20-ietf-poly1305=>AEADOpenSSLEncryptor
+xchacha20-ietf-poly1305=>AEADSodiumEncryptor
+=========================
+
+[2018-04-11 15:26:16] System.ArgumentException: No server configured
+   在 Shadowsocks.Controller.TCPHandler.CreateRemote()
+   在 Shadowsocks.Controller.TCPHandler.StartConnect()
+[2018-04-11 15:26:16] System.ArgumentException: No server configured
+   在 Shadowsocks.Controller.TCPHandler.CreateRemote()
+   在 Shadowsocks.Controller.TCPHandler.StartConnect()
+[2018-04-11 15:26:16] System.Reflection.TargetInvocationException: 操作过程中出现异常，结果无效。  有关异常的详细信息，请查看 InnerException。 ---> System.Net.WebException: 基础连接已经关闭: 发送时发生错误。 ---> System.IO.IOException: 由于远程方已关闭传输流，身份验证失败。
+   在 System.Net.Security.SslState.StartReadFrame(Byte[] buffer, Int32 readBytes, AsyncProtocolRequest asyncRequest)
+   在 System.Net.Security.SslState.StartReceiveBlob(Byte[] buffer, AsyncProtocolRequest asyncRequest)
+   在 System.Net.Security.SslState.CheckCompletionBeforeNextReceive(ProtocolToken message, AsyncProtocolRequest asyncRequest)
+   在 System.Net.Security.SslState.StartSendBlob(Byte[] incoming, Int32 count, AsyncProtocolRequest asyncRequest)
+   在 System.Net.Security.SslState.ForceAuthentication(Boolean receiveFirst, Byte[] buffer, AsyncProtocolRequest asyncRequest)
+   在 System.Net.Security.SslState.ProcessAuthentication(LazyAsyncResult lazyResult)
+   在 System.Net.TlsStream.CallProcessAuthentication(Object state)
+   在 System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   在 System.Net.TlsStream.ProcessAuthentication(LazyAsyncResult result)
+   在 System.Net.TlsStream.BeginWrite(Byte[] buffer, Int32 offset, Int32 size, AsyncCallback asyncCallback, Object asyncState)
+   在 System.Net.TlsStream.UnsafeBeginWrite(Byte[] buffer, Int32 offset, Int32 size, AsyncCallback asyncCallback, Object asyncState)
+   在 System.Net.PooledStream.UnsafeBeginWrite(Byte[] buffer, Int32 offset, Int32 size, AsyncCallback callback, Object state)
+   在 System.Net.ConnectStream.WriteHeaders(Boolean async)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.Net.HttpWebRequest.EndGetResponse(IAsyncResult asyncResult)
+   在 System.Net.WebClient.GetWebResponse(WebRequest request, IAsyncResult result)
+   在 System.Net.WebClient.DownloadBitsResponseCallback(IAsyncResult result)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.ComponentModel.AsyncCompletedEventArgs.RaiseExceptionIfNecessary()
+   在 Shadowsocks.Controller.GFWListUpdater.http_DownloadStringCompleted(Object sender, DownloadStringCompletedEventArgs e)
+[2018-04-11 15:26:19] Detected: PAC file 'pac.txt' was created.
+[2018-04-11 15:26:19] Detected: PAC file 'pac.txt' was changed.
+[2018-04-11 15:35:04] Shadowsocks started
+[2018-04-11 15:35:04] 
+=========================
+Registered Encryptor Info
+aes-128-cfb=>StreamOpenSSLEncryptor
+aes-192-cfb=>StreamOpenSSLEncryptor
+aes-256-cfb=>StreamOpenSSLEncryptor
+aes-128-ctr=>StreamOpenSSLEncryptor
+aes-192-ctr=>StreamOpenSSLEncryptor
+aes-256-ctr=>StreamOpenSSLEncryptor
+bf-cfb=>StreamOpenSSLEncryptor
+camellia-128-cfb=>StreamOpenSSLEncryptor
+camellia-192-cfb=>StreamOpenSSLEncryptor
+camellia-256-cfb=>StreamOpenSSLEncryptor
+rc4-md5=>StreamOpenSSLEncryptor
+salsa20=>StreamSodiumEncryptor
+chacha20=>StreamSodiumEncryptor
+chacha20-ietf=>StreamSodiumEncryptor
+aes-128-gcm=>AEADOpenSSLEncryptor
+aes-192-gcm=>AEADOpenSSLEncryptor
+aes-256-gcm=>AEADOpenSSLEncryptor
+chacha20-ietf-poly1305=>AEADOpenSSLEncryptor
+xchacha20-ietf-poly1305=>AEADSodiumEncryptor
+=========================
+
+[2018-04-11 15:40:16] Shadowsocks started
+[2018-04-11 15:40:16] 
+=========================
+Registered Encryptor Info
+aes-128-cfb=>StreamOpenSSLEncryptor
+aes-192-cfb=>StreamOpenSSLEncryptor
+aes-256-cfb=>StreamOpenSSLEncryptor
+aes-128-ctr=>StreamOpenSSLEncryptor
+aes-192-ctr=>StreamOpenSSLEncryptor
+aes-256-ctr=>StreamOpenSSLEncryptor
+bf-cfb=>StreamOpenSSLEncryptor
+camellia-128-cfb=>StreamOpenSSLEncryptor
+camellia-192-cfb=>StreamOpenSSLEncryptor
+camellia-256-cfb=>StreamOpenSSLEncryptor
+rc4-md5=>StreamOpenSSLEncryptor
+salsa20=>StreamSodiumEncryptor
+chacha20=>StreamSodiumEncryptor
+chacha20-ietf=>StreamSodiumEncryptor
+aes-128-gcm=>AEADOpenSSLEncryptor
+aes-192-gcm=>AEADOpenSSLEncryptor
+aes-256-gcm=>AEADOpenSSLEncryptor
+chacha20-ietf-poly1305=>AEADOpenSSLEncryptor
+xchacha20-ietf-poly1305=>AEADSodiumEncryptor
+=========================
+
+[2018-04-11 15:40:19] Shadowsocks started
+[2018-04-11 15:40:19] 
+=========================
+Registered Encryptor Info
+aes-128-cfb=>StreamOpenSSLEncryptor
+aes-192-cfb=>StreamOpenSSLEncryptor
+aes-256-cfb=>StreamOpenSSLEncryptor
+aes-128-ctr=>StreamOpenSSLEncryptor
+aes-192-ctr=>StreamOpenSSLEncryptor
+aes-256-ctr=>StreamOpenSSLEncryptor
+bf-cfb=>StreamOpenSSLEncryptor
+camellia-128-cfb=>StreamOpenSSLEncryptor
+camellia-192-cfb=>StreamOpenSSLEncryptor
+camellia-256-cfb=>StreamOpenSSLEncryptor
+rc4-md5=>StreamOpenSSLEncryptor
+salsa20=>StreamSodiumEncryptor
+chacha20=>StreamSodiumEncryptor
+chacha20-ietf=>StreamSodiumEncryptor
+aes-128-gcm=>AEADOpenSSLEncryptor
+aes-192-gcm=>AEADOpenSSLEncryptor
+aes-256-gcm=>AEADOpenSSLEncryptor
+chacha20-ietf-poly1305=>AEADOpenSSLEncryptor
+xchacha20-ietf-poly1305=>AEADSodiumEncryptor
+=========================
+
+[2018-04-11 15:40:23] Shadowsocks started
+[2018-04-11 15:40:23] 
+=========================
+Registered Encryptor Info
+aes-128-cfb=>StreamOpenSSLEncryptor
+aes-192-cfb=>StreamOpenSSLEncryptor
+aes-256-cfb=>StreamOpenSSLEncryptor
+aes-128-ctr=>StreamOpenSSLEncryptor
+aes-192-ctr=>StreamOpenSSLEncryptor
+aes-256-ctr=>StreamOpenSSLEncryptor
+bf-cfb=>StreamOpenSSLEncryptor
+camellia-128-cfb=>StreamOpenSSLEncryptor
+camellia-192-cfb=>StreamOpenSSLEncryptor
+camellia-256-cfb=>StreamOpenSSLEncryptor
+rc4-md5=>StreamOpenSSLEncryptor
+salsa20=>StreamSodiumEncryptor
+chacha20=>StreamSodiumEncryptor
+chacha20-ietf=>StreamSodiumEncryptor
+aes-128-gcm=>AEADOpenSSLEncryptor
+aes-192-gcm=>AEADOpenSSLEncryptor
+aes-256-gcm=>AEADOpenSSLEncryptor
+chacha20-ietf-poly1305=>AEADOpenSSLEncryptor
+xchacha20-ietf-poly1305=>AEADSodiumEncryptor
+=========================
+
+[2018-04-11 15:40:40] Shadowsocks started
+[2018-04-11 15:40:40] 
+=========================
+Registered Encryptor Info
+aes-128-cfb=>StreamOpenSSLEncryptor
+aes-192-cfb=>StreamOpenSSLEncryptor
+aes-256-cfb=>StreamOpenSSLEncryptor
+aes-128-ctr=>StreamOpenSSLEncryptor
+aes-192-ctr=>StreamOpenSSLEncryptor
+aes-256-ctr=>StreamOpenSSLEncryptor
+bf-cfb=>StreamOpenSSLEncryptor
+camellia-128-cfb=>StreamOpenSSLEncryptor
+camellia-192-cfb=>StreamOpenSSLEncryptor
+camellia-256-cfb=>StreamOpenSSLEncryptor
+rc4-md5=>StreamOpenSSLEncryptor
+salsa20=>StreamSodiumEncryptor
+chacha20=>StreamSodiumEncryptor
+chacha20-ietf=>StreamSodiumEncryptor
+aes-128-gcm=>AEADOpenSSLEncryptor
+aes-192-gcm=>AEADOpenSSLEncryptor
+aes-256-gcm=>AEADOpenSSLEncryptor
+chacha20-ietf-poly1305=>AEADOpenSSLEncryptor
+xchacha20-ietf-poly1305=>AEADSodiumEncryptor
+=========================
+
+[2018-04-11 15:44:44] Shadowsocks started
+[2018-04-11 15:44:44] 
+=========================
+Registered Encryptor Info
+aes-128-cfb=>StreamOpenSSLEncryptor
+aes-192-cfb=>StreamOpenSSLEncryptor
+aes-256-cfb=>StreamOpenSSLEncryptor
+aes-128-ctr=>StreamOpenSSLEncryptor
+aes-192-ctr=>StreamOpenSSLEncryptor
+aes-256-ctr=>StreamOpenSSLEncryptor
+bf-cfb=>StreamOpenSSLEncryptor
+camellia-128-cfb=>StreamOpenSSLEncryptor
+camellia-192-cfb=>StreamOpenSSLEncryptor
+camellia-256-cfb=>StreamOpenSSLEncryptor
+rc4-md5=>StreamOpenSSLEncryptor
+salsa20=>StreamSodiumEncryptor
+chacha20=>StreamSodiumEncryptor
+chacha20-ietf=>StreamSodiumEncryptor
+aes-128-gcm=>AEADOpenSSLEncryptor
+aes-192-gcm=>AEADOpenSSLEncryptor
+aes-256-gcm=>AEADOpenSSLEncryptor
+chacha20-ietf-poly1305=>AEADOpenSSLEncryptor
+xchacha20-ietf-poly1305=>AEADSodiumEncryptor
+=========================
+
+[2018-04-11 15:59:49] System.Net.Sockets.SocketException (0x80004005): 由于目标计算机积极拒绝，无法连接。
+   在 Shadowsocks.Util.Sockets.WrappedSocket.EndConnect(IAsyncResult asyncResult)
+   在 Shadowsocks.Proxy.DirectConnect.EndConnectDest(IAsyncResult asyncResult)
+   在 Shadowsocks.Controller.TCPHandler.ConnectCallback(IAsyncResult ar)
+[2018-04-11 15:59:50] System.Net.Sockets.SocketException (0x80004005): 由于目标计算机积极拒绝，无法连接。
+   在 Shadowsocks.Util.Sockets.WrappedSocket.EndConnect(IAsyncResult asyncResult)
+   在 Shadowsocks.Proxy.DirectConnect.EndConnectDest(IAsyncResult asyncResult)
+   在 Shadowsocks.Controller.TCPHandler.ConnectCallback(IAsyncResult ar)
+[2018-04-11 15:59:52] System.Net.Sockets.SocketException (0x80004005): 由于目标计算机积极拒绝，无法连接。
+   在 Shadowsocks.Util.Sockets.WrappedSocket.EndConnect(IAsyncResult asyncResult)
+   在 Shadowsocks.Proxy.DirectConnect.EndConnectDest(IAsyncResult asyncResult)
+   在 Shadowsocks.Controller.TCPHandler.ConnectCallback(IAsyncResult ar)
+[2018-04-11 15:59:52] System.Net.Sockets.SocketException (0x80004005): 由于目标计算机积极拒绝，无法连接。
+   在 Shadowsocks.Util.Sockets.WrappedSocket.EndConnect(IAsyncResult asyncResult)
+   在 Shadowsocks.Proxy.DirectConnect.EndConnectDest(IAsyncResult asyncResult)
+   在 Shadowsocks.Controller.TCPHandler.ConnectCallback(IAsyncResult ar)
+[2018-04-11 15:59:53] System.Net.Sockets.SocketException (0x80004005): 由于目标计算机积极拒绝，无法连接。
+   在 Shadowsocks.Util.Sockets.WrappedSocket.EndConnect(IAsyncResult asyncResult)
+   在 Shadowsocks.Proxy.DirectConnect.EndConnectDest(IAsyncResult asyncResult)
+   在 Shadowsocks.Controller.TCPHandler.ConnectCallback(IAsyncResult ar)
+[2018-04-11 15:59:53] System.Net.Sockets.SocketException (0x80004005): 由于目标计算机积极拒绝，无法连接。
+   在 Shadowsocks.Util.Sockets.WrappedSocket.EndConnect(IAsyncResult asyncResult)
+   在 Shadowsocks.Proxy.DirectConnect.EndConnectDest(IAsyncResult asyncResult)
+   在 Shadowsocks.Controller.TCPHandler.ConnectCallback(IAsyncResult ar)
+[2018-04-11 15:59:55] System.Net.Sockets.SocketException (0x80004005): 由于目标计算机积极拒绝，无法连接。
+   在 Shadowsocks.Util.Sockets.WrappedSocket.EndConnect(IAsyncResult asyncResult)
+   在 Shadowsocks.Proxy.DirectConnect.EndConnectDest(IAsyncResult asyncResult)
+   在 Shadowsocks.Controller.TCPHandler.ConnectCallback(IAsyncResult ar)
+[2018-04-11 15:59:56] System.Net.Sockets.SocketException (0x80004005): 由于目标计算机积极拒绝，无法连接。
+   在 Shadowsocks.Util.Sockets.WrappedSocket.EndConnect(IAsyncResult asyncResult)
+   在 Shadowsocks.Proxy.DirectConnect.EndConnectDest(IAsyncResult asyncResult)
+   在 Shadowsocks.Controller.TCPHandler.ConnectCallback(IAsyncResult ar)
+[2018-04-11 15:59:58] System.Net.Sockets.SocketException (0x80004005): 由于目标计算机积极拒绝，无法连接。
+   在 Shadowsocks.Util.Sockets.WrappedSocket.EndConnect(IAsyncResult asyncResult)
+   在 Shadowsocks.Proxy.DirectConnect.EndConnectDest(IAsyncResult asyncResult)
+   在 Shadowsocks.Controller.TCPHandler.ConnectCallback(IAsyncResult ar)
+[2018-04-11 15:59:59] System.Net.Sockets.SocketException (0x80004005): 由于目标计算机积极拒绝，无法连接。
+   在 Shadowsocks.Util.Sockets.WrappedSocket.EndConnect(IAsyncResult asyncResult)
+   在 Shadowsocks.Proxy.DirectConnect.EndConnectDest(IAsyncResult asyncResult)
+   在 Shadowsocks.Controller.TCPHandler.ConnectCallback(IAsyncResult ar)
+[2018-04-11 16:00:04] 108.160.143.117:19810 timed out
+[2018-04-11 16:00:06] System.Net.Sockets.SocketException (0x80004005): 由于目标计算机积极拒绝，无法连接。
+   在 Shadowsocks.Util.Sockets.WrappedSocket.EndConnect(IAsyncResult asyncResult)
+   在 Shadowsocks.Proxy.DirectConnect.EndConnectDest(IAsyncResult asyncResult)
+   在 Shadowsocks.Controller.TCPHandler.ConnectCallback(IAsyncResult ar)
+[2018-04-11 16:00:07] System.Net.Sockets.SocketException (0x80004005): 由于目标计算机积极拒绝，无法连接。
+   在 Shadowsocks.Util.Sockets.WrappedSocket.EndConnect(IAsyncResult asyncResult)
+   在 Shadowsocks.Proxy.DirectConnect.EndConnectDest(IAsyncResult asyncResult)
+   在 Shadowsocks.Controller.TCPHandler.ConnectCallback(IAsyncResult ar)
+[2018-04-11 16:00:09] System.Net.Sockets.SocketException (0x80004005): 由于目标计算机积极拒绝，无法连接。
+   在 Shadowsocks.Util.Sockets.WrappedSocket.EndConnect(IAsyncResult asyncResult)
+   在 Shadowsocks.Proxy.DirectConnect.EndConnectDest(IAsyncResult asyncResult)
+   在 Shadowsocks.Controller.TCPHandler.ConnectCallback(IAsyncResult ar)
+[2018-04-11 16:00:11] System.Net.Sockets.SocketException (0x80004005): 由于目标计算机积极拒绝，无法连接。
+   在 Shadowsocks.Util.Sockets.WrappedSocket.EndConnect(IAsyncResult asyncResult)
+   在 Shadowsocks.Proxy.DirectConnect.EndConnectDest(IAsyncResult asyncResult)
+   在 Shadowsocks.Controller.TCPHandler.ConnectCallback(IAsyncResult ar)
+[2018-04-11 16:00:12] System.Net.Sockets.SocketException (0x80004005): 由于目标计算机积极拒绝，无法连接。
+   在 Shadowsocks.Util.Sockets.WrappedSocket.EndConnect(IAsyncResult asyncResult)
+   在 Shadowsocks.Proxy.DirectConnect.EndConnectDest(IAsyncResult asyncResult)
+   在 Shadowsocks.Controller.TCPHandler.ConnectCallback(IAsyncResult ar)
+[2018-04-11 16:00:13] System.Net.Sockets.SocketException (0x80004005): 由于目标计算机积极拒绝，无法连接。
+   在 Shadowsocks.Util.Sockets.WrappedSocket.EndConnect(IAsyncResult asyncResult)
+   在 Shadowsocks.Proxy.DirectConnect.EndConnectDest(IAsyncResult asyncResult)
+   在 Shadowsocks.Controller.TCPHandler.ConnectCallback(IAsyncResult ar)
+[2018-04-11 16:00:14] System.Net.Sockets.SocketException (0x80004005): 由于目标计算机积极拒绝，无法连接。
+   在 Shadowsocks.Util.Sockets.WrappedSocket.EndConnect(IAsyncResult asyncResult)
+   在 Shadowsocks.Proxy.DirectConnect.EndConnectDest(IAsyncResult asyncResult)
+   在 Shadowsocks.Controller.TCPHandler.ConnectCallback(IAsyncResult ar)
+[2018-04-11 16:00:14] System.Net.Sockets.SocketException (0x80004005): 由于目标计算机积极拒绝，无法连接。
+   在 Shadowsocks.Util.Sockets.WrappedSocket.EndConnect(IAsyncResult asyncResult)
+   在 Shadowsocks.Proxy.DirectConnect.EndConnectDest(IAsyncResult asyncResult)
+   在 Shadowsocks.Controller.TCPHandler.ConnectCallback(IAsyncResult ar)
+[2018-04-11 16:00:14] System.Net.Sockets.SocketException (0x80004005): 由于目标计算机积极拒绝，无法连接。
+   在 Shadowsocks.Util.Sockets.WrappedSocket.EndConnect(IAsyncResult asyncResult)
+   在 Shadowsocks.Proxy.DirectConnect.EndConnectDest(IAsyncResult asyncResult)
+   在 Shadowsocks.Controller.TCPHandler.ConnectCallback(IAsyncResult ar)
+[2018-04-11 16:00:14] System.Net.Sockets.SocketException (0x80004005): 由于目标计算机积极拒绝，无法连接。
+   在 Shadowsocks.Util.Sockets.WrappedSocket.EndConnect(IAsyncResult asyncResult)
+   在 Shadowsocks.Proxy.DirectConnect.EndConnectDest(IAsyncResult asyncResult)
+   在 Shadowsocks.Controller.TCPHandler.ConnectCallback(IAsyncResult ar)
+[2018-04-11 16:00:14] System.Net.Sockets.SocketException (0x80004005): 由于目标计算机积极拒绝，无法连接。
+   在 Shadowsocks.Util.Sockets.WrappedSocket.EndConnect(IAsyncResult asyncResult)
+   在 Shadowsocks.Proxy.DirectConnect.EndConnectDest(IAsyncResult asyncResult)
+   在 Shadowsocks.Controller.TCPHandler.ConnectCallback(IAsyncResult ar)
+[2018-04-11 16:00:14] System.Net.Sockets.SocketException (0x80004005): 由于目标计算机积极拒绝，无法连接。
+   在 Shadowsocks.Util.Sockets.WrappedSocket.EndConnect(IAsyncResult asyncResult)
+   在 Shadowsocks.Proxy.DirectConnect.EndConnectDest(IAsyncResult asyncResult)
+   在 Shadowsocks.Controller.TCPHandler.ConnectCallback(IAsyncResult ar)
+[2018-04-11 16:00:14] System.Net.Sockets.SocketException (0x80004005): 由于目标计算机积极拒绝，无法连接。
+   在 Shadowsocks.Util.Sockets.WrappedSocket.EndConnect(IAsyncResult asyncResult)
+   在 Shadowsocks.Proxy.DirectConnect.EndConnectDest(IAsyncResult asyncResult)
+   在 Shadowsocks.Controller.TCPHandler.ConnectCallback(IAsyncResult ar)
+[2018-04-11 16:00:14] System.Net.Sockets.SocketException (0x80004005): 由于目标计算机积极拒绝，无法连接。
+   在 Shadowsocks.Util.Sockets.WrappedSocket.EndConnect(IAsyncResult asyncResult)
+   在 Shadowsocks.Proxy.DirectConnect.EndConnectDest(IAsyncResult asyncResult)
+   在 Shadowsocks.Controller.TCPHandler.ConnectCallback(IAsyncResult ar)
+[2018-04-11 16:00:14] System.Net.Sockets.SocketException (0x80004005): 由于目标计算机积极拒绝，无法连接。
+   在 Shadowsocks.Util.Sockets.WrappedSocket.EndConnect(IAsyncResult asyncResult)
+   在 Shadowsocks.Proxy.DirectConnect.EndConnectDest(IAsyncResult asyncResult)
+   在 Shadowsocks.Controller.TCPHandler.ConnectCallback(IAsyncResult ar)
+[2018-04-11 16:00:14] System.Net.Sockets.SocketException (0x80004005): 由于目标计算机积极拒绝，无法连接。
+   在 Shadowsocks.Util.Sockets.WrappedSocket.EndConnect(IAsyncResult asyncResult)
+   在 Shadowsocks.Proxy.DirectConnect.EndConnectDest(IAsyncResult asyncResult)
+   在 Shadowsocks.Controller.TCPHandler.ConnectCallback(IAsyncResult ar)
+[2018-04-11 16:00:14] System.Net.Sockets.SocketException (0x80004005): 由于目标计算机积极拒绝，无法连接。
+   在 Shadowsocks.Util.Sockets.WrappedSocket.EndConnect(IAsyncResult asyncResult)
+   在 Shadowsocks.Proxy.DirectConnect.EndConnectDest(IAsyncResult asyncResult)
+   在 Shadowsocks.Controller.TCPHandler.ConnectCallback(IAsyncResult ar)
+[2018-04-11 16:00:14] System.Net.Sockets.SocketException (0x80004005): 由于目标计算机积极拒绝，无法连接。
+   在 Shadowsocks.Util.Sockets.WrappedSocket.EndConnect(IAsyncResult asyncResult)
+   在 Shadowsocks.Proxy.DirectConnect.EndConnectDest(IAsyncResult asyncResult)
+   在 Shadowsocks.Controller.TCPHandler.ConnectCallback(IAsyncResult ar)
+[2018-04-11 16:00:14] System.Net.Sockets.SocketException (0x80004005): 由于目标计算机积极拒绝，无法连接。
+   在 Shadowsocks.Util.Sockets.WrappedSocket.EndConnect(IAsyncResult asyncResult)
+   在 Shadowsocks.Proxy.DirectConnect.EndConnectDest(IAsyncResult asyncResult)
+   在 Shadowsocks.Controller.TCPHandler.ConnectCallback(IAsyncResult ar)
+[2018-04-11 16:00:14] System.Net.Sockets.SocketException (0x80004005): 由于目标计算机积极拒绝，无法连接。
+   在 Shadowsocks.Util.Sockets.WrappedSocket.EndConnect(IAsyncResult asyncResult)
+   在 Shadowsocks.Proxy.DirectConnect.EndConnectDest(IAsyncResult asyncResult)
+   在 Shadowsocks.Controller.TCPHandler.ConnectCallback(IAsyncResult ar)
+[2018-04-11 16:00:14] System.Net.Sockets.SocketException (0x80004005): 由于目标计算机积极拒绝，无法连接。
+   在 Shadowsocks.Util.Sockets.WrappedSocket.EndConnect(IAsyncResult asyncResult)
+   在 Shadowsocks.Proxy.DirectConnect.EndConnectDest(IAsyncResult asyncResult)
+   在 Shadowsocks.Controller.TCPHandler.ConnectCallback(IAsyncResult ar)
+[2018-04-11 16:00:14] System.Net.Sockets.SocketException (0x80004005): 由于目标计算机积极拒绝，无法连接。
+   在 Shadowsocks.Util.Sockets.WrappedSocket.EndConnect(IAsyncResult asyncResult)
+   在 Shadowsocks.Proxy.DirectConnect.EndConnectDest(IAsyncResult asyncResult)
+   在 Shadowsocks.Controller.TCPHandler.ConnectCallback(IAsyncResult ar)
+[2018-04-11 16:00:14] System.Net.Sockets.SocketException (0x80004005): 由于目标计算机积极拒绝，无法连接。
+   在 Shadowsocks.Util.Sockets.WrappedSocket.EndConnect(IAsyncResult asyncResult)
+   在 Shadowsocks.Proxy.DirectConnect.EndConnectDest(IAsyncResult asyncResult)
+   在 Shadowsocks.Controller.TCPHandler.ConnectCallback(IAsyncResult ar)
+[2018-04-11 16:00:14] 108.160.143.117:19810 timed out
+[2018-04-11 16:00:15] System.Net.Sockets.SocketException (0x80004005): 由于目标计算机积极拒绝，无法连接。
+   在 Shadowsocks.Util.Sockets.WrappedSocket.EndConnect(IAsyncResult asyncResult)
+   在 Shadowsocks.Proxy.DirectConnect.EndConnectDest(IAsyncResult asyncResult)
+   在 Shadowsocks.Controller.TCPHandler.ConnectCallback(IAsyncResult ar)
+[2018-04-11 16:00:15] System.Net.Sockets.SocketException (0x80004005): 由于目标计算机积极拒绝，无法连接。
+   在 Shadowsocks.Util.Sockets.WrappedSocket.EndConnect(IAsyncResult asyncResult)
+   在 Shadowsocks.Proxy.DirectConnect.EndConnectDest(IAsyncResult asyncResult)
+   在 Shadowsocks.Controller.TCPHandler.ConnectCallback(IAsyncResult ar)
+[2018-04-11 16:00:15] System.Net.Sockets.SocketException (0x80004005): 由于目标计算机积极拒绝，无法连接。
+   在 Shadowsocks.Util.Sockets.WrappedSocket.EndConnect(IAsyncResult asyncResult)
+   在 Shadowsocks.Proxy.DirectConnect.EndConnectDest(IAsyncResult asyncResult)
+   在 Shadowsocks.Controller.TCPHandler.ConnectCallback(IAsyncResult ar)
+[2018-04-11 16:00:15] System.Net.Sockets.SocketException (0x80004005): 由于目标计算机积极拒绝，无法连接。
+   在 Shadowsocks.Util.Sockets.WrappedSocket.EndConnect(IAsyncResult asyncResult)
+   在 Shadowsocks.Proxy.DirectConnect.EndConnectDest(IAsyncResult asyncResult)
+   在 Shadowsocks.Controller.TCPHandler.ConnectCallback(IAsyncResult ar)
+[2018-04-11 16:00:15] System.Net.Sockets.SocketException (0x80004005): 由于目标计算机积极拒绝，无法连接。
+   在 Shadowsocks.Util.Sockets.WrappedSocket.EndConnect(IAsyncResult asyncResult)
+   在 Shadowsocks.Proxy.DirectConnect.EndConnectDest(IAsyncResult asyncResult)
+   在 Shadowsocks.Controller.TCPHandler.ConnectCallback(IAsyncResult ar)
+[2018-04-11 16:00:15] System.Net.Sockets.SocketException (0x80004005): 由于目标计算机积极拒绝，无法连接。
+   在 Shadowsocks.Util.Sockets.WrappedSocket.EndConnect(IAsyncResult asyncResult)
+   在 Shadowsocks.Proxy.DirectConnect.EndConnectDest(IAsyncResult asyncResult)
+   在 Shadowsocks.Controller.TCPHandler.ConnectCallback(IAsyncResult ar)
+[2018-04-11 16:00:15] System.Net.Sockets.SocketException (0x80004005): 由于目标计算机积极拒绝，无法连接。
+   在 Shadowsocks.Util.Sockets.WrappedSocket.EndConnect(IAsyncResult asyncResult)
+   在 Shadowsocks.Proxy.DirectConnect.EndConnectDest(IAsyncResult asyncResult)
+   在 Shadowsocks.Controller.TCPHandler.ConnectCallback(IAsyncResult ar)
+[2018-04-11 16:00:15] System.Net.Sockets.SocketException (0x80004005): 由于目标计算机积极拒绝，无法连接。
+   在 Shadowsocks.Util.Sockets.WrappedSocket.EndConnect(IAsyncResult asyncResult)
+   在 Shadowsocks.Proxy.DirectConnect.EndConnectDest(IAsyncResult asyncResult)
+   在 Shadowsocks.Controller.TCPHandler.ConnectCallback(IAsyncResult ar)
+[2018-04-11 16:00:15] System.Net.Sockets.SocketException (0x80004005): 由于目标计算机积极拒绝，无法连接。
+   在 Shadowsocks.Util.Sockets.WrappedSocket.EndConnect(IAsyncResult asyncResult)
+   在 Shadowsocks.Proxy.DirectConnect.EndConnectDest(IAsyncResult asyncResult)
+   在 Shadowsocks.Controller.TCPHandler.ConnectCallback(IAsyncResult ar)
+[2018-04-11 16:00:15] System.Net.Sockets.SocketException (0x80004005): 由于目标计算机积极拒绝，无法连接。
+   在 Shadowsocks.Util.Sockets.WrappedSocket.EndConnect(IAsyncResult asyncResult)
+   在 Shadowsocks.Proxy.DirectConnect.EndConnectDest(IAsyncResult asyncResult)
+   在 Shadowsocks.Controller.TCPHandler.ConnectCallback(IAsyncResult ar)
+[2018-04-11 16:00:15] System.Net.Sockets.SocketException (0x80004005): 由于目标计算机积极拒绝，无法连接。
+   在 Shadowsocks.Util.Sockets.WrappedSocket.EndConnect(IAsyncResult asyncResult)
+   在 Shadowsocks.Proxy.DirectConnect.EndConnectDest(IAsyncResult asyncResult)
+   在 Shadowsocks.Controller.TCPHandler.ConnectCallback(IAsyncResult ar)
+[2018-04-11 16:00:15] System.Net.Sockets.SocketException (0x80004005): 由于目标计算机积极拒绝，无法连接。
+   在 Shadowsocks.Util.Sockets.WrappedSocket.EndConnect(IAsyncResult asyncResult)
+   在 Shadowsocks.Proxy.DirectConnect.EndConnectDest(IAsyncResult asyncResult)
+   在 Shadowsocks.Controller.TCPHandler.ConnectCallback(IAsyncResult ar)
+[2018-04-11 16:00:15] System.Net.Sockets.SocketException (0x80004005): 由于目标计算机积极拒绝，无法连接。
+   在 Shadowsocks.Util.Sockets.WrappedSocket.EndConnect(IAsyncResult asyncResult)
+   在 Shadowsocks.Proxy.DirectConnect.EndConnectDest(IAsyncResult asyncResult)
+   在 Shadowsocks.Controller.TCPHandler.ConnectCallback(IAsyncResult ar)
+[2018-04-11 16:00:15] System.Net.Sockets.SocketException (0x80004005): 由于目标计算机积极拒绝，无法连接。
+   在 Shadowsocks.Util.Sockets.WrappedSocket.EndConnect(IAsyncResult asyncResult)
+   在 Shadowsocks.Proxy.DirectConnect.EndConnectDest(IAsyncResult asyncResult)
+   在 Shadowsocks.Controller.TCPHandler.ConnectCallback(IAsyncResult ar)
+[2018-04-11 16:00:16] System.Net.Sockets.SocketException (0x80004005): 由于目标计算机积极拒绝，无法连接。
+   在 Shadowsocks.Util.Sockets.WrappedSocket.EndConnect(IAsyncResult asyncResult)
+   在 Shadowsocks.Proxy.DirectConnect.EndConnectDest(IAsyncResult asyncResult)
+   在 Shadowsocks.Controller.TCPHandler.ConnectCallback(IAsyncResult ar)
+[2018-04-11 16:00:16] 108.160.143.117:19810 timed out
+[2018-04-11 16:00:16] System.Net.Sockets.SocketException (0x80004005): 由于目标计算机积极拒绝，无法连接。
+   在 Shadowsocks.Util.Sockets.WrappedSocket.EndConnect(IAsyncResult asyncResult)
+   在 Shadowsocks.Proxy.DirectConnect.EndConnectDest(IAsyncResult asyncResult)
+   在 Shadowsocks.Controller.TCPHandler.ConnectCallback(IAsyncResult ar)
+[2018-04-11 16:00:16] System.Net.Sockets.SocketException (0x80004005): 由于目标计算机积极拒绝，无法连接。
+   在 Shadowsocks.Util.Sockets.WrappedSocket.EndConnect(IAsyncResult asyncResult)
+   在 Shadowsocks.Proxy.DirectConnect.EndConnectDest(IAsyncResult asyncResult)
+   在 Shadowsocks.Controller.TCPHandler.ConnectCallback(IAsyncResult ar)
+[2018-04-11 16:00:16] System.Net.Sockets.SocketException (0x80004005): 由于目标计算机积极拒绝，无法连接。
+   在 Shadowsocks.Util.Sockets.WrappedSocket.EndConnect(IAsyncResult asyncResult)
+   在 Shadowsocks.Proxy.DirectConnect.EndConnectDest(IAsyncResult asyncResult)
+   在 Shadowsocks.Controller.TCPHandler.ConnectCallback(IAsyncResult ar)
+[2018-04-11 16:00:16] System.Net.Sockets.SocketException (0x80004005): 由于目标计算机积极拒绝，无法连接。
+   在 Shadowsocks.Util.Sockets.WrappedSocket.EndConnect(IAsyncResult asyncResult)
+   在 Shadowsocks.Proxy.DirectConnect.EndConnectDest(IAsyncResult asyncResult)
+   在 Shadowsocks.Controller.TCPHandler.ConnectCallback(IAsyncResult ar)
+[2018-04-11 16:00:16] System.Net.Sockets.SocketException (0x80004005): 由于目标计算机积极拒绝，无法连接。
+   在 Shadowsocks.Util.Sockets.WrappedSocket.EndConnect(IAsyncResult asyncResult)
+   在 Shadowsocks.Proxy.DirectConnect.EndConnectDest(IAsyncResult asyncResult)
+   在 Shadowsocks.Controller.TCPHandler.ConnectCallback(IAsyncResult ar)
+[2018-04-11 16:00:17] System.Net.Sockets.SocketException (0x80004005): 由于目标计算机积极拒绝，无法连接。
+   在 Shadowsocks.Util.Sockets.WrappedSocket.EndConnect(IAsyncResult asyncResult)
+   在 Shadowsocks.Proxy.DirectConnect.EndConnectDest(IAsyncResult asyncResult)
+   在 Shadowsocks.Controller.TCPHandler.ConnectCallback(IAsyncResult ar)
+[2018-04-11 16:00:17] 108.160.143.117:19810 timed out
+[2018-04-11 16:00:17] 108.160.143.117:19810 timed out
+[2018-04-11 16:00:17] 108.160.143.117:19810 timed out
+[2018-04-11 16:00:17] 108.160.143.117:19810 timed out
+[2018-04-11 16:00:17] 108.160.143.117:19810 timed out
+[2018-04-11 16:00:17] 108.160.143.117:19810 timed out
+[2018-04-11 16:00:17] 108.160.143.117:19810 timed out
+[2018-04-11 16:00:17] 108.160.143.117:19810 timed out
+[2018-04-11 16:00:18] System.Net.Sockets.SocketException (0x80004005): 由于目标计算机积极拒绝，无法连接。
+   在 Shadowsocks.Util.Sockets.WrappedSocket.EndConnect(IAsyncResult asyncResult)
+   在 Shadowsocks.Proxy.DirectConnect.EndConnectDest(IAsyncResult asyncResult)
+   在 Shadowsocks.Controller.TCPHandler.ConnectCallback(IAsyncResult ar)
+[2018-04-11 16:00:18] System.Net.Sockets.SocketException (0x80004005): 由于目标计算机积极拒绝，无法连接。
+   在 Shadowsocks.Util.Sockets.WrappedSocket.EndConnect(IAsyncResult asyncResult)
+   在 Shadowsocks.Proxy.DirectConnect.EndConnectDest(IAsyncResult asyncResult)
+   在 Shadowsocks.Controller.TCPHandler.ConnectCallback(IAsyncResult ar)
+[2018-04-11 16:00:18] System.Net.Sockets.SocketException (0x80004005): 由于目标计算机积极拒绝，无法连接。
+   在 Shadowsocks.Util.Sockets.WrappedSocket.EndConnect(IAsyncResult asyncResult)
+   在 Shadowsocks.Proxy.DirectConnect.EndConnectDest(IAsyncResult asyncResult)
+   在 Shadowsocks.Controller.TCPHandler.ConnectCallback(IAsyncResult ar)
+[2018-04-11 16:00:18] System.Net.Sockets.SocketException (0x80004005): 由于目标计算机积极拒绝，无法连接。
+   在 Shadowsocks.Util.Sockets.WrappedSocket.EndConnect(IAsyncResult asyncResult)
+   在 Shadowsocks.Proxy.DirectConnect.EndConnectDest(IAsyncResult asyncResult)
+   在 Shadowsocks.Controller.TCPHandler.ConnectCallback(IAsyncResult ar)
+[2018-04-11 16:00:18] System.Net.Sockets.SocketException (0x80004005): 由于目标计算机积极拒绝，无法连接。
+   在 Shadowsocks.Util.Sockets.WrappedSocket.EndConnect(IAsyncResult asyncResult)
+   在 Shadowsocks.Proxy.DirectConnect.EndConnectDest(IAsyncResult asyncResult)
+   在 Shadowsocks.Controller.TCPHandler.ConnectCallback(IAsyncResult ar)
+[2018-04-11 16:00:18] System.Net.Sockets.SocketException (0x80004005): 由于目标计算机积极拒绝，无法连接。
+   在 Shadowsocks.Util.Sockets.WrappedSocket.EndConnect(IAsyncResult asyncResult)
+   在 Shadowsocks.Proxy.DirectConnect.EndConnectDest(IAsyncResult asyncResult)
+   在 Shadowsocks.Controller.TCPHandler.ConnectCallback(IAsyncResult ar)
+[2018-04-11 16:00:19] System.Net.Sockets.SocketException (0x80004005): 由于目标计算机积极拒绝，无法连接。
+   在 Shadowsocks.Util.Sockets.WrappedSocket.EndConnect(IAsyncResult asyncResult)
+   在 Shadowsocks.Proxy.DirectConnect.EndConnectDest(IAsyncResult asyncResult)
+   在 Shadowsocks.Controller.TCPHandler.ConnectCallback(IAsyncResult ar)
+[2018-04-11 16:00:19] System.Net.Sockets.SocketException (0x80004005): 由于目标计算机积极拒绝，无法连接。
+   在 Shadowsocks.Util.Sockets.WrappedSocket.EndConnect(IAsyncResult asyncResult)
+   在 Shadowsocks.Proxy.DirectConnect.EndConnectDest(IAsyncResult asyncResult)
+   在 Shadowsocks.Controller.TCPHandler.ConnectCallback(IAsyncResult ar)
+[2018-04-11 16:00:19] System.Net.Sockets.SocketException (0x80004005): 由于目标计算机积极拒绝，无法连接。
+   在 Shadowsocks.Util.Sockets.WrappedSocket.EndConnect(IAsyncResult asyncResult)
+   在 Shadowsocks.Proxy.DirectConnect.EndConnectDest(IAsyncResult asyncResult)
+   在 Shadowsocks.Controller.TCPHandler.ConnectCallback(IAsyncResult ar)
+[2018-04-11 16:00:19] 108.160.143.117:19810 timed out
+[2018-04-11 16:00:19] System.Net.Sockets.SocketException (0x80004005): 由于目标计算机积极拒绝，无法连接。
+   在 Shadowsocks.Util.Sockets.WrappedSocket.EndConnect(IAsyncResult asyncResult)
+   在 Shadowsocks.Proxy.DirectConnect.EndConnectDest(IAsyncResult asyncResult)
+   在 Shadowsocks.Controller.TCPHandler.ConnectCallback(IAsyncResult ar)
+[2018-04-11 16:00:19] System.Net.Sockets.SocketException (0x80004005): 由于目标计算机积极拒绝，无法连接。
+   在 Shadowsocks.Util.Sockets.WrappedSocket.EndConnect(IAsyncResult asyncResult)
+   在 Shadowsocks.Proxy.DirectConnect.EndConnectDest(IAsyncResult asyncResult)
+   在 Shadowsocks.Controller.TCPHandler.ConnectCallback(IAsyncResult ar)
+[2018-04-11 16:00:19] System.Net.Sockets.SocketException (0x80004005): 由于目标计算机积极拒绝，无法连接。
+   在 Shadowsocks.Util.Sockets.WrappedSocket.EndConnect(IAsyncResult asyncResult)
+   在 Shadowsocks.Proxy.DirectConnect.EndConnectDest(IAsyncResult asyncResult)
+   在 Shadowsocks.Controller.TCPHandler.ConnectCallback(IAsyncResult ar)
+[2018-04-11 16:00:19] System.Net.Sockets.SocketException (0x80004005): 由于目标计算机积极拒绝，无法连接。
+   在 Shadowsocks.Util.Sockets.WrappedSocket.EndConnect(IAsyncResult asyncResult)
+   在 Shadowsocks.Proxy.DirectConnect.EndConnectDest(IAsyncResult asyncResult)
+   在 Shadowsocks.Controller.TCPHandler.ConnectCallback(IAsyncResult ar)
+[2018-04-11 16:00:19] System.Net.Sockets.SocketException (0x80004005): 由于目标计算机积极拒绝，无法连接。
+   在 Shadowsocks.Util.Sockets.WrappedSocket.EndConnect(IAsyncResult asyncResult)
+   在 Shadowsocks.Proxy.DirectConnect.EndConnectDest(IAsyncResult asyncResult)
+   在 Shadowsocks.Controller.TCPHandler.ConnectCallback(IAsyncResult ar)
+[2018-04-11 16:00:20] System.Net.Sockets.SocketException (0x80004005): 由于目标计算机积极拒绝，无法连接。
+   在 Shadowsocks.Util.Sockets.WrappedSocket.EndConnect(IAsyncResult asyncResult)
+   在 Shadowsocks.Proxy.DirectConnect.EndConnectDest(IAsyncResult asyncResult)
+   在 Shadowsocks.Controller.TCPHandler.ConnectCallback(IAsyncResult ar)
+[2018-04-11 16:00:20] System.Net.Sockets.SocketException (0x80004005): 由于目标计算机积极拒绝，无法连接。
+   在 Shadowsocks.Util.Sockets.WrappedSocket.EndConnect(IAsyncResult asyncResult)
+   在 Shadowsocks.Proxy.DirectConnect.EndConnectDest(IAsyncResult asyncResult)
+   在 Shadowsocks.Controller.TCPHandler.ConnectCallback(IAsyncResult ar)
+[2018-04-11 16:00:20] System.Net.Sockets.SocketException (0x80004005): 由于目标计算机积极拒绝，无法连接。
+   在 Shadowsocks.Util.Sockets.WrappedSocket.EndConnect(IAsyncResult asyncResult)
+   在 Shadowsocks.Proxy.DirectConnect.EndConnectDest(IAsyncResult asyncResult)
+   在 Shadowsocks.Controller.TCPHandler.ConnectCallback(IAsyncResult ar)
+[2018-04-11 16:00:20] System.Net.Sockets.SocketException (0x80004005): 由于目标计算机积极拒绝，无法连接。
+   在 Shadowsocks.Util.Sockets.WrappedSocket.EndConnect(IAsyncResult asyncResult)
+   在 Shadowsocks.Proxy.DirectConnect.EndConnectDest(IAsyncResult asyncResult)
+   在 Shadowsocks.Controller.TCPHandler.ConnectCallback(IAsyncResult ar)
+[2018-04-11 16:00:21] System.Net.Sockets.SocketException (0x80004005): 由于目标计算机积极拒绝，无法连接。
+   在 Shadowsocks.Util.Sockets.WrappedSocket.EndConnect(IAsyncResult asyncResult)
+   在 Shadowsocks.Proxy.DirectConnect.EndConnectDest(IAsyncResult asyncResult)
+   在 Shadowsocks.Controller.TCPHandler.ConnectCallback(IAsyncResult ar)
+[2018-04-11 16:00:21] 108.160.143.117:19810 timed out
+[2018-04-11 16:00:21] System.Net.Sockets.SocketException (0x80004005): 由于目标计算机积极拒绝，无法连接。
+   在 Shadowsocks.Util.Sockets.WrappedSocket.EndConnect(IAsyncResult asyncResult)
+   在 Shadowsocks.Proxy.DirectConnect.EndConnectDest(IAsyncResult asyncResult)
+   在 Shadowsocks.Controller.TCPHandler.ConnectCallback(IAsyncResult ar)
+[2018-04-11 16:00:22] System.Net.Sockets.SocketException (0x80004005): 由于目标计算机积极拒绝，无法连接。
+   在 Shadowsocks.Util.Sockets.WrappedSocket.EndConnect(IAsyncResult asyncResult)
+   在 Shadowsocks.Proxy.DirectConnect.EndConnectDest(IAsyncResult asyncResult)
+   在 Shadowsocks.Controller.TCPHandler.ConnectCallback(IAsyncResult ar)
+[2018-04-11 16:00:22] 108.160.143.117:19810 timed out
+[2018-04-11 16:00:22] System.Net.Sockets.SocketException (0x80004005): 由于目标计算机积极拒绝，无法连接。
+   在 Shadowsocks.Util.Sockets.WrappedSocket.EndConnect(IAsyncResult asyncResult)
+   在 Shadowsocks.Proxy.DirectConnect.EndConnectDest(IAsyncResult asyncResult)
+   在 Shadowsocks.Controller.TCPHandler.ConnectCallback(IAsyncResult ar)
+[2018-04-11 16:00:22] 108.160.143.117:19810 timed out
+[2018-04-11 16:00:23] System.Net.Sockets.SocketException (0x80004005): 由于目标计算机积极拒绝，无法连接。
+   在 Shadowsocks.Util.Sockets.WrappedSocket.EndConnect(IAsyncResult asyncResult)
+   在 Shadowsocks.Proxy.DirectConnect.EndConnectDest(IAsyncResult asyncResult)
+   在 Shadowsocks.Controller.TCPHandler.ConnectCallback(IAsyncResult ar)
+[2018-04-11 16:00:27] System.Net.Sockets.SocketException (0x80004005): 由于目标计算机积极拒绝，无法连接。
+   在 Shadowsocks.Util.Sockets.WrappedSocket.EndConnect(IAsyncResult asyncResult)
+   在 Shadowsocks.Proxy.DirectConnect.EndConnectDest(IAsyncResult asyncResult)
+   在 Shadowsocks.Controller.TCPHandler.ConnectCallback(IAsyncResult ar)
+[2018-04-11 16:00:32] 108.160.143.117:19810 timed out
+[2018-04-11 16:00:33] System.Net.Sockets.SocketException (0x80004005): 由于目标计算机积极拒绝，无法连接。
+   在 Shadowsocks.Util.Sockets.WrappedSocket.EndConnect(IAsyncResult asyncResult)
+   在 Shadowsocks.Proxy.DirectConnect.EndConnectDest(IAsyncResult asyncResult)
+   在 Shadowsocks.Controller.TCPHandler.ConnectCallback(IAsyncResult ar)
+[2018-04-11 16:00:38] 108.160.143.117:19810 timed out
+[2018-04-11 16:00:40] System.Net.Sockets.SocketException (0x80004005): 由于目标计算机积极拒绝，无法连接。
+   在 Shadowsocks.Util.Sockets.WrappedSocket.EndConnect(IAsyncResult asyncResult)
+   在 Shadowsocks.Proxy.DirectConnect.EndConnectDest(IAsyncResult asyncResult)
+   在 Shadowsocks.Controller.TCPHandler.ConnectCallback(IAsyncResult ar)
+[2018-04-11 16:00:41] System.Net.Sockets.SocketException (0x80004005): 由于目标计算机积极拒绝，无法连接。
+   在 Shadowsocks.Util.Sockets.WrappedSocket.EndConnect(IAsyncResult asyncResult)
+   在 Shadowsocks.Proxy.DirectConnect.EndConnectDest(IAsyncResult asyncResult)
+   在 Shadowsocks.Controller.TCPHandler.ConnectCallback(IAsyncResult ar)
+[2018-04-11 16:00:42] System.Net.Sockets.SocketException (0x80004005): 由于目标计算机积极拒绝，无法连接。
+   在 Shadowsocks.Util.Sockets.WrappedSocket.EndConnect(IAsyncResult asyncResult)
+   在 Shadowsocks.Proxy.DirectConnect.EndConnectDest(IAsyncResult asyncResult)
+   在 Shadowsocks.Controller.TCPHandler.ConnectCallback(IAsyncResult ar)
+[2018-04-11 16:00:44] System.Net.Sockets.SocketException (0x80004005): 由于目标计算机积极拒绝，无法连接。
+   在 Shadowsocks.Util.Sockets.WrappedSocket.EndConnect(IAsyncResult asyncResult)
+   在 Shadowsocks.Proxy.DirectConnect.EndConnectDest(IAsyncResult asyncResult)
+   在 Shadowsocks.Controller.TCPHandler.ConnectCallback(IAsyncResult ar)
+[2018-04-11 16:00:45] System.Net.Sockets.SocketException (0x80004005): 由于目标计算机积极拒绝，无法连接。
+   在 Shadowsocks.Util.Sockets.WrappedSocket.EndConnect(IAsyncResult asyncResult)
+   在 Shadowsocks.Proxy.DirectConnect.EndConnectDest(IAsyncResult asyncResult)
+   在 Shadowsocks.Controller.TCPHandler.ConnectCallback(IAsyncResult ar)
+[2018-04-11 16:00:47] System.Net.Sockets.SocketException (0x80004005): 由于目标计算机积极拒绝，无法连接。
+   在 Shadowsocks.Util.Sockets.WrappedSocket.EndConnect(IAsyncResult asyncResult)
+   在 Shadowsocks.Proxy.DirectConnect.EndConnectDest(IAsyncResult asyncResult)
+   在 Shadowsocks.Controller.TCPHandler.ConnectCallback(IAsyncResult ar)
+[2018-04-11 16:00:52] 108.160.143.117:19810 timed out
+[2018-04-11 16:00:53] System.Net.Sockets.SocketException (0x80004005): 由于目标计算机积极拒绝，无法连接。
+   在 Shadowsocks.Util.Sockets.WrappedSocket.EndConnect(IAsyncResult asyncResult)
+   在 Shadowsocks.Proxy.DirectConnect.EndConnectDest(IAsyncResult asyncResult)
+   在 Shadowsocks.Controller.TCPHandler.ConnectCallback(IAsyncResult ar)
+[2018-04-11 16:00:55] System.Net.Sockets.SocketException (0x80004005): 由于目标计算机积极拒绝，无法连接。
+   在 Shadowsocks.Util.Sockets.WrappedSocket.EndConnect(IAsyncResult asyncResult)
+   在 Shadowsocks.Proxy.DirectConnect.EndConnectDest(IAsyncResult asyncResult)
+   在 Shadowsocks.Controller.TCPHandler.ConnectCallback(IAsyncResult ar)
+[2018-04-11 16:00:56] System.Net.Sockets.SocketException (0x80004005): 由于目标计算机积极拒绝，无法连接。
+   在 Shadowsocks.Util.Sockets.WrappedSocket.EndConnect(IAsyncResult asyncResult)
+   在 Shadowsocks.Proxy.DirectConnect.EndConnectDest(IAsyncResult asyncResult)
+   在 Shadowsocks.Controller.TCPHandler.ConnectCallback(IAsyncResult ar)
+[2018-04-11 16:01:00] 108.160.143.117:19810 timed out
+[2018-04-11 16:01:01] 108.160.143.117:19810 timed out
+[2018-04-11 16:01:01] System.Net.Sockets.SocketException (0x80004005): 由于目标计算机积极拒绝，无法连接。
+   在 Shadowsocks.Util.Sockets.WrappedSocket.EndConnect(IAsyncResult asyncResult)
+   在 Shadowsocks.Proxy.DirectConnect.EndConnectDest(IAsyncResult asyncResult)
+   在 Shadowsocks.Controller.TCPHandler.ConnectCallback(IAsyncResult ar)
+[2018-04-11 16:01:03] System.Net.Sockets.SocketException (0x80004005): 由于目标计算机积极拒绝，无法连接。
+   在 Shadowsocks.Util.Sockets.WrappedSocket.EndConnect(IAsyncResult asyncResult)
+   在 Shadowsocks.Proxy.DirectConnect.EndConnectDest(IAsyncResult asyncResult)
+   在 Shadowsocks.Controller.TCPHandler.ConnectCallback(IAsyncResult ar)
+[2018-04-11 16:01:03] System.Net.Sockets.SocketException (0x80004005): 由于目标计算机积极拒绝，无法连接。
+   在 Shadowsocks.Util.Sockets.WrappedSocket.EndConnect(IAsyncResult asyncResult)
+   在 Shadowsocks.Proxy.DirectConnect.EndConnectDest(IAsyncResult asyncResult)
+   在 Shadowsocks.Controller.TCPHandler.ConnectCallback(IAsyncResult ar)
+[2018-04-11 16:01:04] System.Net.Sockets.SocketException (0x80004005): 由于目标计算机积极拒绝，无法连接。
+   在 Shadowsocks.Util.Sockets.WrappedSocket.EndConnect(IAsyncResult asyncResult)
+   在 Shadowsocks.Proxy.DirectConnect.EndConnectDest(IAsyncResult asyncResult)
+   在 Shadowsocks.Controller.TCPHandler.ConnectCallback(IAsyncResult ar)
+[2018-04-11 16:01:06] 108.160.143.117:19810 timed out
+[2018-04-11 16:01:07] System.Net.Sockets.SocketException (0x80004005): 由于目标计算机积极拒绝，无法连接。
+   在 Shadowsocks.Util.Sockets.WrappedSocket.EndConnect(IAsyncResult asyncResult)
+   在 Shadowsocks.Proxy.DirectConnect.EndConnectDest(IAsyncResult asyncResult)
+   在 Shadowsocks.Controller.TCPHandler.ConnectCallback(IAsyncResult ar)
+[2018-04-11 16:01:08] 108.160.143.117:19810 timed out
+[2018-04-11 16:01:08] System.Net.Sockets.SocketException (0x80004005): 由于目标计算机积极拒绝，无法连接。
+   在 Shadowsocks.Util.Sockets.WrappedSocket.EndConnect(IAsyncResult asyncResult)
+   在 Shadowsocks.Proxy.DirectConnect.EndConnectDest(IAsyncResult asyncResult)
+   在 Shadowsocks.Controller.TCPHandler.ConnectCallback(IAsyncResult ar)
+[2018-04-11 16:01:09] System.Net.Sockets.SocketException (0x80004005): 由于目标计算机积极拒绝，无法连接。
+   在 Shadowsocks.Util.Sockets.WrappedSocket.EndConnect(IAsyncResult asyncResult)
+   在 Shadowsocks.Proxy.DirectConnect.EndConnectDest(IAsyncResult asyncResult)
+   在 Shadowsocks.Controller.TCPHandler.ConnectCallback(IAsyncResult ar)
+[2018-04-11 16:01:09] 108.160.143.117:19810 timed out
+[2018-04-11 16:01:09] Shadowsocks started
+[2018-04-11 16:01:09] 
+=========================
+Registered Encryptor Info
+aes-128-cfb=>StreamOpenSSLEncryptor
+aes-192-cfb=>StreamOpenSSLEncryptor
+aes-256-cfb=>StreamOpenSSLEncryptor
+aes-128-ctr=>StreamOpenSSLEncryptor
+aes-192-ctr=>StreamOpenSSLEncryptor
+aes-256-ctr=>StreamOpenSSLEncryptor
+bf-cfb=>StreamOpenSSLEncryptor
+camellia-128-cfb=>StreamOpenSSLEncryptor
+camellia-192-cfb=>StreamOpenSSLEncryptor
+camellia-256-cfb=>StreamOpenSSLEncryptor
+rc4-md5=>StreamOpenSSLEncryptor
+salsa20=>StreamSodiumEncryptor
+chacha20=>StreamSodiumEncryptor
+chacha20-ietf=>StreamSodiumEncryptor
+aes-128-gcm=>AEADOpenSSLEncryptor
+aes-192-gcm=>AEADOpenSSLEncryptor
+aes-256-gcm=>AEADOpenSSLEncryptor
+chacha20-ietf-poly1305=>AEADOpenSSLEncryptor
+xchacha20-ietf-poly1305=>AEADSodiumEncryptor
+=========================
+
+[2018-04-11 16:01:13] System.Net.Sockets.SocketException (0x80004005): 由于目标计算机积极拒绝，无法连接。
+   在 Shadowsocks.Util.Sockets.WrappedSocket.EndConnect(IAsyncResult asyncResult)
+   在 Shadowsocks.Proxy.DirectConnect.EndConnectDest(IAsyncResult asyncResult)
+   在 Shadowsocks.Controller.TCPHandler.ConnectCallback(IAsyncResult ar)
+[2018-04-11 16:01:14] System.Net.Sockets.SocketException (0x80004005): 由于目标计算机积极拒绝，无法连接。
+   在 Shadowsocks.Util.Sockets.WrappedSocket.EndConnect(IAsyncResult asyncResult)
+   在 Shadowsocks.Proxy.DirectConnect.EndConnectDest(IAsyncResult asyncResult)
+   在 Shadowsocks.Controller.TCPHandler.ConnectCallback(IAsyncResult ar)
+[2018-04-11 16:01:15] 108.160.143.117:19810 timed out
+[2018-04-11 16:01:16] System.Net.Sockets.SocketException (0x80004005): 由于目标计算机积极拒绝，无法连接。
+   在 Shadowsocks.Util.Sockets.WrappedSocket.EndConnect(IAsyncResult asyncResult)
+   在 Shadowsocks.Proxy.DirectConnect.EndConnectDest(IAsyncResult asyncResult)
+   在 Shadowsocks.Controller.TCPHandler.ConnectCallback(IAsyncResult ar)
+[2018-04-11 16:01:16] System.Net.Sockets.SocketException (0x80004005): 由于目标计算机积极拒绝，无法连接。
+   在 Shadowsocks.Util.Sockets.WrappedSocket.EndConnect(IAsyncResult asyncResult)
+   在 Shadowsocks.Proxy.DirectConnect.EndConnectDest(IAsyncResult asyncResult)
+   在 Shadowsocks.Controller.TCPHandler.ConnectCallback(IAsyncResult ar)
+[2018-04-11 16:01:17] System.Net.Sockets.SocketException (0x80004005): 由于目标计算机积极拒绝，无法连接。
+   在 Shadowsocks.Util.Sockets.WrappedSocket.EndConnect(IAsyncResult asyncResult)
+   在 Shadowsocks.Proxy.DirectConnect.EndConnectDest(IAsyncResult asyncResult)
+   在 Shadowsocks.Controller.TCPHandler.ConnectCallback(IAsyncResult ar)
+[2018-04-11 16:01:17] System.Net.Sockets.SocketException (0x80004005): 由于目标计算机积极拒绝，无法连接。
+   在 Shadowsocks.Util.Sockets.WrappedSocket.EndConnect(IAsyncResult asyncResult)
+   在 Shadowsocks.Proxy.DirectConnect.EndConnectDest(IAsyncResult asyncResult)
+   在 Shadowsocks.Controller.TCPHandler.ConnectCallback(IAsyncResult ar)
+[2018-04-11 16:01:17] System.Net.Sockets.SocketException (0x80004005): 由于目标计算机积极拒绝，无法连接。
+   在 Shadowsocks.Util.Sockets.WrappedSocket.EndConnect(IAsyncResult asyncResult)
+   在 Shadowsocks.Proxy.DirectConnect.EndConnectDest(IAsyncResult asyncResult)
+   在 Shadowsocks.Controller.TCPHandler.ConnectCallback(IAsyncResult ar)
+[2018-04-11 16:01:19] System.Net.Sockets.SocketException (0x80004005): 由于目标计算机积极拒绝，无法连接。
+   在 Shadowsocks.Util.Sockets.WrappedSocket.EndConnect(IAsyncResult asyncResult)
+   在 Shadowsocks.Proxy.DirectConnect.EndConnectDest(IAsyncResult asyncResult)
+   在 Shadowsocks.Controller.TCPHandler.ConnectCallback(IAsyncResult ar)
+[2018-04-11 16:01:20] 108.160.143.117:19810 timed out
+[2018-04-11 16:01:22] 108.160.143.117:19810 timed out
+[2018-04-11 16:01:25] 108.160.143.117:19810 timed out
+[2018-04-11 16:01:26] System.Net.Sockets.SocketException (0x80004005): 由于目标计算机积极拒绝，无法连接。
+   在 Shadowsocks.Util.Sockets.WrappedSocket.EndConnect(IAsyncResult asyncResult)
+   在 Shadowsocks.Proxy.DirectConnect.EndConnectDest(IAsyncResult asyncResult)
+   在 Shadowsocks.Controller.TCPHandler.ConnectCallback(IAsyncResult ar)
+[2018-04-11 16:01:26] System.Net.Sockets.SocketException (0x80004005): 由于目标计算机积极拒绝，无法连接。
+   在 Shadowsocks.Util.Sockets.WrappedSocket.EndConnect(IAsyncResult asyncResult)
+   在 Shadowsocks.Proxy.DirectConnect.EndConnectDest(IAsyncResult asyncResult)
+   在 Shadowsocks.Controller.TCPHandler.ConnectCallback(IAsyncResult ar)
+[2018-04-11 16:01:27] System.Net.Sockets.SocketException (0x80004005): 由于目标计算机积极拒绝，无法连接。
+   在 Shadowsocks.Util.Sockets.WrappedSocket.EndConnect(IAsyncResult asyncResult)
+   在 Shadowsocks.Proxy.DirectConnect.EndConnectDest(IAsyncResult asyncResult)
+   在 Shadowsocks.Controller.TCPHandler.ConnectCallback(IAsyncResult ar)
+[2018-04-11 16:01:27] System.Net.Sockets.SocketException (0x80004005): 由于目标计算机积极拒绝，无法连接。
+   在 Shadowsocks.Util.Sockets.WrappedSocket.EndConnect(IAsyncResult asyncResult)
+   在 Shadowsocks.Proxy.DirectConnect.EndConnectDest(IAsyncResult asyncResult)
+   在 Shadowsocks.Controller.TCPHandler.ConnectCallback(IAsyncResult ar)
+[2018-04-11 16:01:27] 108.160.143.117:19810 timed out
+[2018-04-11 16:01:29] System.Net.Sockets.SocketException (0x80004005): 由于目标计算机积极拒绝，无法连接。
+   在 Shadowsocks.Util.Sockets.WrappedSocket.EndConnect(IAsyncResult asyncResult)
+   在 Shadowsocks.Proxy.DirectConnect.EndConnectDest(IAsyncResult asyncResult)
+   在 Shadowsocks.Controller.TCPHandler.ConnectCallback(IAsyncResult ar)
+[2018-04-11 16:01:30] 108.160.143.117:19810 timed out
+[2018-04-11 16:01:31] System.Net.Sockets.SocketException (0x80004005): 由于目标计算机积极拒绝，无法连接。
+   在 Shadowsocks.Util.Sockets.WrappedSocket.EndConnect(IAsyncResult asyncResult)
+   在 Shadowsocks.Proxy.DirectConnect.EndConnectDest(IAsyncResult asyncResult)
+   在 Shadowsocks.Controller.TCPHandler.ConnectCallback(IAsyncResult ar)
+[2018-04-11 16:01:32] 108.160.143.117:19810 timed out
+[2018-04-11 16:01:32] System.Net.Sockets.SocketException (0x80004005): 由于目标计算机积极拒绝，无法连接。
+   在 Shadowsocks.Util.Sockets.WrappedSocket.EndConnect(IAsyncResult asyncResult)
+   在 Shadowsocks.Proxy.DirectConnect.EndConnectDest(IAsyncResult asyncResult)
+   在 Shadowsocks.Controller.TCPHandler.ConnectCallback(IAsyncResult ar)
+[2018-04-11 16:01:33] System.Net.Sockets.SocketException (0x80004005): 由于目标计算机积极拒绝，无法连接。
+   在 Shadowsocks.Util.Sockets.WrappedSocket.EndConnect(IAsyncResult asyncResult)
+   在 Shadowsocks.Proxy.DirectConnect.EndConnectDest(IAsyncResult asyncResult)
+   在 Shadowsocks.Controller.TCPHandler.ConnectCallback(IAsyncResult ar)
+[2018-04-11 16:01:34] System.Net.Sockets.SocketException (0x80004005): 由于目标计算机积极拒绝，无法连接。
+   在 Shadowsocks.Util.Sockets.WrappedSocket.EndConnect(IAsyncResult asyncResult)
+   在 Shadowsocks.Proxy.DirectConnect.EndConnectDest(IAsyncResult asyncResult)
+   在 Shadowsocks.Controller.TCPHandler.ConnectCallback(IAsyncResult ar)
+[2018-04-11 16:01:34] System.Net.Sockets.SocketException (0x80004005): 由于目标计算机积极拒绝，无法连接。
+   在 Shadowsocks.Util.Sockets.WrappedSocket.EndConnect(IAsyncResult asyncResult)
+   在 Shadowsocks.Proxy.DirectConnect.EndConnectDest(IAsyncResult asyncResult)
+   在 Shadowsocks.Controller.TCPHandler.ConnectCallback(IAsyncResult ar)
+[2018-04-11 16:01:34] System.Net.Sockets.SocketException (0x80004005): 由于目标计算机积极拒绝，无法连接。
+   在 Shadowsocks.Util.Sockets.WrappedSocket.EndConnect(IAsyncResult asyncResult)
+   在 Shadowsocks.Proxy.DirectConnect.EndConnectDest(IAsyncResult asyncResult)
+   在 Shadowsocks.Controller.TCPHandler.ConnectCallback(IAsyncResult ar)
+[2018-04-11 16:01:35] System.Net.Sockets.SocketException (0x80004005): 由于目标计算机积极拒绝，无法连接。
+   在 Shadowsocks.Util.Sockets.WrappedSocket.EndConnect(IAsyncResult asyncResult)
+   在 Shadowsocks.Proxy.DirectConnect.EndConnectDest(IAsyncResult asyncResult)
+   在 Shadowsocks.Controller.TCPHandler.ConnectCallback(IAsyncResult ar)
+[2018-04-11 16:01:36] 108.160.143.117:19810 timed out
+[2018-04-11 16:01:37] System.Net.Sockets.SocketException (0x80004005): 由于目标计算机积极拒绝，无法连接。
+   在 Shadowsocks.Util.Sockets.WrappedSocket.EndConnect(IAsyncResult asyncResult)
+   在 Shadowsocks.Proxy.DirectConnect.EndConnectDest(IAsyncResult asyncResult)
+   在 Shadowsocks.Controller.TCPHandler.ConnectCallback(IAsyncResult ar)
+[2018-04-11 16:01:37] System.Net.Sockets.SocketException (0x80004005): 由于目标计算机积极拒绝，无法连接。
+   在 Shadowsocks.Util.Sockets.WrappedSocket.EndConnect(IAsyncResult asyncResult)
+   在 Shadowsocks.Proxy.DirectConnect.EndConnectDest(IAsyncResult asyncResult)
+   在 Shadowsocks.Controller.TCPHandler.ConnectCallback(IAsyncResult ar)
+[2018-04-11 16:01:38] System.Net.Sockets.SocketException (0x80004005): 由于目标计算机积极拒绝，无法连接。
+   在 Shadowsocks.Util.Sockets.WrappedSocket.EndConnect(IAsyncResult asyncResult)
+   在 Shadowsocks.Proxy.DirectConnect.EndConnectDest(IAsyncResult asyncResult)
+   在 Shadowsocks.Controller.TCPHandler.ConnectCallback(IAsyncResult ar)
+[2018-04-11 16:01:39] System.Net.Sockets.SocketException (0x80004005): 由于目标计算机积极拒绝，无法连接。
+   在 Shadowsocks.Util.Sockets.WrappedSocket.EndConnect(IAsyncResult asyncResult)
+   在 Shadowsocks.Proxy.DirectConnect.EndConnectDest(IAsyncResult asyncResult)
+   在 Shadowsocks.Controller.TCPHandler.ConnectCallback(IAsyncResult ar)
+[2018-04-11 16:01:39] 108.160.143.117:19810 timed out
+[2018-04-11 16:01:39] System.Net.Sockets.SocketException (0x80004005): 由于目标计算机积极拒绝，无法连接。
+   在 Shadowsocks.Util.Sockets.WrappedSocket.EndConnect(IAsyncResult asyncResult)
+   在 Shadowsocks.Proxy.DirectConnect.EndConnectDest(IAsyncResult asyncResult)
+   在 Shadowsocks.Controller.TCPHandler.ConnectCallback(IAsyncResult ar)
+[2018-04-11 16:01:40] System.Net.Sockets.SocketException (0x80004005): 由于目标计算机积极拒绝，无法连接。
+   在 Shadowsocks.Util.Sockets.WrappedSocket.EndConnect(IAsyncResult asyncResult)
+   在 Shadowsocks.Proxy.DirectConnect.EndConnectDest(IAsyncResult asyncResult)
+   在 Shadowsocks.Controller.TCPHandler.ConnectCallback(IAsyncResult ar)
+[2018-04-11 16:01:41] System.Net.Sockets.SocketException (0x80004005): 由于目标计算机积极拒绝，无法连接。
+   在 Shadowsocks.Util.Sockets.WrappedSocket.EndConnect(IAsyncResult asyncResult)
+   在 Shadowsocks.Proxy.DirectConnect.EndConnectDest(IAsyncResult asyncResult)
+   在 Shadowsocks.Controller.TCPHandler.ConnectCallback(IAsyncResult ar)
+[2018-04-11 16:01:42] System.Net.Sockets.SocketException (0x80004005): 由于目标计算机积极拒绝，无法连接。
+   在 Shadowsocks.Util.Sockets.WrappedSocket.EndConnect(IAsyncResult asyncResult)
+   在 Shadowsocks.Proxy.DirectConnect.EndConnectDest(IAsyncResult asyncResult)
+   在 Shadowsocks.Controller.TCPHandler.ConnectCallback(IAsyncResult ar)
+[2018-04-11 16:01:42] System.Net.Sockets.SocketException (0x80004005): 由于目标计算机积极拒绝，无法连接。
+   在 Shadowsocks.Util.Sockets.WrappedSocket.EndConnect(IAsyncResult asyncResult)
+   在 Shadowsocks.Proxy.DirectConnect.EndConnectDest(IAsyncResult asyncResult)
+   在 Shadowsocks.Controller.TCPHandler.ConnectCallback(IAsyncResult ar)
+[2018-04-11 16:01:43] System.Net.Sockets.SocketException (0x80004005): 由于目标计算机积极拒绝，无法连接。
+   在 Shadowsocks.Util.Sockets.WrappedSocket.EndConnect(IAsyncResult asyncResult)
+   在 Shadowsocks.Proxy.DirectConnect.EndConnectDest(IAsyncResult asyncResult)
+   在 Shadowsocks.Controller.TCPHandler.ConnectCallback(IAsyncResult ar)
+[2018-04-11 16:01:43] System.Net.Sockets.SocketException (0x80004005): 由于目标计算机积极拒绝，无法连接。
+   在 Shadowsocks.Util.Sockets.WrappedSocket.EndConnect(IAsyncResult asyncResult)
+   在 Shadowsocks.Proxy.DirectConnect.EndConnectDest(IAsyncResult asyncResult)
+   在 Shadowsocks.Controller.TCPHandler.ConnectCallback(IAsyncResult ar)
+[2018-04-11 16:01:44] 108.160.143.117:19810 timed out
+[2018-04-11 16:01:44] 108.160.143.117:19810 timed out
+[2018-04-11 16:01:45] System.Net.Sockets.SocketException (0x80004005): 由于目标计算机积极拒绝，无法连接。
+   在 Shadowsocks.Util.Sockets.WrappedSocket.EndConnect(IAsyncResult asyncResult)
+   在 Shadowsocks.Proxy.DirectConnect.EndConnectDest(IAsyncResult asyncResult)
+   在 Shadowsocks.Controller.TCPHandler.ConnectCallback(IAsyncResult ar)
+[2018-04-11 16:01:46] System.Net.Sockets.SocketException (0x80004005): 由于目标计算机积极拒绝，无法连接。
+   在 Shadowsocks.Util.Sockets.WrappedSocket.EndConnect(IAsyncResult asyncResult)
+   在 Shadowsocks.Proxy.DirectConnect.EndConnectDest(IAsyncResult asyncResult)
+   在 Shadowsocks.Controller.TCPHandler.ConnectCallback(IAsyncResult ar)
+[2018-04-11 16:01:47] System.Net.Sockets.SocketException (0x80004005): 由于目标计算机积极拒绝，无法连接。
+   在 Shadowsocks.Util.Sockets.WrappedSocket.EndConnect(IAsyncResult asyncResult)
+   在 Shadowsocks.Proxy.DirectConnect.EndConnectDest(IAsyncResult asyncResult)
+   在 Shadowsocks.Controller.TCPHandler.ConnectCallback(IAsyncResult ar)
+[2018-04-11 16:01:47] System.Net.Sockets.SocketException (0x80004005): 由于目标计算机积极拒绝，无法连接。
+   在 Shadowsocks.Util.Sockets.WrappedSocket.EndConnect(IAsyncResult asyncResult)
+   在 Shadowsocks.Proxy.DirectConnect.EndConnectDest(IAsyncResult asyncResult)
+   在 Shadowsocks.Controller.TCPHandler.ConnectCallback(IAsyncResult ar)
+[2018-04-11 16:01:48] 108.160.143.117:19810 timed out
+[2018-04-11 16:01:48] System.Net.Sockets.SocketException (0x80004005): 由于目标计算机积极拒绝，无法连接。
+   在 Shadowsocks.Util.Sockets.WrappedSocket.EndConnect(IAsyncResult asyncResult)
+   在 Shadowsocks.Proxy.DirectConnect.EndConnectDest(IAsyncResult asyncResult)
+   在 Shadowsocks.Controller.TCPHandler.ConnectCallback(IAsyncResult ar)
+[2018-04-11 16:01:49] System.Net.Sockets.SocketException (0x80004005): 由于目标计算机积极拒绝，无法连接。
+   在 Shadowsocks.Util.Sockets.WrappedSocket.EndConnect(IAsyncResult asyncResult)
+   在 Shadowsocks.Proxy.DirectConnect.EndConnectDest(IAsyncResult asyncResult)
+   在 Shadowsocks.Controller.TCPHandler.ConnectCallback(IAsyncResult ar)
+[2018-04-11 16:01:49] System.Net.Sockets.SocketException (0x80004005): 由于目标计算机积极拒绝，无法连接。
+   在 Shadowsocks.Util.Sockets.WrappedSocket.EndConnect(IAsyncResult asyncResult)
+   在 Shadowsocks.Proxy.DirectConnect.EndConnectDest(IAsyncResult asyncResult)
+   在 Shadowsocks.Controller.TCPHandler.ConnectCallback(IAsyncResult ar)
+[2018-04-11 16:01:49] 108.160.143.117:19810 timed out
+[2018-04-11 16:01:50] System.Net.Sockets.SocketException (0x80004005): 由于目标计算机积极拒绝，无法连接。
+   在 Shadowsocks.Util.Sockets.WrappedSocket.EndConnect(IAsyncResult asyncResult)
+   在 Shadowsocks.Proxy.DirectConnect.EndConnectDest(IAsyncResult asyncResult)
+   在 Shadowsocks.Controller.TCPHandler.ConnectCallback(IAsyncResult ar)
+[2018-04-11 16:01:50] System.Net.Sockets.SocketException (0x80004005): 由于目标计算机积极拒绝，无法连接。
+   在 Shadowsocks.Util.Sockets.WrappedSocket.EndConnect(IAsyncResult asyncResult)
+   在 Shadowsocks.Proxy.DirectConnect.EndConnectDest(IAsyncResult asyncResult)
+   在 Shadowsocks.Controller.TCPHandler.ConnectCallback(IAsyncResult ar)
+[2018-04-11 16:01:50] System.Net.Sockets.SocketException (0x80004005): 由于目标计算机积极拒绝，无法连接。
+   在 Shadowsocks.Util.Sockets.WrappedSocket.EndConnect(IAsyncResult asyncResult)
+   在 Shadowsocks.Proxy.DirectConnect.EndConnectDest(IAsyncResult asyncResult)
+   在 Shadowsocks.Controller.TCPHandler.ConnectCallback(IAsyncResult ar)
+[2018-04-11 16:01:50] System.Net.Sockets.SocketException (0x80004005): 由于目标计算机积极拒绝，无法连接。
+   在 Shadowsocks.Util.Sockets.WrappedSocket.EndConnect(IAsyncResult asyncResult)
+   在 Shadowsocks.Proxy.DirectConnect.EndConnectDest(IAsyncResult asyncResult)
+   在 Shadowsocks.Controller.TCPHandler.ConnectCallback(IAsyncResult ar)
+[2018-04-11 16:01:50] System.Net.Sockets.SocketException (0x80004005): 由于目标计算机积极拒绝，无法连接。
+   在 Shadowsocks.Util.Sockets.WrappedSocket.EndConnect(IAsyncResult asyncResult)
+   在 Shadowsocks.Proxy.DirectConnect.EndConnectDest(IAsyncResult asyncResult)
+   在 Shadowsocks.Controller.TCPHandler.ConnectCallback(IAsyncResult ar)
+[2018-04-11 16:01:51] System.Net.Sockets.SocketException (0x80004005): 由于目标计算机积极拒绝，无法连接。
+   在 Shadowsocks.Util.Sockets.WrappedSocket.EndConnect(IAsyncResult asyncResult)
+   在 Shadowsocks.Proxy.DirectConnect.EndConnectDest(IAsyncResult asyncResult)
+   在 Shadowsocks.Controller.TCPHandler.ConnectCallback(IAsyncResult ar)
+[2018-04-11 16:01:51] System.Net.Sockets.SocketException (0x80004005): 由于目标计算机积极拒绝，无法连接。
+   在 Shadowsocks.Util.Sockets.WrappedSocket.EndConnect(IAsyncResult asyncResult)
+   在 Shadowsocks.Proxy.DirectConnect.EndConnectDest(IAsyncResult asyncResult)
+   在 Shadowsocks.Controller.TCPHandler.ConnectCallback(IAsyncResult ar)
+[2018-04-11 16:01:52] System.Net.Sockets.SocketException (0x80004005): 由于目标计算机积极拒绝，无法连接。
+   在 Shadowsocks.Util.Sockets.WrappedSocket.EndConnect(IAsyncResult asyncResult)
+   在 Shadowsocks.Proxy.DirectConnect.EndConnectDest(IAsyncResult asyncResult)
+   在 Shadowsocks.Controller.TCPHandler.ConnectCallback(IAsyncResult ar)
+[2018-04-11 16:01:52] System.Net.Sockets.SocketException (0x80004005): 由于目标计算机积极拒绝，无法连接。
+   在 Shadowsocks.Util.Sockets.WrappedSocket.EndConnect(IAsyncResult asyncResult)
+   在 Shadowsocks.Proxy.DirectConnect.EndConnectDest(IAsyncResult asyncResult)
+   在 Shadowsocks.Controller.TCPHandler.ConnectCallback(IAsyncResult ar)
+[2018-04-11 16:01:52] System.Net.Sockets.SocketException (0x80004005): 由于目标计算机积极拒绝，无法连接。
+   在 Shadowsocks.Util.Sockets.WrappedSocket.EndConnect(IAsyncResult asyncResult)
+   在 Shadowsocks.Proxy.DirectConnect.EndConnectDest(IAsyncResult asyncResult)
+   在 Shadowsocks.Controller.TCPHandler.ConnectCallback(IAsyncResult ar)
+[2018-04-11 16:01:53] System.Net.Sockets.SocketException (0x80004005): 由于目标计算机积极拒绝，无法连接。
+   在 Shadowsocks.Util.Sockets.WrappedSocket.EndConnect(IAsyncResult asyncResult)
+   在 Shadowsocks.Proxy.DirectConnect.EndConnectDest(IAsyncResult asyncResult)
+   在 Shadowsocks.Controller.TCPHandler.ConnectCallback(IAsyncResult ar)
+[2018-04-11 16:01:53] System.Net.Sockets.SocketException (0x80004005): 由于目标计算机积极拒绝，无法连接。
+   在 Shadowsocks.Util.Sockets.WrappedSocket.EndConnect(IAsyncResult asyncResult)
+   在 Shadowsocks.Proxy.DirectConnect.EndConnectDest(IAsyncResult asyncResult)
+   在 Shadowsocks.Controller.TCPHandler.ConnectCallback(IAsyncResult ar)
+[2018-04-11 16:01:54] System.Net.Sockets.SocketException (0x80004005): 由于目标计算机积极拒绝，无法连接。
+   在 Shadowsocks.Util.Sockets.WrappedSocket.EndConnect(IAsyncResult asyncResult)
+   在 Shadowsocks.Proxy.DirectConnect.EndConnectDest(IAsyncResult asyncResult)
+   在 Shadowsocks.Controller.TCPHandler.ConnectCallback(IAsyncResult ar)
+[2018-04-11 16:01:55] System.Net.Sockets.SocketException (0x80004005): 由于目标计算机积极拒绝，无法连接。
+   在 Shadowsocks.Util.Sockets.WrappedSocket.EndConnect(IAsyncResult asyncResult)
+   在 Shadowsocks.Proxy.DirectConnect.EndConnectDest(IAsyncResult asyncResult)
+   在 Shadowsocks.Controller.TCPHandler.ConnectCallback(IAsyncResult ar)
+[2018-04-11 16:01:55] 108.160.143.117:19810 timed out
+[2018-04-11 16:01:55] System.Net.Sockets.SocketException (0x80004005): 由于目标计算机积极拒绝，无法连接。
+   在 Shadowsocks.Util.Sockets.WrappedSocket.EndConnect(IAsyncResult asyncResult)
+   在 Shadowsocks.Proxy.DirectConnect.EndConnectDest(IAsyncResult asyncResult)
+   在 Shadowsocks.Controller.TCPHandler.ConnectCallback(IAsyncResult ar)
+[2018-04-11 16:01:55] System.Net.Sockets.SocketException (0x80004005): 由于目标计算机积极拒绝，无法连接。
+   在 Shadowsocks.Util.Sockets.WrappedSocket.EndConnect(IAsyncResult asyncResult)
+   在 Shadowsocks.Proxy.DirectConnect.EndConnectDest(IAsyncResult asyncResult)
+   在 Shadowsocks.Controller.TCPHandler.ConnectCallback(IAsyncResult ar)
+[2018-04-11 16:01:56] System.Net.Sockets.SocketException (0x80004005): 由于目标计算机积极拒绝，无法连接。
+   在 Shadowsocks.Util.Sockets.WrappedSocket.EndConnect(IAsyncResult asyncResult)
+   在 Shadowsocks.Proxy.DirectConnect.EndConnectDest(IAsyncResult asyncResult)
+   在 Shadowsocks.Controller.TCPHandler.ConnectCallback(IAsyncResult ar)
+[2018-04-11 16:01:56] System.Net.Sockets.SocketException (0x80004005): 由于目标计算机积极拒绝，无法连接。
+   在 Shadowsocks.Util.Sockets.WrappedSocket.EndConnect(IAsyncResult asyncResult)
+   在 Shadowsocks.Proxy.DirectConnect.EndConnectDest(IAsyncResult asyncResult)
+   在 Shadowsocks.Controller.TCPHandler.ConnectCallback(IAsyncResult ar)
+[2018-04-11 16:01:56] System.Net.Sockets.SocketException (0x80004005): 由于目标计算机积极拒绝，无法连接。
+   在 Shadowsocks.Util.Sockets.WrappedSocket.EndConnect(IAsyncResult asyncResult)
+   在 Shadowsocks.Proxy.DirectConnect.EndConnectDest(IAsyncResult asyncResult)
+   在 Shadowsocks.Controller.TCPHandler.ConnectCallback(IAsyncResult ar)
+[2018-04-11 16:01:57] System.Net.Sockets.SocketException (0x80004005): 由于目标计算机积极拒绝，无法连接。
+   在 Shadowsocks.Util.Sockets.WrappedSocket.EndConnect(IAsyncResult asyncResult)
+   在 Shadowsocks.Proxy.DirectConnect.EndConnectDest(IAsyncResult asyncResult)
+   在 Shadowsocks.Controller.TCPHandler.ConnectCallback(IAsyncResult ar)
+[2018-04-11 16:01:57] 108.160.143.117:19810 timed out
+[2018-04-11 16:01:58] System.Net.Sockets.SocketException (0x80004005): 由于目标计算机积极拒绝，无法连接。
+   在 Shadowsocks.Util.Sockets.WrappedSocket.EndConnect(IAsyncResult asyncResult)
+   在 Shadowsocks.Proxy.DirectConnect.EndConnectDest(IAsyncResult asyncResult)
+   在 Shadowsocks.Controller.TCPHandler.ConnectCallback(IAsyncResult ar)
+[2018-04-11 16:01:58] System.Net.Sockets.SocketException (0x80004005): 由于目标计算机积极拒绝，无法连接。
+   在 Shadowsocks.Util.Sockets.WrappedSocket.EndConnect(IAsyncResult asyncResult)
+   在 Shadowsocks.Proxy.DirectConnect.EndConnectDest(IAsyncResult asyncResult)
+   在 Shadowsocks.Controller.TCPHandler.ConnectCallback(IAsyncResult ar)
+[2018-04-11 16:01:58] System.Net.Sockets.SocketException (0x80004005): 由于目标计算机积极拒绝，无法连接。
+   在 Shadowsocks.Util.Sockets.WrappedSocket.EndConnect(IAsyncResult asyncResult)
+   在 Shadowsocks.Proxy.DirectConnect.EndConnectDest(IAsyncResult asyncResult)
+   在 Shadowsocks.Controller.TCPHandler.ConnectCallback(IAsyncResult ar)
+[2018-04-11 16:02:00] System.Net.Sockets.SocketException (0x80004005): 由于目标计算机积极拒绝，无法连接。
+   在 Shadowsocks.Util.Sockets.WrappedSocket.EndConnect(IAsyncResult asyncResult)
+   在 Shadowsocks.Proxy.DirectConnect.EndConnectDest(IAsyncResult asyncResult)
+   在 Shadowsocks.Controller.TCPHandler.ConnectCallback(IAsyncResult ar)
+[2018-04-11 16:02:00] System.Net.Sockets.SocketException (0x80004005): 由于目标计算机积极拒绝，无法连接。
+   在 Shadowsocks.Util.Sockets.WrappedSocket.EndConnect(IAsyncResult asyncResult)
+   在 Shadowsocks.Proxy.DirectConnect.EndConnectDest(IAsyncResult asyncResult)
+   在 Shadowsocks.Controller.TCPHandler.ConnectCallback(IAsyncResult ar)
+[2018-04-11 16:02:01] System.Net.Sockets.SocketException (0x80004005): 由于目标计算机积极拒绝，无法连接。
+   在 Shadowsocks.Util.Sockets.WrappedSocket.EndConnect(IAsyncResult asyncResult)
+   在 Shadowsocks.Proxy.DirectConnect.EndConnectDest(IAsyncResult asyncResult)
+   在 Shadowsocks.Controller.TCPHandler.ConnectCallback(IAsyncResult ar)
+[2018-04-11 16:02:03] 108.160.143.117:19810 timed out
+[2018-04-11 16:02:05] 108.160.143.117:19810 timed out
+[2018-04-11 16:02:05] System.Net.Sockets.SocketException (0x80004005): 由于目标计算机积极拒绝，无法连接。
+   在 Shadowsocks.Util.Sockets.WrappedSocket.EndConnect(IAsyncResult asyncResult)
+   在 Shadowsocks.Proxy.DirectConnect.EndConnectDest(IAsyncResult asyncResult)
+   在 Shadowsocks.Controller.TCPHandler.ConnectCallback(IAsyncResult ar)
+[2018-04-11 16:02:06] System.Net.Sockets.SocketException (0x80004005): 由于目标计算机积极拒绝，无法连接。
+   在 Shadowsocks.Util.Sockets.WrappedSocket.EndConnect(IAsyncResult asyncResult)
+   在 Shadowsocks.Proxy.DirectConnect.EndConnectDest(IAsyncResult asyncResult)
+   在 Shadowsocks.Controller.TCPHandler.ConnectCallback(IAsyncResult ar)
+[2018-04-11 16:02:06] System.Net.Sockets.SocketException (0x80004005): 由于目标计算机积极拒绝，无法连接。
+   在 Shadowsocks.Util.Sockets.WrappedSocket.EndConnect(IAsyncResult asyncResult)
+   在 Shadowsocks.Proxy.DirectConnect.EndConnectDest(IAsyncResult asyncResult)
+   在 Shadowsocks.Controller.TCPHandler.ConnectCallback(IAsyncResult ar)
+[2018-04-11 16:02:08] System.Net.Sockets.SocketException (0x80004005): 由于目标计算机积极拒绝，无法连接。
+   在 Shadowsocks.Util.Sockets.WrappedSocket.EndConnect(IAsyncResult asyncResult)
+   在 Shadowsocks.Proxy.DirectConnect.EndConnectDest(IAsyncResult asyncResult)
+   在 Shadowsocks.Controller.TCPHandler.ConnectCallback(IAsyncResult ar)
+[2018-04-11 16:02:08] System.Net.Sockets.SocketException (0x80004005): 由于目标计算机积极拒绝，无法连接。
+   在 Shadowsocks.Util.Sockets.WrappedSocket.EndConnect(IAsyncResult asyncResult)
+   在 Shadowsocks.Proxy.DirectConnect.EndConnectDest(IAsyncResult asyncResult)
+   在 Shadowsocks.Controller.TCPHandler.ConnectCallback(IAsyncResult ar)
+[2018-04-11 16:02:08] System.Net.Sockets.SocketException (0x80004005): 由于目标计算机积极拒绝，无法连接。
+   在 Shadowsocks.Util.Sockets.WrappedSocket.EndConnect(IAsyncResult asyncResult)
+   在 Shadowsocks.Proxy.DirectConnect.EndConnectDest(IAsyncResult asyncResult)
+   在 Shadowsocks.Controller.TCPHandler.ConnectCallback(IAsyncResult ar)
+[2018-04-11 16:02:09] System.Net.Sockets.SocketException (0x80004005): 由于目标计算机积极拒绝，无法连接。
+   在 Shadowsocks.Util.Sockets.WrappedSocket.EndConnect(IAsyncResult asyncResult)
+   在 Shadowsocks.Proxy.DirectConnect.EndConnectDest(IAsyncResult asyncResult)
+   在 Shadowsocks.Controller.TCPHandler.ConnectCallback(IAsyncResult ar)
+[2018-04-11 16:02:09] System.Net.Sockets.SocketException (0x80004005): 由于目标计算机积极拒绝，无法连接。
+   在 Shadowsocks.Util.Sockets.WrappedSocket.EndConnect(IAsyncResult asyncResult)
+   在 Shadowsocks.Proxy.DirectConnect.EndConnectDest(IAsyncResult asyncResult)
+   在 Shadowsocks.Controller.TCPHandler.ConnectCallback(IAsyncResult ar)
+[2018-04-11 16:02:10] System.Net.Sockets.SocketException (0x80004005): 由于目标计算机积极拒绝，无法连接。
+   在 Shadowsocks.Util.Sockets.WrappedSocket.EndConnect(IAsyncResult asyncResult)
+   在 Shadowsocks.Proxy.DirectConnect.EndConnectDest(IAsyncResult asyncResult)
+   在 Shadowsocks.Controller.TCPHandler.ConnectCallback(IAsyncResult ar)
+[2018-04-11 16:02:13] 108.160.143.117:19810 timed out
+[2018-04-11 16:02:13] System.Net.Sockets.SocketException (0x80004005): 由于目标计算机积极拒绝，无法连接。
+   在 Shadowsocks.Util.Sockets.WrappedSocket.EndConnect(IAsyncResult asyncResult)
+   在 Shadowsocks.Proxy.DirectConnect.EndConnectDest(IAsyncResult asyncResult)
+   在 Shadowsocks.Controller.TCPHandler.ConnectCallback(IAsyncResult ar)
+[2018-04-11 16:02:13] System.Net.Sockets.SocketException (0x80004005): 由于目标计算机积极拒绝，无法连接。
+   在 Shadowsocks.Util.Sockets.WrappedSocket.EndConnect(IAsyncResult asyncResult)
+   在 Shadowsocks.Proxy.DirectConnect.EndConnectDest(IAsyncResult asyncResult)
+   在 Shadowsocks.Controller.TCPHandler.ConnectCallback(IAsyncResult ar)
+[2018-04-11 16:02:14] System.Net.Sockets.SocketException (0x80004005): 由于目标计算机积极拒绝，无法连接。
+   在 Shadowsocks.Util.Sockets.WrappedSocket.EndConnect(IAsyncResult asyncResult)
+   在 Shadowsocks.Proxy.DirectConnect.EndConnectDest(IAsyncResult asyncResult)
+   在 Shadowsocks.Controller.TCPHandler.ConnectCallback(IAsyncResult ar)
+[2018-04-11 16:02:14] System.Net.Sockets.SocketException (0x80004005): 由于目标计算机积极拒绝，无法连接。
+   在 Shadowsocks.Util.Sockets.WrappedSocket.EndConnect(IAsyncResult asyncResult)
+   在 Shadowsocks.Proxy.DirectConnect.EndConnectDest(IAsyncResult asyncResult)
+   在 Shadowsocks.Controller.TCPHandler.ConnectCallback(IAsyncResult ar)
+[2018-04-11 16:02:14] 108.160.143.117:19810 timed out
+[2018-04-11 16:02:14] System.Net.Sockets.SocketException (0x80004005): 由于目标计算机积极拒绝，无法连接。
+   在 Shadowsocks.Util.Sockets.WrappedSocket.EndConnect(IAsyncResult asyncResult)
+   在 Shadowsocks.Proxy.DirectConnect.EndConnectDest(IAsyncResult asyncResult)
+   在 Shadowsocks.Controller.TCPHandler.ConnectCallback(IAsyncResult ar)
+[2018-04-11 16:02:17] System.Net.Sockets.SocketException (0x80004005): 由于目标计算机积极拒绝，无法连接。
+   在 Shadowsocks.Util.Sockets.WrappedSocket.EndConnect(IAsyncResult asyncResult)
+   在 Shadowsocks.Proxy.DirectConnect.EndConnectDest(IAsyncResult asyncResult)
+   在 Shadowsocks.Controller.TCPHandler.ConnectCallback(IAsyncResult ar)
+[2018-04-11 16:02:19] 108.160.143.117:19810 timed out
+[2018-04-11 16:02:19] System.Net.Sockets.SocketException (0x80004005): 由于目标计算机积极拒绝，无法连接。
+   在 Shadowsocks.Util.Sockets.WrappedSocket.EndConnect(IAsyncResult asyncResult)
+   在 Shadowsocks.Proxy.DirectConnect.EndConnectDest(IAsyncResult asyncResult)
+   在 Shadowsocks.Controller.TCPHandler.ConnectCallback(IAsyncResult ar)
+[2018-04-11 16:02:19] System.Net.Sockets.SocketException (0x80004005): 由于目标计算机积极拒绝，无法连接。
+   在 Shadowsocks.Util.Sockets.WrappedSocket.EndConnect(IAsyncResult asyncResult)
+   在 Shadowsocks.Proxy.DirectConnect.EndConnectDest(IAsyncResult asyncResult)
+   在 Shadowsocks.Controller.TCPHandler.ConnectCallback(IAsyncResult ar)
+[2018-04-11 16:02:19] System.Net.Sockets.SocketException (0x80004005): 由于目标计算机积极拒绝，无法连接。
+   在 Shadowsocks.Util.Sockets.WrappedSocket.EndConnect(IAsyncResult asyncResult)
+   在 Shadowsocks.Proxy.DirectConnect.EndConnectDest(IAsyncResult asyncResult)
+   在 Shadowsocks.Controller.TCPHandler.ConnectCallback(IAsyncResult ar)
+[2018-04-11 16:02:19] 108.160.143.117:19810 timed out
+[2018-04-11 16:02:19] 108.160.143.117:19810 timed out
+[2018-04-11 16:02:20] System.Net.Sockets.SocketException (0x80004005): 由于目标计算机积极拒绝，无法连接。
+   在 Shadowsocks.Util.Sockets.WrappedSocket.EndConnect(IAsyncResult asyncResult)
+   在 Shadowsocks.Proxy.DirectConnect.EndConnectDest(IAsyncResult asyncResult)
+   在 Shadowsocks.Controller.TCPHandler.ConnectCallback(IAsyncResult ar)
+[2018-04-11 16:02:21] System.Net.Sockets.SocketException (0x80004005): 由于目标计算机积极拒绝，无法连接。
+   在 Shadowsocks.Util.Sockets.WrappedSocket.EndConnect(IAsyncResult asyncResult)
+   在 Shadowsocks.Proxy.DirectConnect.EndConnectDest(IAsyncResult asyncResult)
+   在 Shadowsocks.Controller.TCPHandler.ConnectCallback(IAsyncResult ar)
+[2018-04-11 16:02:22] System.Net.Sockets.SocketException (0x80004005): 由于目标计算机积极拒绝，无法连接。
+   在 Shadowsocks.Util.Sockets.WrappedSocket.EndConnect(IAsyncResult asyncResult)
+   在 Shadowsocks.Proxy.DirectConnect.EndConnectDest(IAsyncResult asyncResult)
+   在 Shadowsocks.Controller.TCPHandler.ConnectCallback(IAsyncResult ar)
+[2018-04-11 16:02:22] System.Net.Sockets.SocketException (0x80004005): 由于目标计算机积极拒绝，无法连接。
+   在 Shadowsocks.Util.Sockets.WrappedSocket.EndConnect(IAsyncResult asyncResult)
+   在 Shadowsocks.Proxy.DirectConnect.EndConnectDest(IAsyncResult asyncResult)
+   在 Shadowsocks.Controller.TCPHandler.ConnectCallback(IAsyncResult ar)
+[2018-04-11 16:02:23] 108.160.143.117:19810 timed out
+[2018-04-11 16:02:23] System.Net.Sockets.SocketException (0x80004005): 由于目标计算机积极拒绝，无法连接。
+   在 Shadowsocks.Util.Sockets.WrappedSocket.EndConnect(IAsyncResult asyncResult)
+   在 Shadowsocks.Proxy.DirectConnect.EndConnectDest(IAsyncResult asyncResult)
+   在 Shadowsocks.Controller.TCPHandler.ConnectCallback(IAsyncResult ar)
+[2018-04-11 16:02:24] 108.160.143.117:19810 timed out
+[2018-04-11 16:02:25] System.Net.Sockets.SocketException (0x80004005): 由于目标计算机积极拒绝，无法连接。
+   在 Shadowsocks.Util.Sockets.WrappedSocket.EndConnect(IAsyncResult asyncResult)
+   在 Shadowsocks.Proxy.DirectConnect.EndConnectDest(IAsyncResult asyncResult)
+   在 Shadowsocks.Controller.TCPHandler.ConnectCallback(IAsyncResult ar)
+[2018-04-11 16:02:25] System.Net.Sockets.SocketException (0x80004005): 由于目标计算机积极拒绝，无法连接。
+   在 Shadowsocks.Util.Sockets.WrappedSocket.EndConnect(IAsyncResult asyncResult)
+   在 Shadowsocks.Proxy.DirectConnect.EndConnectDest(IAsyncResult asyncResult)
+   在 Shadowsocks.Controller.TCPHandler.ConnectCallback(IAsyncResult ar)
+[2018-04-11 16:02:25] System.Net.Sockets.SocketException (0x80004005): 由于目标计算机积极拒绝，无法连接。
+   在 Shadowsocks.Util.Sockets.WrappedSocket.EndConnect(IAsyncResult asyncResult)
+   在 Shadowsocks.Proxy.DirectConnect.EndConnectDest(IAsyncResult asyncResult)
+   在 Shadowsocks.Controller.TCPHandler.ConnectCallback(IAsyncResult ar)
+[2018-04-11 16:02:25] System.Net.Sockets.SocketException (0x80004005): 由于目标计算机积极拒绝，无法连接。
+   在 Shadowsocks.Util.Sockets.WrappedSocket.EndConnect(IAsyncResult asyncResult)
+   在 Shadowsocks.Proxy.DirectConnect.EndConnectDest(IAsyncResult asyncResult)
+   在 Shadowsocks.Controller.TCPHandler.ConnectCallback(IAsyncResult ar)
+[2018-04-11 16:02:27] System.Net.Sockets.SocketException (0x80004005): 由于目标计算机积极拒绝，无法连接。
+   在 Shadowsocks.Util.Sockets.WrappedSocket.EndConnect(IAsyncResult asyncResult)
+   在 Shadowsocks.Proxy.DirectConnect.EndConnectDest(IAsyncResult asyncResult)
+   在 Shadowsocks.Controller.TCPHandler.ConnectCallback(IAsyncResult ar)
+[2018-04-11 16:02:28] System.Net.Sockets.SocketException (0x80004005): 由于目标计算机积极拒绝，无法连接。
+   在 Shadowsocks.Util.Sockets.WrappedSocket.EndConnect(IAsyncResult asyncResult)
+   在 Shadowsocks.Proxy.DirectConnect.EndConnectDest(IAsyncResult asyncResult)
+   在 Shadowsocks.Controller.TCPHandler.ConnectCallback(IAsyncResult ar)
+[2018-04-11 16:02:30] 108.160.143.117:19810 timed out
+[2018-04-11 16:02:30] 108.160.143.117:19810 timed out
+[2018-04-11 16:02:33] 108.160.143.117:19810 timed out
+[2018-04-11 16:02:35] System.Net.Sockets.SocketException (0x80004005): 由于目标计算机积极拒绝，无法连接。
+   在 Shadowsocks.Util.Sockets.WrappedSocket.EndConnect(IAsyncResult asyncResult)
+   在 Shadowsocks.Proxy.DirectConnect.EndConnectDest(IAsyncResult asyncResult)
+   在 Shadowsocks.Controller.TCPHandler.ConnectCallback(IAsyncResult ar)
+[2018-04-11 16:02:35] System.Net.Sockets.SocketException (0x80004005): 由于目标计算机积极拒绝，无法连接。
+   在 Shadowsocks.Util.Sockets.WrappedSocket.EndConnect(IAsyncResult asyncResult)
+   在 Shadowsocks.Proxy.DirectConnect.EndConnectDest(IAsyncResult asyncResult)
+   在 Shadowsocks.Controller.TCPHandler.ConnectCallback(IAsyncResult ar)
+[2018-04-11 16:02:36] System.Net.Sockets.SocketException (0x80004005): 由于目标计算机积极拒绝，无法连接。
+   在 Shadowsocks.Util.Sockets.WrappedSocket.EndConnect(IAsyncResult asyncResult)
+   在 Shadowsocks.Proxy.DirectConnect.EndConnectDest(IAsyncResult asyncResult)
+   在 Shadowsocks.Controller.TCPHandler.ConnectCallback(IAsyncResult ar)
+[2018-04-11 16:02:37] System.Net.Sockets.SocketException (0x80004005): 由于目标计算机积极拒绝，无法连接。
+   在 Shadowsocks.Util.Sockets.WrappedSocket.EndConnect(IAsyncResult asyncResult)
+   在 Shadowsocks.Proxy.DirectConnect.EndConnectDest(IAsyncResult asyncResult)
+   在 Shadowsocks.Controller.TCPHandler.ConnectCallback(IAsyncResult ar)
+[2018-04-11 16:02:37] System.Net.Sockets.SocketException (0x80004005): 由于目标计算机积极拒绝，无法连接。
+   在 Shadowsocks.Util.Sockets.WrappedSocket.EndConnect(IAsyncResult asyncResult)
+   在 Shadowsocks.Proxy.DirectConnect.EndConnectDest(IAsyncResult asyncResult)
+   在 Shadowsocks.Controller.TCPHandler.ConnectCallback(IAsyncResult ar)
+[2018-04-11 16:02:38] System.Net.Sockets.SocketException (0x80004005): 由于目标计算机积极拒绝，无法连接。
+   在 Shadowsocks.Util.Sockets.WrappedSocket.EndConnect(IAsyncResult asyncResult)
+   在 Shadowsocks.Proxy.DirectConnect.EndConnectDest(IAsyncResult asyncResult)
+   在 Shadowsocks.Controller.TCPHandler.ConnectCallback(IAsyncResult ar)
+[2018-04-11 16:02:40] System.Net.Sockets.SocketException (0x80004005): 由于目标计算机积极拒绝，无法连接。
+   在 Shadowsocks.Util.Sockets.WrappedSocket.EndConnect(IAsyncResult asyncResult)
+   在 Shadowsocks.Proxy.DirectConnect.EndConnectDest(IAsyncResult asyncResult)
+   在 Shadowsocks.Controller.TCPHandler.ConnectCallback(IAsyncResult ar)
+[2018-04-11 16:02:40] 108.160.143.117:19810 timed out
+[2018-04-11 16:02:41] System.Net.Sockets.SocketException (0x80004005): 由于目标计算机积极拒绝，无法连接。
+   在 Shadowsocks.Util.Sockets.WrappedSocket.EndConnect(IAsyncResult asyncResult)
+   在 Shadowsocks.Proxy.DirectConnect.EndConnectDest(IAsyncResult asyncResult)
+   在 Shadowsocks.Controller.TCPHandler.ConnectCallback(IAsyncResult ar)
+[2018-04-11 16:02:41] System.Net.Sockets.SocketException (0x80004005): 由于目标计算机积极拒绝，无法连接。
+   在 Shadowsocks.Util.Sockets.WrappedSocket.EndConnect(IAsyncResult asyncResult)
+   在 Shadowsocks.Proxy.DirectConnect.EndConnectDest(IAsyncResult asyncResult)
+   在 Shadowsocks.Controller.TCPHandler.ConnectCallback(IAsyncResult ar)
+[2018-04-11 16:02:42] 108.160.143.117:19810 timed out
+[2018-04-11 16:02:43] System.Net.Sockets.SocketException (0x80004005): 由于目标计算机积极拒绝，无法连接。
+   在 Shadowsocks.Util.Sockets.WrappedSocket.EndConnect(IAsyncResult asyncResult)
+   在 Shadowsocks.Proxy.DirectConnect.EndConnectDest(IAsyncResult asyncResult)
+   在 Shadowsocks.Controller.TCPHandler.ConnectCallback(IAsyncResult ar)
+[2018-04-11 16:02:43] System.Net.Sockets.SocketException (0x80004005): 由于目标计算机积极拒绝，无法连接。
+   在 Shadowsocks.Util.Sockets.WrappedSocket.EndConnect(IAsyncResult asyncResult)
+   在 Shadowsocks.Proxy.DirectConnect.EndConnectDest(IAsyncResult asyncResult)
+   在 Shadowsocks.Controller.TCPHandler.ConnectCallback(IAsyncResult ar)
+[2018-04-11 16:02:43] System.Net.Sockets.SocketException (0x80004005): 由于目标计算机积极拒绝，无法连接。
+   在 Shadowsocks.Util.Sockets.WrappedSocket.EndConnect(IAsyncResult asyncResult)
+   在 Shadowsocks.Proxy.DirectConnect.EndConnectDest(IAsyncResult asyncResult)
+   在 Shadowsocks.Controller.TCPHandler.ConnectCallback(IAsyncResult ar)
+[2018-04-11 16:02:44] System.Net.Sockets.SocketException (0x80004005): 由于目标计算机积极拒绝，无法连接。
+   在 Shadowsocks.Util.Sockets.WrappedSocket.EndConnect(IAsyncResult asyncResult)
+   在 Shadowsocks.Proxy.DirectConnect.EndConnectDest(IAsyncResult asyncResult)
+   在 Shadowsocks.Controller.TCPHandler.ConnectCallback(IAsyncResult ar)
+[2018-04-11 16:02:44] System.Net.Sockets.SocketException (0x80004005): 由于目标计算机积极拒绝，无法连接。
+   在 Shadowsocks.Util.Sockets.WrappedSocket.EndConnect(IAsyncResult asyncResult)
+   在 Shadowsocks.Proxy.DirectConnect.EndConnectDest(IAsyncResult asyncResult)
+   在 Shadowsocks.Controller.TCPHandler.ConnectCallback(IAsyncResult ar)
+[2018-04-11 16:02:48] 108.160.143.117:19810 timed out
+[2018-04-11 16:02:49] 108.160.143.117:19810 timed out
+[2018-04-11 16:02:49] System.Net.Sockets.SocketException (0x80004005): 由于目标计算机积极拒绝，无法连接。
+   在 Shadowsocks.Util.Sockets.WrappedSocket.EndConnect(IAsyncResult asyncResult)
+   在 Shadowsocks.Proxy.DirectConnect.EndConnectDest(IAsyncResult asyncResult)
+   在 Shadowsocks.Controller.TCPHandler.ConnectCallback(IAsyncResult ar)
+[2018-04-11 16:02:49] System.Net.Sockets.SocketException (0x80004005): 由于目标计算机积极拒绝，无法连接。
+   在 Shadowsocks.Util.Sockets.WrappedSocket.EndConnect(IAsyncResult asyncResult)
+   在 Shadowsocks.Proxy.DirectConnect.EndConnectDest(IAsyncResult asyncResult)
+   在 Shadowsocks.Controller.TCPHandler.ConnectCallback(IAsyncResult ar)
+[2018-04-11 16:02:50] System.Net.Sockets.SocketException (0x80004005): 由于目标计算机积极拒绝，无法连接。
+   在 Shadowsocks.Util.Sockets.WrappedSocket.EndConnect(IAsyncResult asyncResult)
+   在 Shadowsocks.Proxy.DirectConnect.EndConnectDest(IAsyncResult asyncResult)
+   在 Shadowsocks.Controller.TCPHandler.ConnectCallback(IAsyncResult ar)
+[2018-04-11 16:02:50] System.Net.Sockets.SocketException (0x80004005): 由于目标计算机积极拒绝，无法连接。
+   在 Shadowsocks.Util.Sockets.WrappedSocket.EndConnect(IAsyncResult asyncResult)
+   在 Shadowsocks.Proxy.DirectConnect.EndConnectDest(IAsyncResult asyncResult)
+   在 Shadowsocks.Controller.TCPHandler.ConnectCallback(IAsyncResult ar)
+[2018-04-11 16:02:51] System.Net.Sockets.SocketException (0x80004005): 由于目标计算机积极拒绝，无法连接。
+   在 Shadowsocks.Util.Sockets.WrappedSocket.EndConnect(IAsyncResult asyncResult)
+   在 Shadowsocks.Proxy.DirectConnect.EndConnectDest(IAsyncResult asyncResult)
+   在 Shadowsocks.Controller.TCPHandler.ConnectCallback(IAsyncResult ar)
+[2018-04-11 16:02:52] System.Net.Sockets.SocketException (0x80004005): 由于目标计算机积极拒绝，无法连接。
+   在 Shadowsocks.Util.Sockets.WrappedSocket.EndConnect(IAsyncResult asyncResult)
+   在 Shadowsocks.Proxy.DirectConnect.EndConnectDest(IAsyncResult asyncResult)
+   在 Shadowsocks.Controller.TCPHandler.ConnectCallback(IAsyncResult ar)
+[2018-04-11 16:02:52] System.Net.Sockets.SocketException (0x80004005): 由于目标计算机积极拒绝，无法连接。
+   在 Shadowsocks.Util.Sockets.WrappedSocket.EndConnect(IAsyncResult asyncResult)
+   在 Shadowsocks.Proxy.DirectConnect.EndConnectDest(IAsyncResult asyncResult)
+   在 Shadowsocks.Controller.TCPHandler.ConnectCallback(IAsyncResult ar)
+[2018-04-11 16:02:53] System.Net.Sockets.SocketException (0x80004005): 由于目标计算机积极拒绝，无法连接。
+   在 Shadowsocks.Util.Sockets.WrappedSocket.EndConnect(IAsyncResult asyncResult)
+   在 Shadowsocks.Proxy.DirectConnect.EndConnectDest(IAsyncResult asyncResult)
+   在 Shadowsocks.Controller.TCPHandler.ConnectCallback(IAsyncResult ar)
+[2018-04-11 16:02:53] System.Net.Sockets.SocketException (0x80004005): 由于目标计算机积极拒绝，无法连接。
+   在 Shadowsocks.Util.Sockets.WrappedSocket.EndConnect(IAsyncResult asyncResult)
+   在 Shadowsocks.Proxy.DirectConnect.EndConnectDest(IAsyncResult asyncResult)
+   在 Shadowsocks.Controller.TCPHandler.ConnectCallback(IAsyncResult ar)
+[2018-04-11 16:02:53] System.Net.Sockets.SocketException (0x80004005): 由于目标计算机积极拒绝，无法连接。
+   在 Shadowsocks.Util.Sockets.WrappedSocket.EndConnect(IAsyncResult asyncResult)
+   在 Shadowsocks.Proxy.DirectConnect.EndConnectDest(IAsyncResult asyncResult)
+   在 Shadowsocks.Controller.TCPHandler.ConnectCallback(IAsyncResult ar)
+[2018-04-11 16:02:53] System.Net.Sockets.SocketException (0x80004005): 由于目标计算机积极拒绝，无法连接。
+   在 Shadowsocks.Util.Sockets.WrappedSocket.EndConnect(IAsyncResult asyncResult)
+   在 Shadowsocks.Proxy.DirectConnect.EndConnectDest(IAsyncResult asyncResult)
+   在 Shadowsocks.Controller.TCPHandler.ConnectCallback(IAsyncResult ar)
+[2018-04-11 16:02:54] System.Net.Sockets.SocketException (0x80004005): 由于目标计算机积极拒绝，无法连接。
+   在 Shadowsocks.Util.Sockets.WrappedSocket.EndConnect(IAsyncResult asyncResult)
+   在 Shadowsocks.Proxy.DirectConnect.EndConnectDest(IAsyncResult asyncResult)
+   在 Shadowsocks.Controller.TCPHandler.ConnectCallback(IAsyncResult ar)
+[2018-04-11 16:02:54] System.Net.Sockets.SocketException (0x80004005): 由于目标计算机积极拒绝，无法连接。
+   在 Shadowsocks.Util.Sockets.WrappedSocket.EndConnect(IAsyncResult asyncResult)
+   在 Shadowsocks.Proxy.DirectConnect.EndConnectDest(IAsyncResult asyncResult)
+   在 Shadowsocks.Controller.TCPHandler.ConnectCallback(IAsyncResult ar)
+[2018-04-11 16:02:55] System.Net.Sockets.SocketException (0x80004005): 由于目标计算机积极拒绝，无法连接。
+   在 Shadowsocks.Util.Sockets.WrappedSocket.EndConnect(IAsyncResult asyncResult)
+   在 Shadowsocks.Proxy.DirectConnect.EndConnectDest(IAsyncResult asyncResult)
+   在 Shadowsocks.Controller.TCPHandler.ConnectCallback(IAsyncResult ar)
+[2018-04-11 16:02:55] System.Net.Sockets.SocketException (0x80004005): 由于目标计算机积极拒绝，无法连接。
+   在 Shadowsocks.Util.Sockets.WrappedSocket.EndConnect(IAsyncResult asyncResult)
+   在 Shadowsocks.Proxy.DirectConnect.EndConnectDest(IAsyncResult asyncResult)
+   在 Shadowsocks.Controller.TCPHandler.ConnectCallback(IAsyncResult ar)
+[2018-04-11 16:02:56] System.Net.Sockets.SocketException (0x80004005): 由于目标计算机积极拒绝，无法连接。
+   在 Shadowsocks.Util.Sockets.WrappedSocket.EndConnect(IAsyncResult asyncResult)
+   在 Shadowsocks.Proxy.DirectConnect.EndConnectDest(IAsyncResult asyncResult)
+   在 Shadowsocks.Controller.TCPHandler.ConnectCallback(IAsyncResult ar)
+[2018-04-11 16:02:56] System.Net.Sockets.SocketException (0x80004005): 由于目标计算机积极拒绝，无法连接。
+   在 Shadowsocks.Util.Sockets.WrappedSocket.EndConnect(IAsyncResult asyncResult)
+   在 Shadowsocks.Proxy.DirectConnect.EndConnectDest(IAsyncResult asyncResult)
+   在 Shadowsocks.Controller.TCPHandler.ConnectCallback(IAsyncResult ar)
+[2018-04-11 16:02:56] System.Net.Sockets.SocketException (0x80004005): 由于目标计算机积极拒绝，无法连接。
+   在 Shadowsocks.Util.Sockets.WrappedSocket.EndConnect(IAsyncResult asyncResult)
+   在 Shadowsocks.Proxy.DirectConnect.EndConnectDest(IAsyncResult asyncResult)
+   在 Shadowsocks.Controller.TCPHandler.ConnectCallback(IAsyncResult ar)
+[2018-04-11 16:02:56] System.Net.Sockets.SocketException (0x80004005): 由于目标计算机积极拒绝，无法连接。
+   在 Shadowsocks.Util.Sockets.WrappedSocket.EndConnect(IAsyncResult asyncResult)
+   在 Shadowsocks.Proxy.DirectConnect.EndConnectDest(IAsyncResult asyncResult)
+   在 Shadowsocks.Controller.TCPHandler.ConnectCallback(IAsyncResult ar)
+[2018-04-11 16:02:57] System.Net.Sockets.SocketException (0x80004005): 由于目标计算机积极拒绝，无法连接。
+   在 Shadowsocks.Util.Sockets.WrappedSocket.EndConnect(IAsyncResult asyncResult)
+   在 Shadowsocks.Proxy.DirectConnect.EndConnectDest(IAsyncResult asyncResult)
+   在 Shadowsocks.Controller.TCPHandler.ConnectCallback(IAsyncResult ar)
+[2018-04-11 16:02:58] System.Net.Sockets.SocketException (0x80004005): 由于目标计算机积极拒绝，无法连接。
+   在 Shadowsocks.Util.Sockets.WrappedSocket.EndConnect(IAsyncResult asyncResult)
+   在 Shadowsocks.Proxy.DirectConnect.EndConnectDest(IAsyncResult asyncResult)
+   在 Shadowsocks.Controller.TCPHandler.ConnectCallback(IAsyncResult ar)
+[2018-04-11 16:02:58] 108.160.143.117:19810 timed out
+[2018-04-11 16:02:58] 108.160.143.117:19810 timed out
+[2018-04-11 16:02:59] System.Net.Sockets.SocketException (0x80004005): 由于目标计算机积极拒绝，无法连接。
+   在 Shadowsocks.Util.Sockets.WrappedSocket.EndConnect(IAsyncResult asyncResult)
+   在 Shadowsocks.Proxy.DirectConnect.EndConnectDest(IAsyncResult asyncResult)
+   在 Shadowsocks.Controller.TCPHandler.ConnectCallback(IAsyncResult ar)
+[2018-04-11 16:02:59] System.Net.Sockets.SocketException (0x80004005): 由于目标计算机积极拒绝，无法连接。
+   在 Shadowsocks.Util.Sockets.WrappedSocket.EndConnect(IAsyncResult asyncResult)
+   在 Shadowsocks.Proxy.DirectConnect.EndConnectDest(IAsyncResult asyncResult)
+   在 Shadowsocks.Controller.TCPHandler.ConnectCallback(IAsyncResult ar)
+[2018-04-11 16:02:59] System.Net.Sockets.SocketException (0x80004005): 由于目标计算机积极拒绝，无法连接。
+   在 Shadowsocks.Util.Sockets.WrappedSocket.EndConnect(IAsyncResult asyncResult)
+   在 Shadowsocks.Proxy.DirectConnect.EndConnectDest(IAsyncResult asyncResult)
+   在 Shadowsocks.Controller.TCPHandler.ConnectCallback(IAsyncResult ar)
+[2018-04-11 16:02:59] System.Net.Sockets.SocketException (0x80004005): 由于目标计算机积极拒绝，无法连接。
+   在 Shadowsocks.Util.Sockets.WrappedSocket.EndConnect(IAsyncResult asyncResult)
+   在 Shadowsocks.Proxy.DirectConnect.EndConnectDest(IAsyncResult asyncResult)
+   在 Shadowsocks.Controller.TCPHandler.ConnectCallback(IAsyncResult ar)
+[2018-04-11 16:02:59] System.Net.Sockets.SocketException (0x80004005): 由于目标计算机积极拒绝，无法连接。
+   在 Shadowsocks.Util.Sockets.WrappedSocket.EndConnect(IAsyncResult asyncResult)
+   在 Shadowsocks.Proxy.DirectConnect.EndConnectDest(IAsyncResult asyncResult)
+   在 Shadowsocks.Controller.TCPHandler.ConnectCallback(IAsyncResult ar)
+[2018-04-11 16:02:59] System.Net.Sockets.SocketException (0x80004005): 由于目标计算机积极拒绝，无法连接。
+   在 Shadowsocks.Util.Sockets.WrappedSocket.EndConnect(IAsyncResult asyncResult)
+   在 Shadowsocks.Proxy.DirectConnect.EndConnectDest(IAsyncResult asyncResult)
+   在 Shadowsocks.Controller.TCPHandler.ConnectCallback(IAsyncResult ar)
+[2018-04-11 16:02:59] System.Net.Sockets.SocketException (0x80004005): 由于目标计算机积极拒绝，无法连接。
+   在 Shadowsocks.Util.Sockets.WrappedSocket.EndConnect(IAsyncResult asyncResult)
+   在 Shadowsocks.Proxy.DirectConnect.EndConnectDest(IAsyncResult asyncResult)
+   在 Shadowsocks.Controller.TCPHandler.ConnectCallback(IAsyncResult ar)
+[2018-04-11 16:02:59] System.Net.Sockets.SocketException (0x80004005): 由于目标计算机积极拒绝，无法连接。
+   在 Shadowsocks.Util.Sockets.WrappedSocket.EndConnect(IAsyncResult asyncResult)
+   在 Shadowsocks.Proxy.DirectConnect.EndConnectDest(IAsyncResult asyncResult)
+   在 Shadowsocks.Controller.TCPHandler.ConnectCallback(IAsyncResult ar)
+[2018-04-11 16:02:59] System.Net.Sockets.SocketException (0x80004005): 由于目标计算机积极拒绝，无法连接。
+   在 Shadowsocks.Util.Sockets.WrappedSocket.EndConnect(IAsyncResult asyncResult)
+   在 Shadowsocks.Proxy.DirectConnect.EndConnectDest(IAsyncResult asyncResult)
+   在 Shadowsocks.Controller.TCPHandler.ConnectCallback(IAsyncResult ar)
+[2018-04-11 16:02:59] System.Net.Sockets.SocketException (0x80004005): 由于目标计算机积极拒绝，无法连接。
+   在 Shadowsocks.Util.Sockets.WrappedSocket.EndConnect(IAsyncResult asyncResult)
+   在 Shadowsocks.Proxy.DirectConnect.EndConnectDest(IAsyncResult asyncResult)
+   在 Shadowsocks.Controller.TCPHandler.ConnectCallback(IAsyncResult ar)
+[2018-04-11 16:02:59] System.Net.Sockets.SocketException (0x80004005): 由于目标计算机积极拒绝，无法连接。
+   在 Shadowsocks.Util.Sockets.WrappedSocket.EndConnect(IAsyncResult asyncResult)
+   在 Shadowsocks.Proxy.DirectConnect.EndConnectDest(IAsyncResult asyncResult)
+   在 Shadowsocks.Controller.TCPHandler.ConnectCallback(IAsyncResult ar)
+[2018-04-11 16:02:59] System.Net.Sockets.SocketException (0x80004005): 由于目标计算机积极拒绝，无法连接。
+   在 Shadowsocks.Util.Sockets.WrappedSocket.EndConnect(IAsyncResult asyncResult)
+   在 Shadowsocks.Proxy.DirectConnect.EndConnectDest(IAsyncResult asyncResult)
+   在 Shadowsocks.Controller.TCPHandler.ConnectCallback(IAsyncResult ar)
+[2018-04-11 16:02:59] System.Net.Sockets.SocketException (0x80004005): 由于目标计算机积极拒绝，无法连接。
+   在 Shadowsocks.Util.Sockets.WrappedSocket.EndConnect(IAsyncResult asyncResult)
+   在 Shadowsocks.Proxy.DirectConnect.EndConnectDest(IAsyncResult asyncResult)
+   在 Shadowsocks.Controller.TCPHandler.ConnectCallback(IAsyncResult ar)
+[2018-04-11 16:02:59] System.Net.Sockets.SocketException (0x80004005): 由于目标计算机积极拒绝，无法连接。
+   在 Shadowsocks.Util.Sockets.WrappedSocket.EndConnect(IAsyncResult asyncResult)
+   在 Shadowsocks.Proxy.DirectConnect.EndConnectDest(IAsyncResult asyncResult)
+   在 Shadowsocks.Controller.TCPHandler.ConnectCallback(IAsyncResult ar)
+[2018-04-11 16:02:59] System.Net.Sockets.SocketException (0x80004005): 由于目标计算机积极拒绝，无法连接。
+   在 Shadowsocks.Util.Sockets.WrappedSocket.EndConnect(IAsyncResult asyncResult)
+   在 Shadowsocks.Proxy.DirectConnect.EndConnectDest(IAsyncResult asyncResult)
+   在 Shadowsocks.Controller.TCPHandler.ConnectCallback(IAsyncResult ar)
+[2018-04-11 16:02:59] System.Net.Sockets.SocketException (0x80004005): 由于目标计算机积极拒绝，无法连接。
+   在 Shadowsocks.Util.Sockets.WrappedSocket.EndConnect(IAsyncResult asyncResult)
+   在 Shadowsocks.Proxy.DirectConnect.EndConnectDest(IAsyncResult asyncResult)
+   在 Shadowsocks.Controller.TCPHandler.ConnectCallback(IAsyncResult ar)
+[2018-04-11 16:03:00] Shadowsocks started
+[2018-04-11 16:03:00] 
+=========================
+Registered Encryptor Info
+aes-128-cfb=>StreamOpenSSLEncryptor
+aes-192-cfb=>StreamOpenSSLEncryptor
+aes-256-cfb=>StreamOpenSSLEncryptor
+aes-128-ctr=>StreamOpenSSLEncryptor
+aes-192-ctr=>StreamOpenSSLEncryptor
+aes-256-ctr=>StreamOpenSSLEncryptor
+bf-cfb=>StreamOpenSSLEncryptor
+camellia-128-cfb=>StreamOpenSSLEncryptor
+camellia-192-cfb=>StreamOpenSSLEncryptor
+camellia-256-cfb=>StreamOpenSSLEncryptor
+rc4-md5=>StreamOpenSSLEncryptor
+salsa20=>StreamSodiumEncryptor
+chacha20=>StreamSodiumEncryptor
+chacha20-ietf=>StreamSodiumEncryptor
+aes-128-gcm=>AEADOpenSSLEncryptor
+aes-192-gcm=>AEADOpenSSLEncryptor
+aes-256-gcm=>AEADOpenSSLEncryptor
+chacha20-ietf-poly1305=>AEADOpenSSLEncryptor
+xchacha20-ietf-poly1305=>AEADSodiumEncryptor
+=========================
+
+[2018-04-11 16:03:02] System.Net.Sockets.SocketException (0x80004005): 由于目标计算机积极拒绝，无法连接。
+   在 Shadowsocks.Util.Sockets.WrappedSocket.EndConnect(IAsyncResult asyncResult)
+   在 Shadowsocks.Proxy.DirectConnect.EndConnectDest(IAsyncResult asyncResult)
+   在 Shadowsocks.Controller.TCPHandler.ConnectCallback(IAsyncResult ar)
+[2018-04-11 16:03:02] System.Net.Sockets.SocketException (0x80004005): 由于目标计算机积极拒绝，无法连接。
+   在 Shadowsocks.Util.Sockets.WrappedSocket.EndConnect(IAsyncResult asyncResult)
+   在 Shadowsocks.Proxy.DirectConnect.EndConnectDest(IAsyncResult asyncResult)
+   在 Shadowsocks.Controller.TCPHandler.ConnectCallback(IAsyncResult ar)
+[2018-04-11 16:03:02] System.Net.Sockets.SocketException (0x80004005): 由于目标计算机积极拒绝，无法连接。
+   在 Shadowsocks.Util.Sockets.WrappedSocket.EndConnect(IAsyncResult asyncResult)
+   在 Shadowsocks.Proxy.DirectConnect.EndConnectDest(IAsyncResult asyncResult)
+   在 Shadowsocks.Controller.TCPHandler.ConnectCallback(IAsyncResult ar)
+[2018-04-11 16:03:02] System.Net.Sockets.SocketException (0x80004005): 由于目标计算机积极拒绝，无法连接。
+   在 Shadowsocks.Util.Sockets.WrappedSocket.EndConnect(IAsyncResult asyncResult)
+   在 Shadowsocks.Proxy.DirectConnect.EndConnectDest(IAsyncResult asyncResult)
+   在 Shadowsocks.Controller.TCPHandler.ConnectCallback(IAsyncResult ar)
+[2018-04-11 16:03:02] System.Net.Sockets.SocketException (0x80004005): 由于目标计算机积极拒绝，无法连接。
+   在 Shadowsocks.Util.Sockets.WrappedSocket.EndConnect(IAsyncResult asyncResult)
+   在 Shadowsocks.Proxy.DirectConnect.EndConnectDest(IAsyncResult asyncResult)
+   在 Shadowsocks.Controller.TCPHandler.ConnectCallback(IAsyncResult ar)
+[2018-04-11 16:03:02] System.Net.Sockets.SocketException (0x80004005): 由于目标计算机积极拒绝，无法连接。
+   在 Shadowsocks.Util.Sockets.WrappedSocket.EndConnect(IAsyncResult asyncResult)
+   在 Shadowsocks.Proxy.DirectConnect.EndConnectDest(IAsyncResult asyncResult)
+   在 Shadowsocks.Controller.TCPHandler.ConnectCallback(IAsyncResult ar)
+[2018-04-11 16:03:02] System.Net.Sockets.SocketException (0x80004005): 由于目标计算机积极拒绝，无法连接。
+   在 Shadowsocks.Util.Sockets.WrappedSocket.EndConnect(IAsyncResult asyncResult)
+   在 Shadowsocks.Proxy.DirectConnect.EndConnectDest(IAsyncResult asyncResult)
+   在 Shadowsocks.Controller.TCPHandler.ConnectCallback(IAsyncResult ar)
+[2018-04-11 16:03:02] System.Net.Sockets.SocketException (0x80004005): 由于目标计算机积极拒绝，无法连接。
+   在 Shadowsocks.Util.Sockets.WrappedSocket.EndConnect(IAsyncResult asyncResult)
+   在 Shadowsocks.Proxy.DirectConnect.EndConnectDest(IAsyncResult asyncResult)
+   在 Shadowsocks.Controller.TCPHandler.ConnectCallback(IAsyncResult ar)
+[2018-04-11 16:03:02] System.Net.Sockets.SocketException (0x80004005): 由于目标计算机积极拒绝，无法连接。
+   在 Shadowsocks.Util.Sockets.WrappedSocket.EndConnect(IAsyncResult asyncResult)
+   在 Shadowsocks.Proxy.DirectConnect.EndConnectDest(IAsyncResult asyncResult)
+   在 Shadowsocks.Controller.TCPHandler.ConnectCallback(IAsyncResult ar)
+[2018-04-11 16:03:02] System.Net.Sockets.SocketException (0x80004005): 由于目标计算机积极拒绝，无法连接。
+   在 Shadowsocks.Util.Sockets.WrappedSocket.EndConnect(IAsyncResult asyncResult)
+   在 Shadowsocks.Proxy.DirectConnect.EndConnectDest(IAsyncResult asyncResult)
+   在 Shadowsocks.Controller.TCPHandler.ConnectCallback(IAsyncResult ar)
+[2018-04-11 16:03:02] System.Net.Sockets.SocketException (0x80004005): 由于目标计算机积极拒绝，无法连接。
+   在 Shadowsocks.Util.Sockets.WrappedSocket.EndConnect(IAsyncResult asyncResult)
+   在 Shadowsocks.Proxy.DirectConnect.EndConnectDest(IAsyncResult asyncResult)
+   在 Shadowsocks.Controller.TCPHandler.ConnectCallback(IAsyncResult ar)
+[2018-04-11 16:03:02] System.Net.Sockets.SocketException (0x80004005): 由于目标计算机积极拒绝，无法连接。
+   在 Shadowsocks.Util.Sockets.WrappedSocket.EndConnect(IAsyncResult asyncResult)
+   在 Shadowsocks.Proxy.DirectConnect.EndConnectDest(IAsyncResult asyncResult)
+   在 Shadowsocks.Controller.TCPHandler.ConnectCallback(IAsyncResult ar)
+[2018-04-11 16:03:02] System.Net.Sockets.SocketException (0x80004005): 由于目标计算机积极拒绝，无法连接。
+   在 Shadowsocks.Util.Sockets.WrappedSocket.EndConnect(IAsyncResult asyncResult)
+   在 Shadowsocks.Proxy.DirectConnect.EndConnectDest(IAsyncResult asyncResult)
+   在 Shadowsocks.Controller.TCPHandler.ConnectCallback(IAsyncResult ar)
+[2018-04-11 16:03:02] System.Net.Sockets.SocketException (0x80004005): 由于目标计算机积极拒绝，无法连接。
+   在 Shadowsocks.Util.Sockets.WrappedSocket.EndConnect(IAsyncResult asyncResult)
+   在 Shadowsocks.Proxy.DirectConnect.EndConnectDest(IAsyncResult asyncResult)
+   在 Shadowsocks.Controller.TCPHandler.ConnectCallback(IAsyncResult ar)
+[2018-04-11 16:03:02] System.Net.Sockets.SocketException (0x80004005): 由于目标计算机积极拒绝，无法连接。
+   在 Shadowsocks.Util.Sockets.WrappedSocket.EndConnect(IAsyncResult asyncResult)
+   在 Shadowsocks.Proxy.DirectConnect.EndConnectDest(IAsyncResult asyncResult)
+   在 Shadowsocks.Controller.TCPHandler.ConnectCallback(IAsyncResult ar)
+[2018-04-11 16:03:03] System.Net.Sockets.SocketException (0x80004005): 由于目标计算机积极拒绝，无法连接。
+   在 Shadowsocks.Util.Sockets.WrappedSocket.EndConnect(IAsyncResult asyncResult)
+   在 Shadowsocks.Proxy.DirectConnect.EndConnectDest(IAsyncResult asyncResult)
+   在 Shadowsocks.Controller.TCPHandler.ConnectCallback(IAsyncResult ar)
+[2018-04-11 16:03:03] System.Net.Sockets.SocketException (0x80004005): 由于目标计算机积极拒绝，无法连接。
+   在 Shadowsocks.Util.Sockets.WrappedSocket.EndConnect(IAsyncResult asyncResult)
+   在 Shadowsocks.Proxy.DirectConnect.EndConnectDest(IAsyncResult asyncResult)
+   在 Shadowsocks.Controller.TCPHandler.ConnectCallback(IAsyncResult ar)
+[2018-04-11 16:03:04] System.Net.Sockets.SocketException (0x80004005): 由于目标计算机积极拒绝，无法连接。
+   在 Shadowsocks.Util.Sockets.WrappedSocket.EndConnect(IAsyncResult asyncResult)
+   在 Shadowsocks.Proxy.DirectConnect.EndConnectDest(IAsyncResult asyncResult)
+   在 Shadowsocks.Controller.TCPHandler.ConnectCallback(IAsyncResult ar)
+[2018-04-11 16:03:05] 108.160.143.117:19810 timed out
+[2018-04-11 16:03:06] 108.160.143.117:19810 timed out
+[2018-04-11 16:03:06] 108.160.143.117:19810 timed out
+[2018-04-11 16:03:06] 108.160.143.117:19810 timed out
+[2018-04-11 16:03:07] 108.160.143.117:19810 timed out
+[2018-04-11 16:03:07] System.Net.Sockets.SocketException (0x80004005): 由于目标计算机积极拒绝，无法连接。
+   在 Shadowsocks.Util.Sockets.WrappedSocket.EndConnect(IAsyncResult asyncResult)
+   在 Shadowsocks.Proxy.DirectConnect.EndConnectDest(IAsyncResult asyncResult)
+   在 Shadowsocks.Controller.TCPHandler.ConnectCallback(IAsyncResult ar)
+[2018-04-11 16:03:07] 108.160.143.117:19810 timed out
+[2018-04-11 16:29:36] Shadowsocks started
+[2018-04-11 16:29:36] 
+=========================
+Registered Encryptor Info
+aes-128-cfb=>StreamOpenSSLEncryptor
+aes-192-cfb=>StreamOpenSSLEncryptor
+aes-256-cfb=>StreamOpenSSLEncryptor
+aes-128-ctr=>StreamOpenSSLEncryptor
+aes-192-ctr=>StreamOpenSSLEncryptor
+aes-256-ctr=>StreamOpenSSLEncryptor
+bf-cfb=>StreamOpenSSLEncryptor
+camellia-128-cfb=>StreamOpenSSLEncryptor
+camellia-192-cfb=>StreamOpenSSLEncryptor
+camellia-256-cfb=>StreamOpenSSLEncryptor
+rc4-md5=>StreamOpenSSLEncryptor
+salsa20=>StreamSodiumEncryptor
+chacha20=>StreamSodiumEncryptor
+chacha20-ietf=>StreamSodiumEncryptor
+aes-128-gcm=>AEADOpenSSLEncryptor
+aes-192-gcm=>AEADOpenSSLEncryptor
+aes-256-gcm=>AEADOpenSSLEncryptor
+chacha20-ietf-poly1305=>AEADOpenSSLEncryptor
+xchacha20-ietf-poly1305=>AEADSodiumEncryptor
+=========================
+
+[2018-04-11 16:36:49] Shadowsocks started
+[2018-04-11 16:36:49] 
+=========================
+Registered Encryptor Info
+aes-128-cfb=>StreamOpenSSLEncryptor
+aes-192-cfb=>StreamOpenSSLEncryptor
+aes-256-cfb=>StreamOpenSSLEncryptor
+aes-128-ctr=>StreamOpenSSLEncryptor
+aes-192-ctr=>StreamOpenSSLEncryptor
+aes-256-ctr=>StreamOpenSSLEncryptor
+bf-cfb=>StreamOpenSSLEncryptor
+camellia-128-cfb=>StreamOpenSSLEncryptor
+camellia-192-cfb=>StreamOpenSSLEncryptor
+camellia-256-cfb=>StreamOpenSSLEncryptor
+rc4-md5=>StreamOpenSSLEncryptor
+salsa20=>StreamSodiumEncryptor
+chacha20=>StreamSodiumEncryptor
+chacha20-ietf=>StreamSodiumEncryptor
+aes-128-gcm=>AEADOpenSSLEncryptor
+aes-192-gcm=>AEADOpenSSLEncryptor
+aes-256-gcm=>AEADOpenSSLEncryptor
+chacha20-ietf-poly1305=>AEADOpenSSLEncryptor
+xchacha20-ietf-poly1305=>AEADSodiumEncryptor
+=========================
+
+[2018-04-11 16:36:51] Shadowsocks started
+[2018-04-11 16:36:51] 
+=========================
+Registered Encryptor Info
+aes-128-cfb=>StreamOpenSSLEncryptor
+aes-192-cfb=>StreamOpenSSLEncryptor
+aes-256-cfb=>StreamOpenSSLEncryptor
+aes-128-ctr=>StreamOpenSSLEncryptor
+aes-192-ctr=>StreamOpenSSLEncryptor
+aes-256-ctr=>StreamOpenSSLEncryptor
+bf-cfb=>StreamOpenSSLEncryptor
+camellia-128-cfb=>StreamOpenSSLEncryptor
+camellia-192-cfb=>StreamOpenSSLEncryptor
+camellia-256-cfb=>StreamOpenSSLEncryptor
+rc4-md5=>StreamOpenSSLEncryptor
+salsa20=>StreamSodiumEncryptor
+chacha20=>StreamSodiumEncryptor
+chacha20-ietf=>StreamSodiumEncryptor
+aes-128-gcm=>AEADOpenSSLEncryptor
+aes-192-gcm=>AEADOpenSSLEncryptor
+aes-256-gcm=>AEADOpenSSLEncryptor
+chacha20-ietf-poly1305=>AEADOpenSSLEncryptor
+xchacha20-ietf-poly1305=>AEADSodiumEncryptor
+=========================
+
+[2018-04-11 16:37:09] Shadowsocks started
+[2018-04-11 16:37:09] 
+=========================
+Registered Encryptor Info
+aes-128-cfb=>StreamOpenSSLEncryptor
+aes-192-cfb=>StreamOpenSSLEncryptor
+aes-256-cfb=>StreamOpenSSLEncryptor
+aes-128-ctr=>StreamOpenSSLEncryptor
+aes-192-ctr=>StreamOpenSSLEncryptor
+aes-256-ctr=>StreamOpenSSLEncryptor
+bf-cfb=>StreamOpenSSLEncryptor
+camellia-128-cfb=>StreamOpenSSLEncryptor
+camellia-192-cfb=>StreamOpenSSLEncryptor
+camellia-256-cfb=>StreamOpenSSLEncryptor
+rc4-md5=>StreamOpenSSLEncryptor
+salsa20=>StreamSodiumEncryptor
+chacha20=>StreamSodiumEncryptor
+chacha20-ietf=>StreamSodiumEncryptor
+aes-128-gcm=>AEADOpenSSLEncryptor
+aes-192-gcm=>AEADOpenSSLEncryptor
+aes-256-gcm=>AEADOpenSSLEncryptor
+chacha20-ietf-poly1305=>AEADOpenSSLEncryptor
+xchacha20-ietf-poly1305=>AEADSodiumEncryptor
+=========================
+
+[2018-04-11 16:37:09] System.Reflection.TargetInvocationException: 操作过程中出现异常，结果无效。  有关异常的详细信息，请查看 InnerException。 ---> System.Net.WebException: 在 WebClient 请求期间发生异常。 ---> System.IO.IOException: 从传输流收到意外的 EOF 或 0 个字节。
+   在 System.Net.ConnectStream.EndRead(IAsyncResult asyncResult)
+   在 System.Net.WebClient.DownloadBitsReadCallbackState(DownloadBitsState state, IAsyncResult result)
+   --- 内部异常堆栈跟踪的结尾 ---
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.ComponentModel.AsyncCompletedEventArgs.RaiseExceptionIfNecessary()
+   在 Shadowsocks.Controller.GFWListUpdater.http_DownloadStringCompleted(Object sender, DownloadStringCompletedEventArgs e)
+[2018-04-11 16:37:19] Detected: PAC file 'pac.txt' was changed.
+[2018-04-12 09:33:09] Shadowsocks started
+[2018-04-12 09:33:09] 
+=========================
+Registered Encryptor Info
+aes-128-cfb=>StreamOpenSSLEncryptor
+aes-192-cfb=>StreamOpenSSLEncryptor
+aes-256-cfb=>StreamOpenSSLEncryptor
+aes-128-ctr=>StreamOpenSSLEncryptor
+aes-192-ctr=>StreamOpenSSLEncryptor
+aes-256-ctr=>StreamOpenSSLEncryptor
+bf-cfb=>StreamOpenSSLEncryptor
+camellia-128-cfb=>StreamOpenSSLEncryptor
+camellia-192-cfb=>StreamOpenSSLEncryptor
+camellia-256-cfb=>StreamOpenSSLEncryptor
+rc4-md5=>StreamOpenSSLEncryptor
+salsa20=>StreamSodiumEncryptor
+chacha20=>StreamSodiumEncryptor
+chacha20-ietf=>StreamSodiumEncryptor
+aes-128-gcm=>AEADOpenSSLEncryptor
+aes-192-gcm=>AEADOpenSSLEncryptor
+aes-256-gcm=>AEADOpenSSLEncryptor
+chacha20-ietf-poly1305=>AEADOpenSSLEncryptor
+xchacha20-ietf-poly1305=>AEADSodiumEncryptor
+=========================
+
+[2018-04-12 09:37:36] 108.160.143.117:19810 timed out
+[2018-04-12 09:48:44] Detected: PAC file 'pac.txt' was changed.
+[2018-04-12 09:48:44] Detected: PAC file 'pac.txt' was changed.
+[2018-04-12 09:49:21] Shadowsocks started
+[2018-04-12 09:49:21] 
+=========================
+Registered Encryptor Info
+aes-128-cfb=>StreamOpenSSLEncryptor
+aes-192-cfb=>StreamOpenSSLEncryptor
+aes-256-cfb=>StreamOpenSSLEncryptor
+aes-128-ctr=>StreamOpenSSLEncryptor
+aes-192-ctr=>StreamOpenSSLEncryptor
+aes-256-ctr=>StreamOpenSSLEncryptor
+bf-cfb=>StreamOpenSSLEncryptor
+camellia-128-cfb=>StreamOpenSSLEncryptor
+camellia-192-cfb=>StreamOpenSSLEncryptor
+camellia-256-cfb=>StreamOpenSSLEncryptor
+rc4-md5=>StreamOpenSSLEncryptor
+salsa20=>StreamSodiumEncryptor
+chacha20=>StreamSodiumEncryptor
+chacha20-ietf=>StreamSodiumEncryptor
+aes-128-gcm=>AEADOpenSSLEncryptor
+aes-192-gcm=>AEADOpenSSLEncryptor
+aes-256-gcm=>AEADOpenSSLEncryptor
+chacha20-ietf-poly1305=>AEADOpenSSLEncryptor
+xchacha20-ietf-poly1305=>AEADSodiumEncryptor
+=========================
+
+[2018-04-12 09:49:30] Shadowsocks started
+[2018-04-12 09:49:30] 
+=========================
+Registered Encryptor Info
+aes-128-cfb=>StreamOpenSSLEncryptor
+aes-192-cfb=>StreamOpenSSLEncryptor
+aes-256-cfb=>StreamOpenSSLEncryptor
+aes-128-ctr=>StreamOpenSSLEncryptor
+aes-192-ctr=>StreamOpenSSLEncryptor
+aes-256-ctr=>StreamOpenSSLEncryptor
+bf-cfb=>StreamOpenSSLEncryptor
+camellia-128-cfb=>StreamOpenSSLEncryptor
+camellia-192-cfb=>StreamOpenSSLEncryptor
+camellia-256-cfb=>StreamOpenSSLEncryptor
+rc4-md5=>StreamOpenSSLEncryptor
+salsa20=>StreamSodiumEncryptor
+chacha20=>StreamSodiumEncryptor
+chacha20-ietf=>StreamSodiumEncryptor
+aes-128-gcm=>AEADOpenSSLEncryptor
+aes-192-gcm=>AEADOpenSSLEncryptor
+aes-256-gcm=>AEADOpenSSLEncryptor
+chacha20-ietf-poly1305=>AEADOpenSSLEncryptor
+xchacha20-ietf-poly1305=>AEADSodiumEncryptor
+=========================
+
+[2018-04-12 09:56:42] Shadowsocks started
+[2018-04-12 09:56:42] 
+=========================
+Registered Encryptor Info
+aes-128-cfb=>StreamOpenSSLEncryptor
+aes-192-cfb=>StreamOpenSSLEncryptor
+aes-256-cfb=>StreamOpenSSLEncryptor
+aes-128-ctr=>StreamOpenSSLEncryptor
+aes-192-ctr=>StreamOpenSSLEncryptor
+aes-256-ctr=>StreamOpenSSLEncryptor
+bf-cfb=>StreamOpenSSLEncryptor
+camellia-128-cfb=>StreamOpenSSLEncryptor
+camellia-192-cfb=>StreamOpenSSLEncryptor
+camellia-256-cfb=>StreamOpenSSLEncryptor
+rc4-md5=>StreamOpenSSLEncryptor
+salsa20=>StreamSodiumEncryptor
+chacha20=>StreamSodiumEncryptor
+chacha20-ietf=>StreamSodiumEncryptor
+aes-128-gcm=>AEADOpenSSLEncryptor
+aes-192-gcm=>AEADOpenSSLEncryptor
+aes-256-gcm=>AEADOpenSSLEncryptor
+chacha20-ietf-poly1305=>AEADOpenSSLEncryptor
+xchacha20-ietf-poly1305=>AEADSodiumEncryptor
+=========================
+
+[2018-04-12 09:57:01] Shadowsocks started
+[2018-04-12 09:57:01] 
+=========================
+Registered Encryptor Info
+aes-128-cfb=>StreamOpenSSLEncryptor
+aes-192-cfb=>StreamOpenSSLEncryptor
+aes-256-cfb=>StreamOpenSSLEncryptor
+aes-128-ctr=>StreamOpenSSLEncryptor
+aes-192-ctr=>StreamOpenSSLEncryptor
+aes-256-ctr=>StreamOpenSSLEncryptor
+bf-cfb=>StreamOpenSSLEncryptor
+camellia-128-cfb=>StreamOpenSSLEncryptor
+camellia-192-cfb=>StreamOpenSSLEncryptor
+camellia-256-cfb=>StreamOpenSSLEncryptor
+rc4-md5=>StreamOpenSSLEncryptor
+salsa20=>StreamSodiumEncryptor
+chacha20=>StreamSodiumEncryptor
+chacha20-ietf=>StreamSodiumEncryptor
+aes-128-gcm=>AEADOpenSSLEncryptor
+aes-192-gcm=>AEADOpenSSLEncryptor
+aes-256-gcm=>AEADOpenSSLEncryptor
+chacha20-ietf-poly1305=>AEADOpenSSLEncryptor
+xchacha20-ietf-poly1305=>AEADSodiumEncryptor
+=========================
+
+[2018-04-12 09:57:26] Detected: PAC file 'pac.txt' was changed.
+[2018-04-12 09:57:27] Detected: PAC file 'pac.txt' was changed.
+[2018-04-12 09:58:00] Detected: PAC file 'pac.txt' was changed.
+[2018-04-12 09:58:18] Detected: PAC file 'pac.txt' was changed.
+[2018-04-12 09:58:20] Detected: PAC file 'pac.txt' was changed.
+[2018-04-12 10:19:06] Shadowsocks started
+[2018-04-12 10:19:06] 
+=========================
+Registered Encryptor Info
+aes-128-cfb=>StreamOpenSSLEncryptor
+aes-192-cfb=>StreamOpenSSLEncryptor
+aes-256-cfb=>StreamOpenSSLEncryptor
+aes-128-ctr=>StreamOpenSSLEncryptor
+aes-192-ctr=>StreamOpenSSLEncryptor
+aes-256-ctr=>StreamOpenSSLEncryptor
+bf-cfb=>StreamOpenSSLEncryptor
+camellia-128-cfb=>StreamOpenSSLEncryptor
+camellia-192-cfb=>StreamOpenSSLEncryptor
+camellia-256-cfb=>StreamOpenSSLEncryptor
+rc4-md5=>StreamOpenSSLEncryptor
+salsa20=>StreamSodiumEncryptor
+chacha20=>StreamSodiumEncryptor
+chacha20-ietf=>StreamSodiumEncryptor
+aes-128-gcm=>AEADOpenSSLEncryptor
+aes-192-gcm=>AEADOpenSSLEncryptor
+aes-256-gcm=>AEADOpenSSLEncryptor
+chacha20-ietf-poly1305=>AEADOpenSSLEncryptor
+xchacha20-ietf-poly1305=>AEADSodiumEncryptor
+=========================
+
+[2018-04-12 10:24:34] Shadowsocks started
+[2018-04-12 10:24:34] 
+=========================
+Registered Encryptor Info
+aes-128-cfb=>StreamOpenSSLEncryptor
+aes-192-cfb=>StreamOpenSSLEncryptor
+aes-256-cfb=>StreamOpenSSLEncryptor
+aes-128-ctr=>StreamOpenSSLEncryptor
+aes-192-ctr=>StreamOpenSSLEncryptor
+aes-256-ctr=>StreamOpenSSLEncryptor
+bf-cfb=>StreamOpenSSLEncryptor
+camellia-128-cfb=>StreamOpenSSLEncryptor
+camellia-192-cfb=>StreamOpenSSLEncryptor
+camellia-256-cfb=>StreamOpenSSLEncryptor
+rc4-md5=>StreamOpenSSLEncryptor
+salsa20=>StreamSodiumEncryptor
+chacha20=>StreamSodiumEncryptor
+chacha20-ietf=>StreamSodiumEncryptor
+aes-128-gcm=>AEADOpenSSLEncryptor
+aes-192-gcm=>AEADOpenSSLEncryptor
+aes-256-gcm=>AEADOpenSSLEncryptor
+chacha20-ietf-poly1305=>AEADOpenSSLEncryptor
+xchacha20-ietf-poly1305=>AEADSodiumEncryptor
+=========================
+
+[2018-04-12 11:14:25] 108.160.143.117:19810 timed out
