@@ -1,0 +1,21 @@
+=================================================
+FastCopy(ver3.41) start at 2018/04/12 14:09:13
+
+<Source>  D:\WorkProj\[Japan]Project\Int\UpdateRes
+<DestDir> D:\WorkProj\[Japan]Project\Alpha\UpdateRes
+<Command> Sync (Size/Date)
+-------------------------------------------------
+
+TotalRead  = 1.3 MB
+TotalWrite = 1.3 MB
+TotalFiles = 11 (0)
+TotalSkip  = 19 MB
+SkipFiles  = 1,713 (0)
+TotalDel   = 1.7 MB
+DelFiles   = 43 (0)
+TotalTime  = 1.2 sec
+TransRate  = 1.10 MB/s
+FileRate   = 9.27 files/s
+
+Result : (ErrFiles : 0 / ErrDirs : 0)
+
