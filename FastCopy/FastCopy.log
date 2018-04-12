@@ -19,3 +19,61 @@ FileRate   = 9.27 files/s
 
 Result : (ErrFiles : 0 / ErrDirs : 0)
 
+=================================================
+FastCopy(ver3.41) start at 2018/04/12 17:09:39
+
+<Source>  D:\WorkProj\[Japan]Project\Int\UpdateRes
+<DestDir> D:\WorkProj\[Japan]Project\Alpha\UpdateRes
+<Command> Diff (Size/Date)
+-------------------------------------------------
+ Aborted by User
+
+TotalRead  = 9.4 MB
+TotalWrite = 0.0 MB
+TotalFiles = 0 (0)
+TotalSkip  = 0.4 MB
+SkipFiles  = 21 (0)
+TotalTime  = 3.5 sec
+TransRate  = 0.00 MB/s
+FileRate   = 0.00 files/s
+
+Result : (ErrFiles : 1 / ErrDirs : 0)
+
+=================================================
+FastCopy(ver3.41) start at 2018/04/12 17:09:44
+
+<Source>  D:\WorkProj\[Japan]Project\Int\UpdateRes
+<DestDir> D:\WorkProj\[Japan]Project\Alpha\UpdateRes
+<Command> Sync (Size/Date)
+-------------------------------------------------
+
+TotalRead  = 25 MB
+TotalWrite = 25 MB
+TotalFiles = 1,556 (74)
+TotalSkip  = 19 MB
+SkipFiles  = 1,715 (0)
+TotalTime  = 14.5 sec
+TransRate  = 1.75 MB/s
+FileRate   = 107.7 files/s
+
+Result : (ErrFiles : 0 / ErrDirs : 0)
+
+=================================================
+FastCopy(ver3.41) start at 2018/04/12 17:12:20
+
+<Source>  D:\WorkProj\[Japan]Project\Int\UpdateRes
+<DestDir> D:\WorkProj\[Japan]Project\Alpha\UpdateRes
+<Command> Sync (Size/Date)
+-------------------------------------------------
+
+TotalRead  = 1.5 MB
+TotalWrite = 1.5 MB
+TotalFiles = 7 (4)
+TotalSkip  = 43 MB
+SkipFiles  = 3,264 (0)
+TotalTime  = 0.4 sec
+TransRate  = 3.65 MB/s
+FileRate   = 17.2 files/s
+
+Result : (ErrFiles : 0 / ErrDirs : 0)
+
