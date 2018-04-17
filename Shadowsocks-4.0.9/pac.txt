@@ -4,6 +4,7 @@
 var proxy = "__PROXY__";
 
 var rules = [
+  "||msecnd.net",
   "||sublimetext.com",
   "||2dbook.com",
   "||4tern.com",
