@@ -4,6 +4,7 @@
 var proxy = "__PROXY__";
 
 var rules = [
+    "||tvcdn.de",
     "||ip138.com",
   "||msecnd.net",
   "||sublimetext.com",
