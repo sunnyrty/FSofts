@@ -4,6 +4,7 @@
 var proxy = "__PROXY__";
 
 var rules = [
+    "||greasyfork.org",
     "||aspnetcdn.com",
     "||s-msft.com",
     "||tvcdn.de",
