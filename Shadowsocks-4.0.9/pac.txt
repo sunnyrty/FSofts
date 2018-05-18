@@ -20,6 +20,7 @@ var rules = [
   "||altrec.com",
   "||apartments.com",
   "||arena.taipei",
+  "||ozsese.com",
   "||asianspiss.com",
   "||assimp.org",
   "||athenaeizou.com",
