@@ -136,10 +136,9 @@
 						<LastModified Value="2018-04-20 11:08:27"/>
 						<Specs>
 							<Left Value="D:\WorkProj\[Japan]Project\Int\UpdateRes\Android\GameRes"/>
-							<Right Value="D:\WorkProj\[Japan]Project\Int\UpdateRes\iPhone\GameRes"/>
+							<Right Value="D:\WorkProj\[Japan]Project\Int\Bundle\Assets\StreamingAssets\GameRes"/>
 						</Specs>
 						<State>
-							<DisplayFilter Value="[showLeftAdded, showRightAdded, showLeftChanged, showRightChanged, showConflict]"/>
 							<SortCol Value="colSize"/>
 							<SortDown Value="True"/>
 							<SortSide Value="dsRight"/>
@@ -149,9 +148,10 @@
 						<LastModified Value="2018-04-20 11:08:27"/>
 						<Specs>
 							<Left Value="D:\WorkProj\[Japan]Project\Int\UpdateRes\Android\GameRes"/>
-							<Right Value="D:\WorkProj\[Japan]Project\Int\Bundle\Assets\StreamingAssets\GameRes"/>
+							<Right Value="D:\WorkProj\[Japan]Project\Int\UpdateRes\iPhone\GameRes"/>
 						</Specs>
 						<State>
+							<DisplayFilter Value="[showLeftAdded, showRightAdded, showLeftChanged, showRightChanged, showConflict]"/>
 							<SortCol Value="colSize"/>
 							<SortDown Value="True"/>
 							<SortSide Value="dsRight"/>
