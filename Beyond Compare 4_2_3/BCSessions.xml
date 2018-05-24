@@ -1,0 +1,292 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Produced by Beyond Compare 4 from Scooter Software -->
+<BCSessions Version="1" MinVersion="1">
+	<TSessionFolder>
+		<Items>
+			<TSessionFolder>
+				<Items>
+					<TDirCompareSession Value="Dev">
+						<LastModified Value="2018-04-24 22:56:49"/>
+						<Specs>
+							<Left Value="D:\WorkProj\[TaiWan]Project\Int\Dev"/>
+						</Specs>
+					</TDirCompareSession>
+					<TDirCompareSession Value="iphone.zip">
+						<LastModified Value="2018-04-24 20:59:52"/>
+						<Specs>
+							<Left Value="\\192.168.5.10\youkia\项目工作\S-Game\日文版\热更\2018-04-24\002\iphone.zip"/>
+							<Right Value="\\192.168.5.10\youkia\项目工作\S-Game\日文版\热更\2018-04-24\003\iphone.zip"/>
+						</Specs>
+					</TDirCompareSession>
+					<TTextMergeSession Value="CrystalBattleView.cs">
+						<LastModified Value="2018-04-23 16:51:25"/>
+						<Specs>
+							<Left Value="C:\I\SDS_Chinase_Proj\Int\Dev\Unity\Assets\Script\Game\Modules\CrystalBattleView\CrystalBattleView.cs.r84282"/>
+							<Right Value="C:\I\SDS_Chinase_Proj\Int\Dev\Unity\Assets\Script\Game\Modules\CrystalBattleView\CrystalBattleView.cs.r84380"/>
+							<Center Value="C:\I\SDS_Chinase_Proj\Int\Dev\Unity\Assets\Script\Game\Modules\CrystalBattleView\CrystalBattleView.cs.mine"/>
+							<Output Value="C:\I\SDS_Chinase_Proj\Int\Dev\Unity\Assets\Script\Game\Modules\CrystalBattleView\CrystalBattleView.cs"/>
+						</Specs>
+					</TTextMergeSession>
+					<TDirCompareSession Value="192.168.6.38">
+						<LastModified Value="2018-04-23 10:53:13"/>
+						<Specs>
+							<Right Value="ftp://192.168.6.38:3721"/>
+						</Specs>
+					</TDirCompareSession>
+					<TDirCompareSession Value="Assets">
+						<LastModified Value="2018-04-23 10:53:13"/>
+						<Specs>
+							<Left Value="C:\I\SDS_Chinase_Proj\Int\Dev\Unity\Assets"/>
+							<Right Value="C:\I\SDS_Chinase_Proj\Patch\Bundle\Assets"/>
+						</Specs>
+					</TDirCompareSession>
+					<TDirCompareSession Value="NetHandler">
+						<LastModified Value="2018-04-20 16:36:34"/>
+						<Specs>
+							<Left Value="C:\I\SDS_Chinase_Proj\Patch\Dev\Unity\Assets\Script\Game\GameNet\NetHandler"/>
+							<Right Value="D:\WorkProj\[China]Project\Release\Dev\Unity\Assets\Script\Game\GameNet\NetHandler"/>
+						</Specs>
+					</TDirCompareSession>
+					<TDirCompareSession Value="Assets">
+						<LastModified Value="2018-04-20 16:20:39"/>
+						<Specs>
+							<Left Value="\\192.168.1.61\Desktop\shengdoushi_japan\Int\IOSBundle\Assets"/>
+							<Right Value="D:\WorkProj\[Japan]Project\Int\UpdateRes\iPhoneBuildProj\Assets"/>
+						</Specs>
+					</TDirCompareSession>
+					<TDirCompareSession Value="GameRes">
+						<LastModified Value="2018-04-20 16:20:39"/>
+						<Specs>
+							<Left Value="D:\WorkProj\[Japan]Project\Int\UpdateRes\iPhone\GameRes"/>
+							<Right Value="\\192.168.1.61\Desktop\shengdoushi_japan\Int\IOSBundle\Assets\StreamingAssets\GameRes"/>
+						</Specs>
+						<State>
+							<DisplayFilter Value="[showSame, showLeftChanged, showRightChanged, showConflict]"/>
+						</State>
+					</TDirCompareSession>
+					<TDirCompareSession Value="GameRes">
+						<LastModified Value="2018-04-20 16:20:23"/>
+						<Specs>
+							<Left Value="D:\WorkProj\[Japan]Project\Int\UpdateRes\iPhone\Assets\StreamingAssets\GameRes"/>
+							<Right Value="\\192.168.1.61\Desktop\shengdoushi_japan\Int\IOSBundle\Assets\StreamingAssets\GameRes"/>
+						</Specs>
+					</TDirCompareSession>
+					<TDirCompareSession Value="InitRes &lt;--> a">
+						<LastModified Value="2018-04-20 15:50:30"/>
+						<Specs>
+							<Left Value="D:\WorkProj\[Japan]Project\Int\UpdateRes\iPhone\Assets\StreamingAssets\GameRes\InitRes"/>
+							<Right Value="D:\WorkProj\[Japan]Project\Int\UpdateRes\iPhone\Assets\StreamingAssets\GameRes\a"/>
+						</Specs>
+					</TDirCompareSession>
+					<TDirCompareSession Value="Assets">
+						<Filters>
+							<NameFilter Value="-*.meta"/>
+						</Filters>
+						<LastModified Value="2018-04-20 15:50:29"/>
+						<Specs>
+							<Left Value="D:\WorkProj\[Japan]Project\Int\Dev\Unity\Assets"/>
+							<Right Value="D:\WorkProj\[Japan]Project\Int\UpdateRes\iPhoneBuildProj\Assets"/>
+						</Specs>
+					</TDirCompareSession>
+					<THexCompareSession Value="Atlas.FAssets &lt;--> Atlas - 副本.FAssets">
+						<LastModified Value="2018-04-20 14:55:05"/>
+						<Specs>
+							<Left Value="D:\WorkProj\[Japan]Project\Int\UpdateRes\iPhone\GameRes\InitRes\Atlas.FAssets"/>
+							<Right Value="D:\WorkProj\[Japan]Project\Int\UpdateRes\iPhone\GameRes\InitRes\Atlas - 副本.FAssets"/>
+						</Specs>
+					</THexCompareSession>
+					<THexCompareSession Value="UScript.FAssets &lt;--> UScript - 副本.FAssets">
+						<LastModified Value="2018-04-20 13:49:59"/>
+						<Specs>
+							<Left Value="D:\WorkProj\[Japan]Project\Int\UpdateRes\iPhone\GameRes\InitRes\UScript.FAssets"/>
+							<Right Value="D:\WorkProj\[Japan]Project\Int\UpdateRes\iPhone\GameRes\InitRes\UScript - 副本.FAssets"/>
+						</Specs>
+					</THexCompareSession>
+					<TDirCompareSession Value="Assets">
+						<Filters>
+							<NameFilter Value="-*.meta"/>
+						</Filters>
+						<LastModified Value="2018-04-20 11:49:00"/>
+						<Specs>
+							<Left Value="D:\WorkProj\[TaiWan]Project\int\Dev\Unity\Assets"/>
+							<Right Value="D:\WorkProj\[TaiWan]Project\int\UpdateRes\iPhoneBuildProj\Assets"/>
+						</Specs>
+					</TDirCompareSession>
+					<TDirCompareSession Value="Assets">
+						<Filters>
+							<NameFilter Value="-*.meta"/>
+						</Filters>
+						<LastModified Value="2018-04-20 11:48:59"/>
+						<Specs>
+							<Left Value="D:\WorkProj\[TaiWan]Project\Patch\Dev\Unity\Assets"/>
+							<Right Value="D:\WorkProj\[TaiWan]Project\Patch\UpdateRes\iPhoneBuildProj\Assets"/>
+						</Specs>
+					</TDirCompareSession>
+					<TDirCompareSession Value="Assets">
+						<Filters>
+							<NameFilter Value="-*.meta"/>
+						</Filters>
+						<LastModified Value="2018-04-20 11:18:27"/>
+						<Specs>
+							<Left Value="D:\WorkProj\[China]Project\Release\Dev\Unity\Assets"/>
+							<Right Value="D:\WorkProj\[China]Project\Release\UpdateRes\iPhoneBuildProj\Assets"/>
+						</Specs>
+					</TDirCompareSession>
+					<TDirCompareSession Value="GameRes">
+						<LastModified Value="2018-04-20 11:08:27"/>
+						<Specs>
+							<Left Value="D:\WorkProj\[Japan]Project\Int\UpdateRes\Android\GameRes"/>
+							<Right Value="D:\WorkProj\[Japan]Project\Int\UpdateRes\iPhone\GameRes"/>
+						</Specs>
+						<State>
+							<DisplayFilter Value="[showLeftAdded, showRightAdded, showLeftChanged, showRightChanged, showConflict]"/>
+							<SortCol Value="colSize"/>
+							<SortDown Value="True"/>
+							<SortSide Value="dsRight"/>
+						</State>
+					</TDirCompareSession>
+					<TDirCompareSession Value="GameRes">
+						<LastModified Value="2018-04-20 11:08:27"/>
+						<Specs>
+							<Left Value="D:\WorkProj\[Japan]Project\Int\UpdateRes\Android\GameRes"/>
+							<Right Value="D:\WorkProj\[Japan]Project\Int\Bundle\Assets\StreamingAssets\GameRes"/>
+						</Specs>
+						<State>
+							<SortCol Value="colSize"/>
+							<SortDown Value="True"/>
+							<SortSide Value="dsRight"/>
+						</State>
+					</TDirCompareSession>
+					<TDirCompareSession Value="iPhone.zip &lt;--> Android.zip">
+						<LastModified Value="2018-04-19 21:17:09"/>
+						<Specs>
+							<Left Value="\\192.168.5.10\youkia\项目工作\S-Game\日文版\热更\2018-04-19\001\iPhone.zip"/>
+							<Right Value="\\192.168.5.10\youkia\项目工作\S-Game\日文版\热更\2018-04-19\001\Android.zip"/>
+						</Specs>
+						<State>
+							<DisplayFilter Value="[showLeftAdded, showRightAdded, showLeftChanged, showRightChanged, showConflict]"/>
+							<SortCol Value="colSize"/>
+							<SortDown Value="True"/>
+							<SortSide Value="dsRight"/>
+						</State>
+					</TDirCompareSession>
+					<TDirCompareSession Value="web &lt;--> [Japan]对内对外和外网的Webservice">
+						<LastModified Value="2018-04-19 14:34:36"/>
+						<Specs>
+							<Left Value="D:\WorkProj\[Japan]对内对外和外网的Webservice\Private\1.7.0\web"/>
+							<Right Value="D:\WorkProj\[Japan]对内对外和外网的Webservice"/>
+						</Specs>
+						<State>
+							<DisplayFilter Value="[showLeftAdded, showRightAdded, showLeftChanged, showRightChanged, showConflict]"/>
+						</State>
+					</TDirCompareSession>
+					<TDirCompareSession Value="web &lt;--> Public">
+						<LastModified Value="2018-04-19 14:34:12"/>
+						<Specs>
+							<Left Value="D:\WorkProj\[Japan]对内对外和外网的Webservice\Private\1.7.0\web"/>
+							<Right Value="D:\WorkProj\[Japan]对内对外和外网的Webservice\Public"/>
+						</Specs>
+						<State>
+							<DisplayFilter Value="[showLeftAdded, showRightAdded, showLeftChanged, showRightChanged, showConflict]"/>
+						</State>
+					</TDirCompareSession>
+					<TDirCompareSession Value="Dev">
+						<Filters>
+							<NameFilter Value="-*.meta"/>
+						</Filters>
+						<LastModified Value="2018-04-16 10:28:12"/>
+						<Specs>
+							<Left Value="C:\I\SDS_Chinase_Proj\Patch\Dev"/>
+							<Right Value="D:\WorkProj\[TaiWan]Project\patch\Dev"/>
+						</Specs>
+						<State>
+							<DisplayFilter Value="[showLeftAdded, showRightAdded, showLeftChanged, showRightChanged, showConflict]"/>
+						</State>
+					</TDirCompareSession>
+					<TDirCompareSession Value="Dev">
+						<Filters>
+							<NameFilter Value="-*.meta"/>
+						</Filters>
+						<LastModified Value="2018-04-16 10:25:18"/>
+						<Specs>
+							<Left Value="C:\I\SDS_Chinase_Proj\Patch\Dev"/>
+							<Right Value="D:\WorkProj\[TaiWan]Project\Int\Dev"/>
+						</Specs>
+						<State>
+							<DisplayFilter Value="[showLeftAdded, showRightAdded, showLeftChanged, showRightChanged, showConflict]"/>
+						</State>
+					</TDirCompareSession>
+					<TDirCompareSession Value="GameRes">
+						<LastModified Value="2018-04-13 16:29:05"/>
+						<Specs>
+							<Left Value="C:\Users\f\Desktop\tmp\ios\Unity-iPhone 2018-04-09 10-53-46\IOS_BaseGameRes\GameRes\GameRes"/>
+							<Right Value="D:\WorkProj\[TaiWan]Project\Patch\UpdateRes\iPhone\GameRes"/>
+						</Specs>
+						<State>
+							<DisplayFilter Value="[showLeftAdded, showRightAdded, showLeftChanged, showRightChanged, showConflict]"/>
+						</State>
+					</TDirCompareSession>
+					<TDirCompareSession Value="GameRes">
+						<LastModified Value="2018-04-13 16:19:42"/>
+						<Specs>
+							<Left Value="C:\Users\f\Desktop\tmp\ios\GameRes"/>
+							<Right Value="C:\Users\f\Desktop\tmp\ios\twiosbase18030201\GameRes\GameRes"/>
+						</Specs>
+						<State>
+							<DisplayFilter Value="[showLeftAdded, showRightAdded, showLeftChanged, showRightChanged, showConflict]"/>
+						</State>
+					</TDirCompareSession>
+					<TDirCompareSession Value="2.4.0 &lt;--> public">
+						<LastModified Value="2018-04-13 15:08:23"/>
+						<Specs>
+							<Left Value="D:\WorkProj\[TaiWan]对内对外和外网的Webservice\private\2.4.0"/>
+							<Right Value="D:\WorkProj\[TaiWan]对内对外和外网的Webservice\public"/>
+						</Specs>
+					</TDirCompareSession>
+					<TDirCompareSession Value="2.4.0 &lt;--> WebService">
+						<LastModified Value="2018-04-13 15:08:23"/>
+						<Specs>
+							<Left Value="D:\WorkProj\[TaiWan]对内对外和外网的Webservice\private\2.4.0"/>
+							<Right Value="D:\WorkProj\[TaiWan]Project\Patch\Dev\BattleSystem\WebService\WebService"/>
+						</Specs>
+					</TDirCompareSession>
+					<TDirCompareSession Value="bin &lt;--> Plugins">
+						<LastModified Value="2018-04-13 15:08:23"/>
+						<Specs>
+							<Left Value="D:\WorkProj\[TaiWan]Project\Patch\Dev\BattleSystem\WebService\WebService\bin"/>
+							<Right Value="D:\WorkProj\[TaiWan]Project\Patch\Dev\Unity\Assets\Plugins"/>
+						</Specs>
+					</TDirCompareSession>
+					<TDirCompareSession Value="Downloads &lt;--> Unity-iPhone 2018-04-09 10-53-46">
+						<LastModified Value="2018-04-13 14:58:30"/>
+						<Specs>
+							<Left Value="C:\Users\f\Downloads"/>
+							<Right Value="C:\Users\f\Desktop\tmp\Unity-iPhone 2018-04-09 10-53-46"/>
+						</Specs>
+					</TDirCompareSession>
+					<TDirCompareSession Value="twiosbase18030201 &lt;--> IOS_BaseGameRes">
+						<LastModified Value="2018-04-13 14:58:30"/>
+						<Specs>
+							<Left Value="C:\Users\f\Desktop\tmp\twiosbase18030201"/>
+							<Right Value="C:\Users\f\Desktop\tmp\Unity-iPhone 2018-04-09 10-53-46\IOS_BaseGameRes"/>
+						</Specs>
+					</TDirCompareSession>
+					<TTextCompareSession Value="C:\Users\f\Downloads\ &lt;--> C:\Users\f\Desktop\tmp\">
+						<LastModified Value="2018-04-13 14:14:30"/>
+						<Specs>
+							<Left Value="C:\Users\f\Downloads\"/>
+							<Right Value="C:\Users\f\Desktop\tmp\"/>
+						</Specs>
+					</TTextCompareSession>
+					<TTextCompareSession Value="o.settings &lt;--> n.settings">
+						<LastModified Value="2018-04-13 14:01:12"/>
+						<Specs>
+							<Left Value="C:\Users\f\Desktop\tmp\o.settings"/>
+							<Right Value="C:\Users\f\Desktop\tmp\n.settings"/>
+						</Specs>
+					</TTextCompareSession>
+				</Items>
+			</TSessionFolder>
+		</Items>
+	</TSessionFolder>
+</BCSessions>
