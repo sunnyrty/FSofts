@@ -5,11 +5,13 @@
 		<FirstStartup Value="False"/>
 		<FormPositions>
 			<TCheckForUpdatesDialog Value="565;274;1118;661"/>
-			<TDirCompareSessionDialog Value="2581;219;3179;820"/>
-			<TDirLoadErrorDialog Value="780;453;1326;589"/>
+			<TDirCompareSessionDialog Value="2582;208;3180;809"/>
+			<TDirLoadErrorDialog Value="765;501;1311;637"/>
 			<TOpFilteredDialog Value="679;315;1062;782"/>
-			<TProfileBrowseDialog Value="2471;117;3313;928"/>
-			<TViewFrame Value="139;85;1771;969"/>
+			<TOpSyncDialog Value="705;283;1214;757"/>
+			<TProfileBrowseDialog Value="2458;83;3300;894"/>
+			<TSessionSaveAsDialog Value="719;324;1144;644"/>
+			<TViewFrame Value="2037;67;3726;951;3"/>
 		</FormPositions>
 	</TBcState>
 	<TCheckForUpdatesState>
@@ -18,44 +20,53 @@
 	</TCheckForUpdatesState>
 	<TDirCompareState>
 		<LeftMRUSpecs>
-			<_0 Value="\\192.168.5.10\youkia\项目工作\S-Game\日文版\热更\2018-04-24\002\iphone.zip"/>
-			<_1 Value="\\192.168.5.10\youkia\项目工作\S-Game\日文版\热更\2018-04-24\002"/>
-			<_2 Value="\\192.168.5.10\youkia\项目工作\S-Game\日文版\热更\2018-04-24\003"/>
-			<_3 Value="D:\WorkProj\[TaiWan]Project\Int\Dev"/>
-			<_4 Value="C:\I\SDS_Chinase_Proj\Patch\Bundle\Assets"/>
-			<_5 Value="C:\I\SDS_Chinase_Proj\Patch\Dev\Unity\Assets\Script\Game\GameNet\NetHandler"/>
-			<_6 Value="C:\I\SDS_Chinase_Proj\Int\Dev\Unity\Assets\Script\Game\GameNet\NetHandler"/>
-			<_7 Value="C:\I\SDS_Chinase_Proj\int\Dev"/>
-			<_8 Value="C:\I\SDS_Chinase_Proj\Patch\Dev"/>
+			<_0 Value="D:\WorkProj\[Japan]Project\Int\Dev\BattleSystem\WebService\WebService"/>
+			<_1 Value="D:\WorkProj\[Japan]Project\Int\Dev\BattleSystem\WebService"/>
+			<_2 Value="D:\WorkProj\[Japan]Project\Patch\Dev"/>
+			<_3 Value="C:\I\SDS_Chinase_Proj\Patch\Dev"/>
+			<_4 Value="C:\I\SDS_Chinase_Proj\Patch"/>
+			<_5 Value="C:\Users\f\Desktop\web\bin"/>
+			<_6 Value="C:\Users\f\Desktop\web"/>
+			<_7 Value="C:\Users\f\Desktop\web\Config"/>
+			<_8 Value="F:\I\My RTX Files\yangqibiao"/>
 		</LeftMRUSpecs>
 		<MRUFilters>
-			<_0 Value="-*.meta"/>
+			<_0 Value="-.\Unity\.vs\"/>
+			<_1 Value="-.\Unity\Library\;-.vs\"/>
+			<_2 Value="-.vs;-.\Unity\Library\"/>
+			<_3 Value="-.\Unity\.vs\;-.\Unity\Library\"/>
+			<_4 Value="-*.unity"/>
+			<_5 Value="-*.meta;-.\.vs\"/>
+			<_6 Value="-*.meta;-.\Unity\.vs\"/>
+			<_7 Value="-*.meta"/>
 		</MRUFilters>
 		<RightMRUSpecs>
-			<_0 Value="\\192.168.5.10\youkia\项目工作\S-Game\日文版\热更\2018-04-24\003\iphone.zip"/>
-			<_1 Value="\\192.168.5.10\youkia\项目工作\S-Game\日文版\热更\2018-04-24\003"/>
-			<_2 Value="ftp://192.168.6.38:3721"/>
-			<_3 Value="C:\I\SDS_Chinase_Proj\Int\Dev\Unity\Assets"/>
-			<_4 Value="D:\WorkProj\[China]Project\Release\Dev\Unity\Assets\Script\Game\GameNet\NetHandler"/>
-			<_5 Value="C:\I\SDS_Chinase_Proj\Patch\Dev\Unity\Assets\Script\Game\GameNet\NetHandler"/>
-			<_6 Value="C:\I\SDS_Chinase_Proj\Patch\Dev"/>
-			<_7 Value="\\192.168.1.61\Desktop\shengdoushi_japan\Int\IOSBundle\Assets\StreamingAssets\GameRes"/>
-			<_8 Value="D:\WorkProj\[Japan]Project\Int\UpdateRes\iPhoneBuildProj\Assets"/>
+			<_0 Value="D:\WorkProj\[Japan]对内对外和外网的Webservice\Private\1.8.1\web"/>
+			<_1 Value="D:\WorkProj\[Japan]对内对外和外网的Webservice\Private\1.8.1"/>
+			<_2 Value="D:\WorkProj\Git\[Japan]Release\Dev"/>
+			<_3 Value="D:\WorkProj\Git\[Japan]Release\Dev\Unity\Assets\Plugins"/>
+			<_4 Value="D:\WorkProj\Git\[Japan]Release\Dev\Unity\Assets"/>
+			<_5 Value="D:\WorkProj\Git\[Japan]Release\Dev\Unity\Assets\Resources"/>
+			<_6 Value="D:\WorkProj\Git\[Japan]Release\Dev\Unity\Assets\Resources\Config"/>
+			<_7 Value="D:\WorkProj\Git\[Japan]Release\Dev\Unity\Assets\Resources\Config\BattleSystem"/>
+			<_8 Value="D:\WorkProj\[Japan]对内对外和外网的Webservice\Private\1.8.0_6.1\web"/>
 		</RightMRUSpecs>
 	</TDirCompareState>
 	<THexCompareState>
 		<LeftMRUSpecs>
-			<_0 Value="D:\WorkProj\[Japan]Project\Int\UpdateRes\iPhone\Assets\StreamingAssets\GameRes\InitRes\UScript.FAssets"/>
-			<_1 Value="D:\WorkProj\[Japan]Project\Int\UpdateRes\iPhone\GameRes\InitRes\Atlas.FAssets"/>
-			<_2 Value="D:\WorkProj\[Japan]Project\Int\UpdateRes\iPhone\GameRes\InitRes\UScript.FAssets"/>
+			<_0 Value="C:\Users\f\Downloads\multiDLL.zip\xLua-8a52867b996a45feb363685d71c3ca7836f5f61e\Tools\XLuaHotfixInject.exe"/>
+			<_1 Value="D:\WorkProj\[Japan]Project\Int\UpdateRes\iPhone\Assets\StreamingAssets\GameRes\InitRes\UScript.FAssets"/>
+			<_2 Value="D:\WorkProj\[Japan]Project\Int\UpdateRes\iPhone\GameRes\InitRes\Atlas.FAssets"/>
+			<_3 Value="D:\WorkProj\[Japan]Project\Int\UpdateRes\iPhone\GameRes\InitRes\UScript.FAssets"/>
 		</LeftMRUSpecs>
 		<MRUFonts>
 			<_0 Value="Consolas;10"/>
 		</MRUFonts>
 		<RightMRUSpecs>
-			<_0 Value="\\192.168.1.61\Desktop\shengdoushi_japan\Int\IOSBundle\Assets\StreamingAssets\GameRes\InitRes\UScript.FAssets"/>
-			<_1 Value="D:\WorkProj\[Japan]Project\Int\UpdateRes\iPhone\GameRes\InitRes\Atlas - 副本.FAssets"/>
-			<_2 Value="D:\WorkProj\[Japan]Project\Int\UpdateRes\iPhone\GameRes\InitRes\UScript - 副本.FAssets"/>
+			<_0 Value="C:\Users\f\Downloads\xLua-master.zip\xLua-master\Tools\XLuaHotfixInject.exe"/>
+			<_1 Value="\\192.168.1.61\Desktop\shengdoushi_japan\Int\IOSBundle\Assets\StreamingAssets\GameRes\InitRes\UScript.FAssets"/>
+			<_2 Value="D:\WorkProj\[Japan]Project\Int\UpdateRes\iPhone\GameRes\InitRes\Atlas - 副本.FAssets"/>
+			<_3 Value="D:\WorkProj\[Japan]Project\Int\UpdateRes\iPhone\GameRes\InitRes\UScript - 副本.FAssets"/>
 		</RightMRUSpecs>
 	</THexCompareState>
 	<THomeState>
@@ -63,37 +74,57 @@
 		<SessionType Value="TDirCompareSession"/>
 		<ShowWeb Value="False"/>
 	</THomeState>
+	<TPixCompareState>
+		<LeftMRUSpecs>
+			<_0 Value="D:\WorkProj\[TaiWan]Project\Int\Dev\UnityTextureBackUp\CommonAtlas\texture\new_skill_jue.png"/>
+			<_1 Value="D:\WorkProj\[TaiWan]Project\Int\Dev\UnityTextureBackUp\CoinIcon\Texture\score.png"/>
+		</LeftMRUSpecs>
+		<MRUFonts>
+			<_0 Value="Microsoft YaHei UI;9;;1"/>
+		</MRUFonts>
+		<RightMRUSpecs>
+			<_0 Value="D:\WorkProj\[International]Project\Dev\UnityTextureBackUp\CommonAtlas\texture\new_skill_jue.png"/>
+		</RightMRUSpecs>
+	</TPixCompareState>
 	<TTextCompareState>
 		<LeftMRUSpecs>
-			<_0 Value="\\192.168.5.10\youkia\项目工作\S-Game\日文版\热更\2018-04-24\002\iphone.zip\GameRes\list.settings"/>
-			<_1 Value="C:\Users\f\AppData\Local\Temp\CrystalBattleView.cs-revBASE.svn003.tmp.cs"/>
-			<_2 Value="C:\Users\f\AppData\Local\Temp\CrystalBattleView.cs-revBASE.svn001.tmp.cs"/>
-			<_3 Value="C:\I\SDS_Chinase_Proj\Int\Dev\Unity\Assets\UnityExtends\NGUI\Scripts\UI\UIInput.cs"/>
-			<_4 Value="C:\I\SDS_Chinase_Proj\Int\Dev\Unity\Assets\Script\Main.cs"/>
-			<_5 Value="C:\I\SDS_Chinase_Proj\Patch\Dev\Unity\Assets\Script\Game\GameNet\NetHandler\LoginNet.cs"/>
-			<_6 Value="C:\I\SDS_Chinase_Proj\Int\Dev\Unity\Assets\Script\Game\GameNet\NetHandler\LoginNet.cs"/>
-			<_7 Value="\\192.168.1.61\Desktop\shengdoushi_japan\Int\IOSBundle\Assets\PigeonCoopToolkit\Effects\Trails.meta"/>
-			<_8 Value="C:\Users\f\AppData\Local\Temp\SmanDevoteWidget.prefab-rev40993.svn000.tmp.prefab"/>
+			<_0 Value="D:\WorkProj\[Japan]Project\Int\Dev\BattleSystem\WebService\WebService\Config\BattleSystemConfig.txt"/>
+			<_1 Value="C:\I\SDS_Chinase_Proj\Patch\Dev\BattleSystem\WebService\WebService\WebMainScene.cs"/>
+			<_2 Value="D:\WorkProj\[Japan]Project\Patch\Dev\Unity\Assets\Script\Game\Modules\BattleUI\BattleView.cs"/>
+			<_3 Value="C:\Users\f\AppData\Local\Temp\BattleView.cs-revBASE.svn001.tmp.cs"/>
+			<_4 Value="D:\WorkProj\Git\[Japan]Release\Dev\BattleSystem\WebService\WebService\WebMainScene.cs"/>
+			<_5 Value="C:\Users\f\AppData\Local\Temp\MainGame.cs-revBASE.svn001.tmp.cs"/>
+			<_6 Value="D:\WorkProj\[TaiWan]Project\Int\Dev\Unity\Assets\Script\UnityScript\FUFramework\Lang.cs"/>
+			<_7 Value="D:\WorkProj\[TaiWan]Project\Int\Dev\Unity\Assets\Script\UnityScript\FUFramework\NGUIExtends\FUITexture.cs"/>
+			<_8 Value="C:\Users\f\AppData\Local\Temp\MainUIModel.cs-revBASE.svn001.tmp.cs"/>
 		</LeftMRUSpecs>
 		<MRUFonts>
 			<_0 Value="Consolas;10"/>
 		</MRUFonts>
 		<RightMRUSpecs>
-			<_0 Value="\\192.168.5.10\youkia\项目工作\S-Game\日文版\热更\2018-04-24\003\iphone.zip\GameRes\list.settings"/>
-			<_1 Value="C:\I\SDS_Chinase_Proj\Int\Dev\Unity\Assets\Script\Game\Modules\CrystalBattleView\CrystalBattleView.cs"/>
-			<_2 Value="C:\I\SDS_Chinase_Proj\Patch\Bundle\Assets\UnityExtends\NGUI\Scripts\UI\UIInput.cs"/>
-			<_3 Value="C:\I\SDS_Chinase_Proj\Patch\Bundle\Assets\Script\Main.cs"/>
-			<_4 Value="D:\WorkProj\[China]Project\Release\Dev\Unity\Assets\Script\Game\GameNet\NetHandler\LoginNet.cs"/>
-			<_5 Value="C:\I\SDS_Chinase_Proj\Patch\Dev\Unity\Assets\Script\Game\GameNet\NetHandler\LoginNet.cs"/>
-			<_6 Value="D:\WorkProj\[Japan]Project\Int\UpdateRes\iPhoneBuildProj\Assets\PigeonCoopToolkit\Effects\Trails.meta"/>
-			<_7 Value="C:\Users\f\AppData\Local\Temp\SmanDevoteWidget.prefab-rev40994.svn000.tmp.prefab"/>
-			<_8 Value="D:\WorkProj\[Japan]Project\Int\UpdateRes\iPhoneBuildProj\Assets\UnityExtends\F\AssetBundle\Editor\AssetBundleWindow.cs"/>
+			<_0 Value="D:\WorkProj\[Japan]对内对外和外网的Webservice\Private\1.8.1\web\Config\BattleSystemConfig.txt"/>
+			<_1 Value="D:\WorkProj\Git\[Japan]Release\Dev\BattleSystem\WebService\WebService\WebMainScene.cs"/>
+			<_2 Value="D:\WorkProj\[Japan]Project\Int\Dev\Unity\Assets\Script\Game\Modules\BattleUI\BattleView.cs"/>
+			<_3 Value="D:\WorkProj\Git\[Japan]Release\Dev\Unity\Assets\Script\Game\Modules\BattleUI\BattleView.cs"/>
+			<_4 Value="D:\WorkProj\[International]Project\Dev\Unity\Assets\Script\Game\MainGame.cs"/>
+			<_5 Value="D:\WorkProj\[International]Project\Dev\Unity\Assets\Script\UnityScript\FUFramework\Lang.cs"/>
+			<_6 Value="D:\WorkProj\[International]Project\Dev\Unity\Assets\Script\UnityScript\FUFramework\NGUIExtends\FUITexture.cs"/>
+			<_7 Value="D:\WorkProj\[International]Project\Dev\Unity\Assets\Script\Game\Modules\MainUI\MainUIModel.cs"/>
+			<_8 Value="D:\WorkProj\[International]Project\Dev\Unity\Assets\Script\Game\Com\EventName.cs"/>
 		</RightMRUSpecs>
+		<ShowItemNum Value="True"/>
 	</TTextCompareState>
 	<TTextFindState>
 		<FindItems>
-			<_0 Value="maingame"/>
-			<_1 Value="CheckBattleSystem"/>
+			<_0 Value="BeHurtValue"/>
+			<_1 Value="type == eSceneType.ArmyBo"/>
+			<_2 Value="onChangeProp"/>
+			<_3 Value="GenDelegateBridge"/>
+			<_4 Value="CheckDLLName"/>
+			<_5 Value="MergeCfg"/>
+			<_6 Value="hotfix_injection"/>
+			<_7 Value="maingame"/>
+			<_8 Value="CheckBattleSystem"/>
 		</FindItems>
 		<ReplaceItems>
 			<_0/>
@@ -101,19 +132,34 @@
 	</TTextFindState>
 	<TTextMergeState>
 		<CenterMRUSpecs>
-			<_0 Value="C:\I\SDS_Chinase_Proj\Int\Dev\Unity\Assets\Script\Game\Modules\CrystalBattleView\CrystalBattleView.cs.mine"/>
+			<_0 Value="D:\WorkProj\[International]Project\Dev\Unity\Assets\Resources\Atlas\MainUIAtlas$LANG=ko_kr\MainUIAtlas.prefab.mine"/>
+			<_1 Value="C:\I\SDS_Chinase_Proj\Int\Dev\Unity\Assets\Script\Game\Modules\CrystalBattleView\CrystalBattleView.cs.mine"/>
 		</CenterMRUSpecs>
 		<LeftMRUSpecs>
-			<_0 Value="C:\I\SDS_Chinase_Proj\Int\Dev\Unity\Assets\Script\Game\Modules\CrystalBattleView\CrystalBattleView.cs.r84282"/>
+			<_0 Value="D:\WorkProj\[International]Project\Dev\Unity\Assets\Resources\Atlas\MainUIAtlas$LANG=ko_kr\MainUIAtlas.prefab.r6360"/>
+			<_1 Value="C:\I\SDS_Chinase_Proj\Int\Dev\Unity\Assets\Script\Game\Modules\CrystalBattleView\CrystalBattleView.cs.r84282"/>
 		</LeftMRUSpecs>
 		<MRUFonts>
 			<_0 Value="Consolas;10"/>
 		</MRUFonts>
 		<RightMRUSpecs>
-			<_0 Value="C:\I\SDS_Chinase_Proj\Int\Dev\Unity\Assets\Script\Game\Modules\CrystalBattleView\CrystalBattleView.cs.r84380"/>
+			<_0 Value="D:\WorkProj\[International]Project\Dev\Unity\Assets\Resources\Atlas\MainUIAtlas$LANG=ko_kr\MainUIAtlas.prefab.r6383"/>
+			<_1 Value="C:\I\SDS_Chinase_Proj\Int\Dev\Unity\Assets\Script\Game\Modules\CrystalBattleView\CrystalBattleView.cs.r84380"/>
 		</RightMRUSpecs>
 	</TTextMergeState>
 	<TTipState>
 		<DontShowAgain Value="[tipFastRefresh]"/>
 	</TTipState>
+	<TVerCompareState>
+		<LeftMRUSpecs>
+			<_0 Value="C:\Users\f\Downloads\multiDLL.zip\xLua-8a52867b996a45feb363685d71c3ca7836f5f61e\Tools\XLuaHotfixInject.exe"/>
+		</LeftMRUSpecs>
+		<MRUFonts>
+			<_0 Value="Microsoft YaHei UI;9;;1"/>
+		</MRUFonts>
+		<RightMRUSpecs>
+			<_0 Value="C:\Users\f\Downloads\xLua-master.zip\xLua-master\Tools\XLuaHotfixInject.exe"/>
+			<_1 Value="D:\WorkProj\[TaiWan]Project\Patch\Dev\Unity\Tools\XLuaHotfixInject.exe"/>
+		</RightMRUSpecs>
+	</TVerCompareState>
 </BCState>

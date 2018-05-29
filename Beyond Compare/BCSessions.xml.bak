@@ -1,10 +1,48 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- Produced by Beyond Compare 4 from Scooter Software -->
 <BCSessions Version="1" MinVersion="1">
+	<TSessionFolder Value="Japan">
+		<Items>
+			<TDirCompareSession Value="Web Git Release To Private Web">
+				<LastModified Value="2018-05-25 00:15:52"/>
+				<Specs>
+					<Left Value="D:\WorkProj\Git\[Japan]Release\Dev\BattleSystem\WebService\WebService"/>
+					<Right Value="D:\WorkProj\[Japan]对内对外和外网的Webservice\Private\1.8.0_6.1\web\web"/>
+				</Specs>
+			</TDirCompareSession>
+			<TDirCompareSession Value="Web Private to Public">
+				<Filters>
+					<NameFilter Value="-.\.svn\"/>
+				</Filters>
+				<LastModified Value="2018-05-24 15:16:25"/>
+				<Specs>
+					<Left Value="D:\WorkProj\[Japan]对内对外和外网的Webservice\Private\1.8.0_25\web"/>
+					<Right Value="D:\WorkProj\[Japan]对内对外和外网的Webservice\Public"/>
+				</Specs>
+			</TDirCompareSession>
+		</Items>
+	</TSessionFolder>
 	<TSessionFolder>
 		<Items>
 			<TSessionFolder>
 				<Items>
+					<TDirCompareSession Value="BattleSystem">
+						<LastModified Value="2018-05-25 15:51:17"/>
+						<Specs>
+							<Left Value="D:\WorkProj\[Japan]Project\Alpha\Dev\BattleSystem\BattleSystem"/>
+							<Right Value="C:\I\SDS_Chinase_Proj\Patch\Dev\BattleSystem\BattleSystem"/>
+						</Specs>
+					</TDirCompareSession>
+					<TDirCompareSession Value="Dev">
+						<Filters>
+							<NameFilter Value="-*.meta;-.\Unity\.vs\"/>
+						</Filters>
+						<LastModified Value="2018-05-24 23:06:31"/>
+						<Specs>
+							<Left Value="C:\I\SDS_Chinase_Proj\Patch\Dev"/>
+							<Right Value="D:\WorkProj\[Japan]Project\Alpha\Dev"/>
+						</Specs>
+					</TDirCompareSession>
 					<TDirCompareSession Value="Dev">
 						<LastModified Value="2018-04-24 22:56:49"/>
 						<Specs>
@@ -287,6 +325,11 @@
 					</TTextCompareSession>
 				</Items>
 			</TSessionFolder>
+			<TDirCompareSession>
+				<State>
+					<DisplayFilter Value="[showLeftAdded, showRightAdded, showLeftChanged, showRightChanged, showConflict]"/>
+				</State>
+			</TDirCompareSession>
 		</Items>
 	</TSessionFolder>
 </BCSessions>
