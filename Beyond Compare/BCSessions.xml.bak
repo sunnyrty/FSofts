@@ -1,8 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- Produced by Beyond Compare 4 from Scooter Software -->
 <BCSessions Version="1" MinVersion="1">
+	<TSessionFolder Value="China">
+		<Items>
+			<TDirCompareSession Value="Patch To GitRelease">
+				<Filters>
+					<NameFilter Value="-.\Unity\Library\;-.vs\"/>
+				</Filters>
+				<LastModified Value="2018-05-28 21:50:22"/>
+				<Specs>
+					<Left Value="C:\I\SDS_Chinase_Proj\Patch\Dev"/>
+					<Right Value="D:\WorkProj\Git\[Japan]Release\Dev"/>
+				</Specs>
+			</TDirCompareSession>
+		</Items>
+	</TSessionFolder>
 	<TSessionFolder Value="Japan">
 		<Items>
+			<TDirCompareSession Value="Patch To GitRelease">
+				<Filters>
+					<NameFilter Value="-.\Unity\.vs\"/>
+				</Filters>
+				<LastModified Value="2018-05-28 15:52:41"/>
+				<Specs>
+					<Left Value="D:\WorkProj\[Japan]Project\Patch\Dev"/>
+					<Right Value="D:\WorkProj\Git\[Japan]Release\Dev"/>
+				</Specs>
+				<State>
+					<DisplayFilter Value="[showLeftAdded, showRightAdded, showLeftChanged, showRightChanged, showConflict]"/>
+				</State>
+			</TDirCompareSession>
 			<TDirCompareSession Value="Web Git Release To Private Web">
 				<LastModified Value="2018-05-25 00:15:52"/>
 				<Specs>
@@ -26,6 +53,150 @@
 		<Items>
 			<TSessionFolder>
 				<Items>
+					<TDirCompareSession Value="Resources">
+						<Filters>
+							<NameFilter Value="-.\Unity\.vs\"/>
+						</Filters>
+						<LastModified Value="2018-05-29 18:02:59"/>
+						<Specs>
+							<Left Value="C:\Users\f\Desktop\tmp0\Unity\Assets\Resources"/>
+							<Right Value="D:\WorkProj\Git\[Japan]Release\Dev\Unity\Assets\Resources"/>
+						</Specs>
+					</TDirCompareSession>
+					<TDirCompareSession Value="WebService &lt;--> web">
+						<LastModified Value="2018-05-29 01:00:50"/>
+						<Specs>
+							<Left Value="D:\WorkProj\[Japan]Project\Int\Dev\BattleSystem\WebService\WebService"/>
+							<Right Value="D:\WorkProj\[Japan]对内对外和外网的Webservice\Private\1.8.1\web"/>
+						</Specs>
+						<State>
+							<DisplayFilter Value="[showLeftAdded, showRightAdded, showLeftChanged, showRightChanged, showConflict]"/>
+						</State>
+					</TDirCompareSession>
+					<TDirCompareSession Value="bin &lt;--> Plugins">
+						<LastModified Value="2018-05-28 22:33:38"/>
+						<Specs>
+							<Left Value="C:\Users\f\Desktop\web\bin"/>
+							<Right Value="D:\WorkProj\Git\[Japan]Release\Dev\Unity\Assets\Plugins"/>
+						</Specs>
+						<State>
+							<DisplayFilter Value="[showLeftAdded, showRightAdded, showLeftChanged, showRightChanged, showConflict]"/>
+						</State>
+					</TDirCompareSession>
+					<TTextCompareSession Value="BattleView.cs">
+						<LastModified Value="2018-05-28 22:32:36"/>
+						<Specs>
+							<Left Value="D:\WorkProj\[Japan]Project\Patch\Dev\Unity\Assets\Script\Game\Modules\BattleUI\BattleView.cs"/>
+							<Right Value="D:\WorkProj\[Japan]Project\Int\Dev\Unity\Assets\Script\Game\Modules\BattleUI\BattleView.cs"/>
+						</Specs>
+						<State>
+							<InsigIgnored Value="True"/>
+						</State>
+					</TTextCompareSession>
+					<TTextCompareSession Value="WebMainScene.cs">
+						<LastModified Value="2018-05-28 21:49:01"/>
+						<Specs>
+							<Left Value="D:\WorkProj\Git\[Japan]Release\Dev\BattleSystem\WebService\WebService\WebMainScene.cs"/>
+						</Specs>
+						<State>
+							<InsigIgnored Value="True"/>
+						</State>
+					</TTextCompareSession>
+					<TDirCompareSession Value="WebService &lt;--> web">
+						<LastModified Value="2018-05-28 19:07:38"/>
+						<Specs>
+							<Left Value="D:\WorkProj\Git\[Japan]Release\Dev\BattleSystem\WebService\WebService"/>
+							<Right Value="D:\WorkProj\[Japan]对内对外和外网的Webservice\Private\1.8.0_6.1\web"/>
+						</Specs>
+					</TDirCompareSession>
+					<TDirCompareSession Value="Assets">
+						<Filters>
+							<NameFilter Value="-.\Unity\.vs\;-.\Unity\Library\"/>
+						</Filters>
+						<LastModified Value="2018-05-28 17:11:15"/>
+						<Specs>
+							<Left Value="D:\WorkProj\[TaiWan]Project\Int\Dev\Unity\Assets"/>
+							<Right Value="D:\WorkProj\[International]Project\Dev\Unity\Assets"/>
+						</Specs>
+						<State>
+							<DisplayFilter Value="[showLeftAdded, showRightAdded, showLeftChanged, showRightChanged, showConflict]"/>
+						</State>
+					</TDirCompareSession>
+					<TTextMergeSession Value="MainUIAtlas.prefab">
+						<LastModified Value="2018-05-28 15:18:15"/>
+						<Specs>
+							<Left Value="D:\WorkProj\[International]Project\Dev\Unity\Assets\Resources\Atlas\MainUIAtlas$LANG=ko_kr\MainUIAtlas.prefab.r6360"/>
+							<Right Value="D:\WorkProj\[International]Project\Dev\Unity\Assets\Resources\Atlas\MainUIAtlas$LANG=ko_kr\MainUIAtlas.prefab.r6383"/>
+							<Center Value="D:\WorkProj\[International]Project\Dev\Unity\Assets\Resources\Atlas\MainUIAtlas$LANG=ko_kr\MainUIAtlas.prefab.mine"/>
+							<Output Value="D:\WorkProj\[International]Project\Dev\Unity\Assets\Resources\Atlas\MainUIAtlas$LANG=ko_kr\MainUIAtlas.prefab"/>
+						</Specs>
+					</TTextMergeSession>
+					<TDirCompareSession Value="xLua-8a52867b996a45feb363685d71c3ca7836f5f61e &lt;--> xLua-master">
+						<LastModified Value="2018-05-28 13:48:57"/>
+						<Specs>
+							<Left Value="C:\Users\f\Downloads\multiDLL.zip\xLua-8a52867b996a45feb363685d71c3ca7836f5f61e"/>
+							<Right Value="C:\Users\f\Downloads\xLua-master.zip\xLua-master"/>
+						</Specs>
+						<State>
+							<DisplayFilter Value="[showLeftAdded, showRightAdded, showLeftChanged, showRightChanged, showConflict]"/>
+						</State>
+					</TDirCompareSession>
+					<TDirCompareSession Value="xLua-8a52867b996a45feb363685d71c3ca7836f5f61e &lt;--> Unity">
+						<Filters>
+							<NameFilter Value="-*.unity"/>
+						</Filters>
+						<LastModified Value="2018-05-28 13:48:56"/>
+						<Specs>
+							<Left Value="C:\Users\f\Downloads\multiDLL.zip\xLua-8a52867b996a45feb363685d71c3ca7836f5f61e"/>
+							<Right Value="D:\WorkProj\[TaiWan]Project\Patch\Dev\Unity"/>
+						</Specs>
+						<State>
+							<DisplayFilter Value="[showLeftAdded, showRightAdded, showLeftChanged, showRightChanged, showConflict]"/>
+						</State>
+					</TDirCompareSession>
+					<TDirCompareSession Value="xLua-2.1.11p2 &lt;--> Unity">
+						<Filters>
+							<NameFilter Value="-*.meta;-.\.vs\"/>
+						</Filters>
+						<LastModified Value="2018-05-28 11:00:43"/>
+						<Specs>
+							<Left Value="C:\Users\f\Downloads\xLua-2.1.11p2.zip\xLua-2.1.11p2"/>
+							<Right Value="D:\WorkProj\[TaiWan]Project\Patch\Dev\Unity"/>
+						</Specs>
+					</TDirCompareSession>
+					<TDirCompareSession Value="xLua-master &lt;--> Unity">
+						<Filters>
+							<NameFilter Value="-*.meta;-.\.vs\"/>
+						</Filters>
+						<LastModified Value="2018-05-28 10:58:44"/>
+						<Specs>
+							<Left Value="C:\Users\f\Desktop\xLua-master"/>
+							<Right Value="D:\WorkProj\[TaiWan]Project\Patch\Dev\Unity"/>
+						</Specs>
+						<State>
+							<DisplayFilter Value="[showLeftAdded, showRightAdded, showLeftChanged, showRightChanged, showConflict]"/>
+						</State>
+					</TDirCompareSession>
+					<TDirCompareSession Value="XLuaSourceCode &lt;--> XLua">
+						<LastModified Value="2018-05-28 10:52:58"/>
+						<Specs>
+							<Left Value="C:\Users\f\Desktop\YoukiaxLua\Assets\XLuaSourceCode"/>
+							<Right Value="C:\Users\f\Downloads\xLua-master\Assets\XLua"/>
+						</Specs>
+						<State>
+							<DisplayFilter Value="[showLeftAdded, showRightAdded, showLeftChanged, showRightChanged, showConflict]"/>
+						</State>
+					</TDirCompareSession>
+					<TDirCompareSession Value="Src">
+						<LastModified Value="2018-05-28 10:52:54"/>
+						<Specs>
+							<Left Value="C:\Users\f\Desktop\YoukiaxLua\Assets\XLuaSourceCode\Src"/>
+							<Right Value="D:\WorkProj\[TaiWan]Project\Patch\Dev\Unity\Assets\XLua\Src"/>
+						</Specs>
+						<State>
+							<DisplayFilter Value="[showLeftAdded, showRightAdded, showLeftChanged, showRightChanged, showConflict]"/>
+						</State>
+					</TDirCompareSession>
 					<TDirCompareSession Value="BattleSystem">
 						<LastModified Value="2018-05-25 15:51:17"/>
 						<Specs>
@@ -174,10 +345,9 @@
 						<LastModified Value="2018-04-20 11:08:27"/>
 						<Specs>
 							<Left Value="D:\WorkProj\[Japan]Project\Int\UpdateRes\Android\GameRes"/>
-							<Right Value="D:\WorkProj\[Japan]Project\Int\UpdateRes\iPhone\GameRes"/>
+							<Right Value="D:\WorkProj\[Japan]Project\Int\Bundle\Assets\StreamingAssets\GameRes"/>
 						</Specs>
 						<State>
-							<DisplayFilter Value="[showLeftAdded, showRightAdded, showLeftChanged, showRightChanged, showConflict]"/>
 							<SortCol Value="colSize"/>
 							<SortDown Value="True"/>
 							<SortSide Value="dsRight"/>
@@ -187,9 +357,10 @@
 						<LastModified Value="2018-04-20 11:08:27"/>
 						<Specs>
 							<Left Value="D:\WorkProj\[Japan]Project\Int\UpdateRes\Android\GameRes"/>
-							<Right Value="D:\WorkProj\[Japan]Project\Int\Bundle\Assets\StreamingAssets\GameRes"/>
+							<Right Value="D:\WorkProj\[Japan]Project\Int\UpdateRes\iPhone\GameRes"/>
 						</Specs>
 						<State>
+							<DisplayFilter Value="[showLeftAdded, showRightAdded, showLeftChanged, showRightChanged, showConflict]"/>
 							<SortCol Value="colSize"/>
 							<SortDown Value="True"/>
 							<SortSide Value="dsRight"/>
@@ -330,6 +501,11 @@
 					<DisplayFilter Value="[showLeftAdded, showRightAdded, showLeftChanged, showRightChanged, showConflict]"/>
 				</State>
 			</TDirCompareSession>
+			<TTextCompareSession>
+				<State>
+					<InsigIgnored Value="True"/>
+				</State>
+			</TTextCompareSession>
 		</Items>
 	</TSessionFolder>
 </BCSessions>

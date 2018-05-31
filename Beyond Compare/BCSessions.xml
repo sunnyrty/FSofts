@@ -53,6 +53,35 @@
 		<Items>
 			<TSessionFolder>
 				<Items>
+					<TDirCompareSession Value="\\192.168.5.10\youkia\项目工作\S-Game\TaiWan\Update\2018-05-30\001\iPhone.zip\GameRes\">
+						<LastModified Value="2018-05-30 16:49:34"/>
+						<Specs>
+							<Left Value="\\192.168.5.10\youkia\项目工作\S-Game\TaiWan\Update\2018-05-30\001\iPhone.zip\GameRes\"/>
+						</Specs>
+						<State>
+							<DisplayFilter Value="[showLeftAdded, showRightAdded, showLeftChanged, showRightChanged, showConflict]"/>
+						</State>
+					</TDirCompareSession>
+					<TTextCompareSession Value="list.settings">
+						<LastModified Value="2018-05-30 16:40:32"/>
+						<Specs>
+							<Left Value="C:\Users\f\Desktop\list.settings"/>
+							<Right Value="C:\Users\f\Desktop\iPhone\GameRes\list.settings"/>
+						</Specs>
+						<State>
+							<InsigIgnored Value="True"/>
+						</State>
+					</TTextCompareSession>
+					<TDirCompareSession Value="Resources">
+						<Filters>
+							<NameFilter Value="-.\Unity\.vs\"/>
+						</Filters>
+						<LastModified Value="2018-05-29 18:02:59"/>
+						<Specs>
+							<Left Value="C:\Users\f\Desktop\tmp0\Unity\Assets\Resources"/>
+							<Right Value="D:\WorkProj\Git\[Japan]Release\Dev\Unity\Assets\Resources"/>
+						</Specs>
+					</TDirCompareSession>
 					<TDirCompareSession Value="WebService &lt;--> web">
 						<LastModified Value="2018-05-29 01:00:50"/>
 						<Specs>
@@ -335,9 +364,10 @@
 						<LastModified Value="2018-04-20 11:08:27"/>
 						<Specs>
 							<Left Value="D:\WorkProj\[Japan]Project\Int\UpdateRes\Android\GameRes"/>
-							<Right Value="D:\WorkProj\[Japan]Project\Int\Bundle\Assets\StreamingAssets\GameRes"/>
+							<Right Value="D:\WorkProj\[Japan]Project\Int\UpdateRes\iPhone\GameRes"/>
 						</Specs>
 						<State>
+							<DisplayFilter Value="[showLeftAdded, showRightAdded, showLeftChanged, showRightChanged, showConflict]"/>
 							<SortCol Value="colSize"/>
 							<SortDown Value="True"/>
 							<SortSide Value="dsRight"/>
@@ -347,10 +377,9 @@
 						<LastModified Value="2018-04-20 11:08:27"/>
 						<Specs>
 							<Left Value="D:\WorkProj\[Japan]Project\Int\UpdateRes\Android\GameRes"/>
-							<Right Value="D:\WorkProj\[Japan]Project\Int\UpdateRes\iPhone\GameRes"/>
+							<Right Value="D:\WorkProj\[Japan]Project\Int\Bundle\Assets\StreamingAssets\GameRes"/>
 						</Specs>
 						<State>
-							<DisplayFilter Value="[showLeftAdded, showRightAdded, showLeftChanged, showRightChanged, showConflict]"/>
 							<SortCol Value="colSize"/>
 							<SortDown Value="True"/>
 							<SortSide Value="dsRight"/>
