@@ -2,6 +2,7 @@
 // https://github.com/clowwindy/gfwlist2pac
 
 var domains = {
+"tv-static.net":1,
 "goo.gl":1,
 "atlassian.com":1,
   "gimpshop.com": 1, 
