@@ -5,6 +5,7 @@ var domains = {
 "tv-static.net":1,
 "goo.gl":1,
 "atlassian.com":1,
+"ozsese.com":1,
   "gimpshop.com": 1, 
   "directcreative.com": 1, 
   "speedpluss.org": 1, 
