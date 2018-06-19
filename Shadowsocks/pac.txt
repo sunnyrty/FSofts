@@ -9,6 +9,7 @@ var domains = {
 "atlassian.com":1,
 "sourcetreeapp.com":1,
 "s3.amazonaws.com":1,
+"ozsese.com":1,
   "gimpshop.com": 1, 
   "directcreative.com": 1, 
   "speedpluss.org": 1, 
