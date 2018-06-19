@@ -2,9 +2,13 @@
 // https://github.com/clowwindy/gfwlist2pac
 
 var domains = {
+"gvt2.com":1,
+"netsarang.com":1,
 "tv-static.net":1,
 "goo.gl":1,
 "atlassian.com":1,
+"sourcetreeapp.com":1,
+"s3.amazonaws.com":1,
   "gimpshop.com": 1, 
   "directcreative.com": 1, 
   "speedpluss.org": 1, 
