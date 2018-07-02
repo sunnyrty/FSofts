@@ -25,7 +25,7 @@
   "availabilityStatistics": false,
   "autoCheckUpdate": true,
   "checkPreRelease": false,
-  "isVerboseLogging": false,
+  "isVerboseLogging": true,
   "logViewer": {
     "topMost": false,
     "wrapText": false,
